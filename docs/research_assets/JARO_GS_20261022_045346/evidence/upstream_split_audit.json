@@ -1,0 +1,17 @@
+{
+  "train": {
+    "source": "/data/lilinwei/3D/2610Joint_upstream_codex/data/pairs/k24_ratio100_val2_ignore/train_pairs.txt",
+    "sha256": "e6a27f26e021956cffa84332b9b3142d711eccd24bc07d4a17610c9d6a656cb6",
+    "pairs": 36430,
+    "scenes": 113,
+    "ref_rows": 2712
+  },
+  "val": {
+    "source": "/data/lilinwei/3D/2610Joint_upstream_codex/data/pairs/k24_ratio100_val2_ignore/val_pairs.txt",
+    "sha256": "593ca42cc6f5a6e9d551ef44f0c58f650c41e5c87abc9368d689c8ba6db79113",
+    "pairs": 715,
+    "scenes": 2,
+    "ref_rows": 48
+  },
+  "scene_id_intersection_count": 0
+}

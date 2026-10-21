@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "fortress",
+  "evaluated_views": 6,
+  "PSNR": 21.358638763427734,
+  "SSIM": 0.6629570623238882,
+  "LPIPS": 0.310200572013855,
+  "derived_from": "output/llff/our_R4/fortress/metrics/per_view.json"
+}

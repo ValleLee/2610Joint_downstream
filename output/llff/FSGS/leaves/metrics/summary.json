@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "leaves",
+  "evaluated_views": 4,
+  "PSNR": 16.81454086303711,
+  "SSIM": 0.5430979579687119,
+  "LPIPS": 0.28102339804172516,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

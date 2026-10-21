@@ -1,0 +1,30 @@
+{
+  "scene": "fern",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/fern",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fern",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "IMG_4027.JPG",
+    "IMG_4036.JPG",
+    "IMG_4045.JPG"
+  ],
+  "fsgs_test_names": [
+    "IMG_4026.JPG",
+    "IMG_4034.JPG",
+    "IMG_4042.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fern/3_views/dense/fused.ply",
+  "points_written": 3928,
+  "points_total": 10091,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fern/poses_bounds.npy",
+  "runtime_initialization_audit": {
+    "canonical_source_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/fern/initial_point_cloud.ply",
+    "actual_training_loader_ply": "/tmp/lilinwei/1007baselines/data/fern/3_views/dense/fused.ply",
+    "sha256": "2c337dce6478940968bffc3ca7f1568512b75f5fb283ce02273ff3376e0899db",
+    "point_count": 17904,
+    "note": "This is a legacy dataset-preparation reference and does not identify the point cloud loaded by the completed training run. The actual MVS loader input and verified SHA-256 are recorded in configs/actual_initialization_audit.json."
+  }
+}

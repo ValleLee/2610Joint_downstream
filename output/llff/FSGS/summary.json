@@ -1,0 +1,20 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "macro": {
+    "PSNR": 19.740415745831672,
+    "SSIM": 0.6639519120433501,
+    "LPIPS": 0.2700068609855537
+  },
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

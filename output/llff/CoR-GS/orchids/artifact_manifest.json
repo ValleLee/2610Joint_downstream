@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "orchids",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/CoR-GS/orchids/renders/IMG_4467.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/eval/ours_10000/renders/IMG_4467.png",
+      "bytes": 1289821,
+      "sha256": "e7f559ebd051921665641fe4935886cbd69ae04c1cc04209f589665ec82f22c7",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/renders/IMG_4475.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/eval/ours_10000/renders/IMG_4475.png",
+      "bytes": 1276723,
+      "sha256": "53a2579fb735c622d35de97dc6ae0687531107b195986b3885e9e58efb5ac9e9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/renders/IMG_4483.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/eval/ours_10000/renders/IMG_4483.png",
+      "bytes": 1278109,
+      "sha256": "b6977574bc493522bad77c6b8f7b0841c12aede2c8235ccc456ac1bf5b89ca86",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/renders/IMG_4491.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/eval/ours_10000/renders/IMG_4491.png",
+      "bytes": 1291393,
+      "sha256": "bd81fb56f2f1b7d5a0230b4177cc3dc60fafa84b8c8395ef4a7039f86c09894a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/cfg_args",
+      "bytes": 303,
+      "sha256": "99ea441e1d0454889abaa6658036f5c78c9333efa4c63f0fe94a1a1aa75f9394",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/cameras.json",
+      "bytes": 2811,
+      "sha256": "63e3b79aa40ee1bbb383882eb63e6139357fef7b3b5c76048da9be909b8def80",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/data_split.json",
+      "bytes": 1312,
+      "sha256": "cf174283864014ad61eb97b001c70b01354a39a5da731c5c29b66bc6dc65db28",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 21677722,
+      "sha256": "6e19db76ee5e313408321806de9af07551ebfa1e6e1f11761a7ca07468091326",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/point_cloud/point_cloud_gs2.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/point_cloud_gs2/iteration_10000/point_cloud.ply",
+      "bytes": 21835946,
+      "sha256": "7327d0a286c69c2a242cf31c8cb13d23bfa3481bb2bed3d9f9466878e68fabe2",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/orchids/chkpnt10000.pth",
+      "bytes": 62939080,
+      "sha256": "99052fb30da44fe0b49711a461e53bc39559faf9ed09d0ba775b915f4d8ecc91",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 660,
+      "sha256": "23ce5a538270890139b7f66c2b14c6a43f0aa8ad38e64c51f0813dd983aefe8d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/orchids/metrics/summary.json",
+      "source": "output/llff/CoR-GS/metrics/public_common_eval.json",
+      "bytes": 253,
+      "sha256": "c5fc7b417b7832d069d2198c402998289604dfa3d2d74611859974e0dd486441",
+      "publish_on_git": true
+    }
+  ]
+}

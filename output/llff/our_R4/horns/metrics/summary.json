@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "horns",
+  "evaluated_views": 8,
+  "PSNR": 20.210903644561768,
+  "SSIM": 0.6714771464467049,
+  "LPIPS": 0.3025580197572708,
+  "derived_from": "output/llff/our_R4/horns/metrics/per_view.json"
+}

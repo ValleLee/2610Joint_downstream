@@ -1,0 +1,32 @@
+{
+  "dataset": "dtu",
+  "method": "vanilla_3DGS",
+  "scenes": [
+    "scan8",
+    "scan21",
+    "scan30",
+    "scan31",
+    "scan34",
+    "scan38",
+    "scan40",
+    "scan41",
+    "scan45",
+    "scan55",
+    "scan63",
+    "scan82",
+    "scan103",
+    "scan110",
+    "scan114"
+  ],
+  "macro": {
+    "PSNR": 17.753386193665463,
+    "SSIM": 0.8265215121905009,
+    "LPIPS": 0.14632877467075983
+  },
+  "scene_sample_std": {
+    "PSNR": 2.725704053220489,
+    "SSIM": 0.08498199305152881,
+    "LPIPS": 0.06260159460010473
+  },
+  "derived_from": "output/dtu/source_metrics/graphdeco/dtu_per_scene.csv"
+}

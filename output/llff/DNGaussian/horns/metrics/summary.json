@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "horns",
+  "evaluated_views": 8,
+  "PSNR": 19.11014986038208,
+  "SSIM": 0.6716464310884476,
+  "LPIPS": 0.3241795487701893,
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

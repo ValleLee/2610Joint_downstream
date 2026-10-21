@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "orchids",
+  "evaluated_views": 4,
+  "PSNR": 16.226521968841553,
+  "SSIM": 0.4567262679338455,
+  "LPIPS": 0.34396694600582123,
+  "derived_from": "output/llff/our_R4/orchids/metrics/per_view.json"
+}

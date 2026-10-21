@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "fortress",
+  "evaluated_views": 6,
+  "PSNR": 23.192521413167317,
+  "SSIM": 0.7445943057537079,
+  "LPIPS": 0.24060307194789252,
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

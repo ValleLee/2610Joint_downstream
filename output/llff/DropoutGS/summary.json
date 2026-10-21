@@ -1,0 +1,20 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "macro": {
+    "PSNR": 19.803867495627628,
+    "SSIM": 0.6797425842799601,
+    "LPIPS": 0.2707949067199869
+  },
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

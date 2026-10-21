@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "horns",
+  "evaluated_views": 8,
+  "PSNR": 18.664565086364746,
+  "SSIM": 0.6529295593500137,
+  "LPIPS": 0.34018924832344055,
+  "derived_from": "output/llff/CoR-GS/metrics/public_common_eval.json"
+}

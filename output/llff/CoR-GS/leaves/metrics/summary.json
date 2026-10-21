@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "leaves",
+  "evaluated_views": 4,
+  "PSNR": 15.703397989273071,
+  "SSIM": 0.5310453325510025,
+  "LPIPS": 0.31218863278627396,
+  "derived_from": "output/llff/CoR-GS/metrics/public_common_eval.json"
+}

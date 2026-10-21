@@ -1,0 +1,24 @@
+{
+  "scene": "orchids",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/orchids",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/orchids",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "IMG_4468.JPG",
+    "IMG_4479.JPG",
+    "IMG_4490.JPG"
+  ],
+  "fsgs_test_names": [
+    "IMG_4467.JPG",
+    "IMG_4475.JPG",
+    "IMG_4483.JPG",
+    "IMG_4491.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/orchids/3_views/dense/fused.ply",
+  "points_written": 5124,
+  "points_total": 13105,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/orchids/poses_bounds.npy"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "horns",
+  "evaluated_views": 8,
+  "PSNR": 19.420982599258423,
+  "SSIM": 0.6850113794207573,
+  "LPIPS": 0.306933019310236,
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

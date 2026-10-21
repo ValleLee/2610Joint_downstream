@@ -1,0 +1,100 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "fortress",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/FSGS/fortress/renders/IMG_1800.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/eval/ours_10000/renders/IMG_1800.png",
+      "bytes": 1019811,
+      "sha256": "b6cb15dea0c706ea179c1222a1a56dd37e2da7867f9f6d82d29ec96dcead3c01",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/renders/IMG_1808.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/eval/ours_10000/renders/IMG_1808.png",
+      "bytes": 1046670,
+      "sha256": "179972b524a6a4b143218ec49f1705acf6e590fb7538d025cb33e4bd5d4d13e4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/renders/IMG_1816.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/eval/ours_10000/renders/IMG_1816.png",
+      "bytes": 1043732,
+      "sha256": "c46cfc1f5638c53b8f87d69870f45e3009820986f9c61e784e0b776cbc9989cd",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/renders/IMG_1824.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/eval/ours_10000/renders/IMG_1824.png",
+      "bytes": 1001430,
+      "sha256": "c96932a7f7118a70749c345fcebb06353bdc9ae2bd31e9c4199f8ebef3fee2f8",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/renders/IMG_1832.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/eval/ours_10000/renders/IMG_1832.png",
+      "bytes": 1028313,
+      "sha256": "77c36ed35808e8ed5017a6fdd1c76d103ed57fb7920ae363ec917da36a027f6e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/renders/IMG_1840.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/eval/ours_10000/renders/IMG_1840.png",
+      "bytes": 1026228,
+      "sha256": "595b604df677057e36a7e0aac337a5325d59afe10aa5c79156586278ed266dfc",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/cfg_args",
+      "bytes": 269,
+      "sha256": "f10255662359e68a407ca2423b0f74a59eeb111183bf8b2fe0cd7d76ea80a4fb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/cameras.json",
+      "bytes": 3647,
+      "sha256": "dc73f8f1693ee05896ea823a746b0ee65871fcd60eca56ae351fa1309fb60b00",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/data_split.json",
+      "bytes": 1360,
+      "sha256": "bce66f2915d5a11d86c035f65860d38949941badf370193b89b55919e77c490e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 25303235,
+      "sha256": "9e9a16a4fafe1a190e61c6d06090ef09965c3f6b4f2e7aaff2adc4c1d7925e84",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/fortress/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fortress/chkpnt10000.pth",
+      "bytes": 73465217,
+      "sha256": "029f6b9348a00f97d317b1bb27aa83d4e8c0408503480a78810553aab0336825",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/fortress/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 696,
+      "sha256": "407a54b1eb50812fee5d423aaa72a181c39d3322d7afab2d8f276572d3aadb0a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fortress/metrics/summary.json",
+      "source": "output/llff/FSGS/metrics/public_common_eval.json",
+      "bytes": 252,
+      "sha256": "6410832bbecd7127d3a0e46e42493b4553bf1caa9f889c05281403e4ea8f5f2f",
+      "publish_on_git": true
+    }
+  ]
+}

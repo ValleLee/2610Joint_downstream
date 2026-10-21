@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "orchids",
+  "evaluated_views": 4,
+  "PSNR": 15.54150104522705,
+  "SSIM": 0.4481089934706688,
+  "LPIPS": 0.3351876884698868,
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

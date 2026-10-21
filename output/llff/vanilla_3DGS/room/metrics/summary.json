@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "room",
+  "evaluated_views": 6,
+  "PSNR": 14.975798924763998,
+  "SSIM": 0.6499558885892233,
+  "LPIPS": 0.41398140291372937,
+  "derived_from": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json"
+}

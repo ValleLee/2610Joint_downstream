@@ -1,0 +1,72 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "orchids",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/Difix3D_60k/orchids/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/orchids/eval/ours_60000/renders/00000.png",
+      "bytes": 1493432,
+      "sha256": "b8e928b9adb131dfda1f54277b9e234848457eee2eaf60784aca90affb879d8e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/orchids/eval/ours_60000/renders/00001.png",
+      "bytes": 1526431,
+      "sha256": "e3b693dd49e574b03b18d82d48348b738f261c435fe75bb996a9f282da05c436",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/orchids/eval/ours_60000/renders/00002.png",
+      "bytes": 1506935,
+      "sha256": "e10f6683925b428414715c80462256e5d005ed841ffb170d73e1895a1c07802a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/orchids/eval/ours_60000/renders/00003.png",
+      "bytes": 1514376,
+      "sha256": "c357d652724b1265bd28834deda7c4edea81f0ad05521602fa017c430e2e6af6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/config/cfg.yml",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/orchids/cfg.yml",
+      "bytes": 1990,
+      "sha256": "b7c869b0143da9db6f79c0c6954004f2cac2283829c5725ca4c153f1e6b5f375",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/orchids/point_cloud/iteration_60000/point_cloud.ply",
+      "bytes": 164011619,
+      "sha256": "14f8ef60cef8d3496a439791c96fb19832c168f2828c40159fa6f251c16c7521",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/checkpoints/ckpt_60000_rank0.pt",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/orchids/ckpt_60000_rank0.pt",
+      "bytes": 156076578,
+      "sha256": "c5dee4166a3a48a7d74ee480323c1f7e61c4e7f1ac23622efde3cfadfbd4f7ed",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 676,
+      "sha256": "16551d0a17ccc936f591750bdcad38c7d11ca66e937c60aa89cb19c1b32b9b59",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/orchids/metrics/summary.json",
+      "source": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json",
+      "bytes": 271,
+      "sha256": "f2d882c8d12b8f831a47ffff1f1ca83facc63cef13ec47c13043d87d7dfdc3cf",
+      "publish_on_git": true
+    }
+  ]
+}

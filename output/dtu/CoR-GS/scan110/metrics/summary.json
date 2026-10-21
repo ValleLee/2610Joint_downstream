@@ -1,0 +1,10 @@
+{
+  "dataset": "dtu",
+  "method": "CoR-GS",
+  "scene": "scan110",
+  "evaluated_views": 25,
+  "PSNR": 20.752875714382714,
+  "SSIM": 0.9128983879089355,
+  "LPIPS": 0.08011120915412903,
+  "derived_from": "output/dtu/source_metrics/mvs10k/per_scene_corgs25_mask.csv"
+}

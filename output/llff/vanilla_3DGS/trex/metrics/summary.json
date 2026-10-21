@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "trex",
+  "evaluated_views": 7,
+  "PSNR": 12.134399822780065,
+  "SSIM": 0.4964363064084734,
+  "LPIPS": 0.4759474056107657,
+  "derived_from": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json"
+}

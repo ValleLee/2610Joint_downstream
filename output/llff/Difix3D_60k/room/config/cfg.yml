@@ -1,0 +1,95 @@
+antialiased: false
+app_embed_dim: 16
+app_opt: false
+app_opt_lr: 0.001
+app_opt_reg: 1.0e-06
+batch_size: 1
+bilateral_grid_shape: !!python/tuple
+- 16
+- 16
+- 8
+camera_model: pinhole
+ckpt:
+- /tmp/lilinwei/1007baselines/scratch/seed2024_fsgs_official_mvs_Difix3D_60k/room/ckpts/ckpt_29999_rank0.pt
+compression: null
+data_dir: /tmp/lilinwei/1007baselines/data/llff/room
+data_factor: 4
+depth_lambda: 0.01
+depth_loss: false
+disable_difix: false
+disable_viewer: true
+eval_steps:
+- 60000
+far_plane: 10000000000.0
+fix_steps:
+- 30000
+- 32000
+- 34000
+- 36000
+- 38000
+- 40000
+- 42000
+- 44000
+- 46000
+- 48000
+- 50000
+- 52000
+- 54000
+- 56000
+- 58000
+- 60000
+global_scale: 1.0
+init_extent: 3.0
+init_num_pts: 100000
+init_opa: 0.1
+init_scale: 1.0
+init_type: sfm
+lpips_net: alex
+max_steps: 60000
+mvs_ply: /tmp/lilinwei/1007baselines/data/room/3_views/dense/fused.ply
+near_plane: 0.01
+normalize_world_space: false
+novel_data_lambda: 0.3
+opacity_reg: 0.0
+packed: false
+patch_size: null
+port: 8080
+pose_noise: 0.0
+pose_opt: false
+pose_opt_lr: 1.0e-05
+pose_opt_reg: 1.0e-06
+random_bkgd: false
+render_traj_path: interp
+result_dir: /tmp/lilinwei/1007baselines/scratch/seed2024_fsgs_official_mvs_Difix3D_60k/room
+save_steps:
+- 60000
+scale_reg: 0.0
+sh_degree: 3
+sh_degree_interval: 1000
+sparse_grad: false
+ssim_lambda: 0.2
+steps_scaler: 1.0
+strategy: !!python/object:gsplat.strategy.default.DefaultStrategy
+  absgrad: false
+  grow_grad2d: 0.0002
+  grow_scale2d: 0.05
+  grow_scale3d: 0.01
+  key_for_gradient: means2d
+  pause_refine_after_reset: 0
+  prune_opa: 0.005
+  prune_scale2d: 0.15
+  prune_scale3d: 0.1
+  refine_every: 100
+  refine_scale2d_stop_iter: 0
+  refine_start_iter: 500
+  refine_stop_iter: 15000
+  reset_every: 3000
+  revised_opacity: false
+  verbose: true
+strict_no_undistort: true
+strict_split_json: /data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/data_mapping/room.json
+tb_every: 100
+tb_save_image: false
+test_every: 1
+use_bilateral_grid: false
+visible_adam: false

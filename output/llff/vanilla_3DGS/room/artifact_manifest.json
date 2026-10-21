@@ -1,0 +1,79 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "room",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/vanilla_3DGS/room/renders/DJI_20200226_143850_006.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/renders/DJI_20200226_143850_006.png",
+      "bytes": 715155,
+      "sha256": "32f0a8096df1d318be36bd1550078d113899538aff5f75dfc104e468ef71d252",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/renders/DJI_20200226_143901_419.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/renders/DJI_20200226_143901_419.png",
+      "bytes": 777871,
+      "sha256": "c4dfe35ffa78536692e8b02b41103398d29fc14808a5575e2a406327376b74b5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/renders/DJI_20200226_143912_008.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/renders/DJI_20200226_143912_008.png",
+      "bytes": 842317,
+      "sha256": "e31ab5d4d7e3e38efc30db0071c579a826ea3433be142d505f5ea83778fdf10e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/renders/DJI_20200226_143926_241.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/renders/DJI_20200226_143926_241.png",
+      "bytes": 700957,
+      "sha256": "1fa4b6193153ab5360760fb2063b4918c4e243628a5f1af63cc23f8f4688268f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/renders/DJI_20200226_143938_168.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/renders/DJI_20200226_143938_168.png",
+      "bytes": 747175,
+      "sha256": "f4bb5918b621b0d3ee63e1573edada88b561557216e2fc3042f2b308e77e4e71",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/renders/DJI_20200226_143948_113.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/renders/DJI_20200226_143948_113.png",
+      "bytes": 730407,
+      "sha256": "5cdc8ea653899087ddd2d526987ad4d00bc17abdaf22a4275ebd04d921aeefaf",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/run_manifest.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/run_manifest.json",
+      "bytes": 7776,
+      "sha256": "59adb42a5141a1ac29affbc490af6fda4fd1fe748ddd9543f2082baa357e8791",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/cfg_args",
+      "bytes": 262,
+      "sha256": "4cc9389f0b4cbcbe096ed76b690ceea24c31ad185ee74c64ddc3174b3cd5c0f5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/point_cloud/final_point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/room/final_point_cloud.ply",
+      "bytes": 42794675,
+      "sha256": "d9388ce462e06fc729964f78e7dd2d8bb57a3d94c859c575199ab3f954964e8f",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/room/metrics/summary.json",
+      "source": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json",
+      "bytes": 273,
+      "sha256": "51a107d115dcd8ef0d181e4a74f8e1a50f9672b50a93ead5361744bd99c7eae5",
+      "publish_on_git": true
+    }
+  ]
+}

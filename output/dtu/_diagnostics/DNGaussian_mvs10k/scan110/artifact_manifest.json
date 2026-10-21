@@ -1,0 +1,268 @@
+{
+  "dataset": "dtu",
+  "method": "DNGaussian_mvs10k",
+  "scene": "scan110",
+  "main_table": false,
+  "rgb_render_count": 31,
+  "files": [
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_001_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_001_3_r5000.png",
+      "bytes": 142202,
+      "sha256": "5d23bf976c7ef9d83e64673ae9484a50af417e9c5d3b7b4295c9047863b2beb1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_002_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_002_3_r5000.png",
+      "bytes": 144709,
+      "sha256": "1fb41b888f66d20c9c2bd02f7f2b7abe1ae5018e548e23fd340af827bb23004a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_003_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_003_3_r5000.png",
+      "bytes": 143336,
+      "sha256": "19a9512932653333a644309a90d577d3ddd2428416d8755aa79faffc98cac426",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_009_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_009_3_r5000.png",
+      "bytes": 139821,
+      "sha256": "aa34d735276b315e737b5d2db6eccbec03d8a0dea7214630e1780c2e02532fa2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_010_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_010_3_r5000.png",
+      "bytes": 140547,
+      "sha256": "e647450cf532baa7475ac882a83ded087a0d3ca795011d66da38a8c93ee61cd1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_011_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_011_3_r5000.png",
+      "bytes": 141111,
+      "sha256": "3df185bf16aad0b0f4ff13cdc7589122f78f81b3a6c4e4701f8ac5a58bc82851",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_012_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_012_3_r5000.png",
+      "bytes": 130021,
+      "sha256": "feb717f13cfd1f17d4ddf9c60612cb877fb7bf559e64452eafc33a0d2796ff6d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_013_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_013_3_r5000.png",
+      "bytes": 134324,
+      "sha256": "07daf27fd5cca7b4a19b5352ddc8b7780f5899aa09bbd67500f4a0d477d55f3b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_014_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_014_3_r5000.png",
+      "bytes": 132531,
+      "sha256": "263b1726677504903ce654c68ff1b17335dd30d3f1de6731830a7790683dc272",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_015_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_015_3_r5000.png",
+      "bytes": 133566,
+      "sha256": "73351d3604c9d7d58998a098be55299413dfb70c58fda7db3d4ce174311f1cb9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_016_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_016_3_r5000.png",
+      "bytes": 131039,
+      "sha256": "f0c54a42eaa3bcc1db2944a75617df28f8f3fa4f5ece920498d85a66b7cd5c5d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_024_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_024_3_r5000.png",
+      "bytes": 120181,
+      "sha256": "f6b8ca944f37897a9ea7ecbe64e44d0003bcdbe9cda9cec42605a29726f677eb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_025_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_025_3_r5000.png",
+      "bytes": 122886,
+      "sha256": "7dfaee53ce046c6e65db6c075c8a13814fc41028efdea21201918e7b4fd8b94d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_027_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_027_3_r5000.png",
+      "bytes": 119897,
+      "sha256": "4dcb7b0c6714ec4991eeea2c8fed342cd1f795b4e456dec89d4273949b8bd691",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_028_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_028_3_r5000.png",
+      "bytes": 120998,
+      "sha256": "9407b3b064d0cc4227e113e7ac2f65395addbe9dbb93eace745b3a3d6ad25028",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_030_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_030_3_r5000.png",
+      "bytes": 105219,
+      "sha256": "0bb1919aca8e96c421e1017a81c28020441930911a981ec3618db251ed43c76a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_031_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_031_3_r5000.png",
+      "bytes": 108948,
+      "sha256": "acf834ba8c10d968f7ade74294b8f7c1dba8f6979dbf0bb1bc3614cf7e9aabea",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_032_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_032_3_r5000.png",
+      "bytes": 112092,
+      "sha256": "cc7a8e151e4c1b45b0c8a4d8f1755f661f804bc0ab9969f8c41f93b6bb59c794",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_033_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_033_3_r5000.png",
+      "bytes": 116341,
+      "sha256": "b9141b287a89e40ab2e63098afc22b970f09a1dca5e78d60f31750e01a8166f3",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_034_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_034_3_r5000.png",
+      "bytes": 116663,
+      "sha256": "68c62acdc601ca2c2539076d147c80bd62309daaa3be584e302a9df3e7c1b4be",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_035_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_035_3_r5000.png",
+      "bytes": 108528,
+      "sha256": "cff595e9148826fd132bbfd404fad96329687432855b4273953105ea33c8ba56",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_036_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_036_3_r5000.png",
+      "bytes": 103618,
+      "sha256": "a8c93739143c9abf7f719b9e8109238822717200178c2a81eea1f398e473231e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_041_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_041_3_r5000.png",
+      "bytes": 92165,
+      "sha256": "9beda0c271be69b475cb0a9468821837f92f6e875dfbde665ff07f9f6bfb5dff",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_042_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_042_3_r5000.png",
+      "bytes": 96529,
+      "sha256": "7ad93c77d16e4514a6735574bc6f9cea57fe98ada0cc43b1fc10d5983397ee1d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_043_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_043_3_r5000.png",
+      "bytes": 103062,
+      "sha256": "5568c3f9fe175ff9eb1c9e5b0a7b2a0a7ae2f4956e9d8c04ad342613cd18d7bf",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_044_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_044_3_r5000.png",
+      "bytes": 111313,
+      "sha256": "e423e209e8abe09adca73d7b8404de09df2dc181f6d96e99f96c48ce2866b1fe",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_045_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_045_3_r5000.png",
+      "bytes": 112102,
+      "sha256": "5c5d707436c75e4cb12c6c2563559aa22c02429ef94248c270f7fd3ebc72133c",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_046_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_046_3_r5000.png",
+      "bytes": 107879,
+      "sha256": "a11fd33b1e7166e23585a260335de940b1feb8e1b483794ff563114260effe78",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_047_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_047_3_r5000.png",
+      "bytes": 100463,
+      "sha256": "8f777d942e5d46a64818c97eebd928c40305a618dac394ed4d9b61cc40a46b0c",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_048_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_048_3_r5000.png",
+      "bytes": 95420,
+      "sha256": "adc091d14c17758ba184c13df6609c4469fca0525227cb25dbd402bba1dec150",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/renders/rect_049_3_r5000.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/renders/rect_049_3_r5000.png",
+      "bytes": 88941,
+      "sha256": "fc02c5284fc9907c3fce1d9b2cdea1350b88ea36bcd26e28c7e4b9b916ebf5c5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/run_manifest.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/run_manifest.json",
+      "bytes": 3130,
+      "sha256": "1d06d9ab21a1c71998ae6feca9ba6f157c944d1d2418bdbc24375e830956ba28",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/metrics/metrics_corgs25_mask.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/metrics_corgs25_mask.json",
+      "bytes": 7052,
+      "sha256": "88e63adf26a5b95bdb2f625f9755c29ebd62a016585f580447c545431d1ebc88",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/data_mapping.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/data_mapping.json",
+      "bytes": 5143,
+      "sha256": "f1fdb2c46c4594473d6a9493bb2609b5f5f001d60b9d59107c684b59bbea33fe",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/cfg_args",
+      "bytes": 314,
+      "sha256": "4e335959dfe153fff9827b60e56551495d7a74ffb518c18c3ac926a13eaad273",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/point_cloud/final_point_cloud.ply.gz",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/DNGaussian/scan110/final_point_cloud.ply.gz",
+      "bytes": 860203,
+      "sha256": "25fa2b586e39b27cabe4e4e05af3cefa39876913aef4aa1638785ad24f365f92",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/dtu/_diagnostics/DNGaussian_mvs10k/scan110/metrics/summary.json",
+      "source": "output/dtu/source_metrics/mvs10k/per_scene_corgs25_mask.csv",
+      "bytes": 276,
+      "sha256": "8734d6f1ad85462f17f27cb8db9b745c56517d557d43c0c49f6211a3c0df5505",
+      "publish_on_git": true
+    }
+  ]
+}

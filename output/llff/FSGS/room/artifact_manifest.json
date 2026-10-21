@@ -1,0 +1,100 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "room",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/FSGS/room/renders/DJI_20200226_143850_006.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/eval/ours_10000/renders/DJI_20200226_143850_006.png",
+      "bytes": 582591,
+      "sha256": "a66feb2acbee30d24387b90ec31b0aea5a581db3f6650b37018411fe1f1ad374",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/renders/DJI_20200226_143901_419.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/eval/ours_10000/renders/DJI_20200226_143901_419.png",
+      "bytes": 592477,
+      "sha256": "c0b7e0b5cd4dcb07adb7c4572e4b8237d5895f824af3e9dd4694305d8def9fea",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/renders/DJI_20200226_143912_008.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/eval/ours_10000/renders/DJI_20200226_143912_008.png",
+      "bytes": 628082,
+      "sha256": "382a66419152a868cf48898809c9e910f0bac90a9b5f7643129edc76be9779d4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/renders/DJI_20200226_143926_241.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/eval/ours_10000/renders/DJI_20200226_143926_241.png",
+      "bytes": 569868,
+      "sha256": "e72755dbe16a19500bc1a3057fff9ce6145fb13facb416f0e36ab1a52ddccf83",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/renders/DJI_20200226_143938_168.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/eval/ours_10000/renders/DJI_20200226_143938_168.png",
+      "bytes": 581647,
+      "sha256": "d2fd69bef876922cf06b16fd87797f8bd8da5525f35580d5417e006a2a761f33",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/renders/DJI_20200226_143948_113.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/eval/ours_10000/renders/DJI_20200226_143948_113.png",
+      "bytes": 590247,
+      "sha256": "a14fb3fc8569b560aff187028f5d2d20b29f24d9e0957a4440ce100380df4685",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/cfg_args",
+      "bytes": 261,
+      "sha256": "94213038282bbe0dd27d2930e4396b7a7abc8192e3ad240e66673a11e059bca6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/cameras.json",
+      "bytes": 3775,
+      "sha256": "fd4a688e7d2f64e7645e7b7639244c43ab286c13f66af13fc77fef28c3d5739e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/data_split.json",
+      "bytes": 1465,
+      "sha256": "4f974a1ce9d04c70340d05069e2a838f47fcea9046eb512e3ff115f77092625a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 19082650,
+      "sha256": "278b1029386d133c32a7a1df757a123c6b70eb10cd135873c5a5df4a4280856d",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/room/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room/chkpnt10000.pth",
+      "bytes": 55405505,
+      "sha256": "a702b4ac48ea5c7a2de59dc4562017e36b06793c91f35bca00e64a5b145d2a8d",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/room/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 823,
+      "sha256": "c819b454bd2f935d2ac968c8d3622abec8ec09ccf861f9a442f3283b931f25d8",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/room/metrics/summary.json",
+      "source": "output/llff/FSGS/metrics/public_common_eval.json",
+      "bytes": 249,
+      "sha256": "00d3db8c45508ad200c3f7d26477db19ee85cccc6a5c450fda7511dbe40c9c3f",
+      "publish_on_git": true
+    }
+  ]
+}

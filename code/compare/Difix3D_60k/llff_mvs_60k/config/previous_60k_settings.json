@@ -1,0 +1,39 @@
+{
+  "source": "/data/lilinwei/3D/baselines/output/1007_mvs_baselines/configs/actual_launch_config.json",
+  "method_config": {
+    "seed": 2024,
+    "max_steps": 60000,
+    "base_steps": 30000,
+    "eval_steps": [
+      30000,
+      60000
+    ],
+    "save_steps": [
+      30000,
+      60000
+    ],
+    "fix_steps": [
+      30000,
+      32000,
+      34000,
+      36000,
+      38000,
+      40000,
+      42000,
+      44000,
+      46000,
+      48000,
+      50000,
+      52000,
+      54000,
+      56000,
+      58000,
+      60000
+    ],
+    "depth_loss": false,
+    "normalize_world_space": false,
+    "strict_no_undistort": true,
+    "data_factor": 4,
+    "seed_policy": "BASELINE_SEED=2024 read by set_random_seed in isolated adapter."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "assembled_manifest": true,
+  "dataset": "LLFF",
+  "method": "Difix3D_60k",
+  "scene": "flower",
+  "seed": 2024,
+  "iterations": 60000,
+  "training_rgb_count": 3,
+  "evaluation_rgb_count": 5,
+  "train_names": [
+    "IMG_2963.JPG",
+    "IMG_2979.JPG",
+    "IMG_2995.JPG"
+  ],
+  "test_names": [
+    "IMG_2962.JPG",
+    "IMG_2970.JPG",
+    "IMG_2978.JPG",
+    "IMG_2986.JPG",
+    "IMG_2994.JPG"
+  ],
+  "initial_cloud_sha256": "0fc1cb029dd09c836a7a33dede0cf0d1c491877d50509ccc585212ed1fd6f7d1",
+  "source_config": "code/compare/Difix3D_60k/llff_mvs_60k/config/experiment_config.json",
+  "source_output": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower"
+}

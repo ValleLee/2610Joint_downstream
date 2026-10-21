@@ -1,0 +1,1 @@
+Namespace(data_device='cuda:0', dataset='DTU', eval=True, images='images', model_path='/tmp/lilinwei/1007fsgsmvs_dtu/native_dtu_hparams/DropoutGS/scan110', mvs_pcd=True, n_sparse=3, rand_pcd=False, resolution=4, sh_degree=3, source_path='/tmp/lilinwei/1007fsgsmvs_dtu/overlay/DTU/scan110', white_background=False)

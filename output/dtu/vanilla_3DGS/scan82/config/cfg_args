@@ -1,0 +1,1 @@
+Namespace(data_device='cuda', depths='', eval=True, images='images', model_path='/tmp/lilinwei/1007fsgsmvs_3dgs/runs/DTU/scan82', resolution=1, sh_degree=3, source_path='/tmp/lilinwei/1007fsgsmvs_3dgs/data/DTU/scan82', train_test_exp=False, white_background=False)

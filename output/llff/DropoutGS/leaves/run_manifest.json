@@ -1,0 +1,24 @@
+{
+  "assembled_manifest": true,
+  "dataset": "LLFF",
+  "method": "DropoutGS",
+  "scene": "leaves",
+  "seed": 2024,
+  "iterations": 10000,
+  "training_rgb_count": 3,
+  "evaluation_rgb_count": 4,
+  "train_names": [
+    "IMG_2998.JPG",
+    "IMG_3010.JPG",
+    "IMG_3023.JPG"
+  ],
+  "test_names": [
+    "IMG_2997.JPG",
+    "IMG_3006.JPG",
+    "IMG_3014.JPG",
+    "IMG_3022.JPG"
+  ],
+  "initial_cloud_sha256": "49b4a2e2000373bf0d0a528c97bfd925018a000fbcfd1df68e790190b27212bc",
+  "source_config": "code/compare/DropoutGS/llff_mvs10k/config/experiment_config.json",
+  "source_output": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves"
+}

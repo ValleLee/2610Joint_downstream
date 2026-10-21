@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "horns",
+  "evaluated_views": 8,
+  "PSNR": 14.642153024673462,
+  "SSIM": 0.4848283752799034,
+  "LPIPS": 0.40459640696644783,
+  "derived_from": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json"
+}

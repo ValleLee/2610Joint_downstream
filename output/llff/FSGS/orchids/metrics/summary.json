@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "orchids",
+  "evaluated_views": 4,
+  "PSNR": 15.640374898910522,
+  "SSIM": 0.4559302553534508,
+  "LPIPS": 0.3327173665165901,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

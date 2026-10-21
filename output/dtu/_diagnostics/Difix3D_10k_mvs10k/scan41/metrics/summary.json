@@ -1,0 +1,10 @@
+{
+  "dataset": "dtu",
+  "method": "Difix3D_10k_mvs10k",
+  "scene": "scan41",
+  "evaluated_views": 25,
+  "PSNR": 17.17782209535877,
+  "SSIM": 0.7783807396888733,
+  "LPIPS": 0.1940384590625763,
+  "derived_from": "output/dtu/source_metrics/mvs10k/per_scene_corgs25_mask.csv"
+}

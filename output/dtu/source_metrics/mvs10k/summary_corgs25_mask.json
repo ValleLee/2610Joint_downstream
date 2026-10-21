@@ -1,0 +1,96 @@
+{
+  "protocol": "CoR-GS source-code DTU split: 25 test views per scan",
+  "metric_code": "CoR-GS metrics_dtu.py: foreground PSNR; white-background 3DGS SSIM and VGG LPIPS",
+  "mask_source": "DNGaussian official RegNeRF mask backup: submission_data.zip",
+  "mask_archive_sha256": "988f1a1957083191b45f7d4ea55a0b74566fc4286f1c224be9d19aa2a143ffbd",
+  "source_mask_archive_sha256": "cd65d10cc0126e3f266a0f30e407c26fda3ecf61ce13318613261d9dfeef8b23",
+  "scene_count": 15,
+  "views_per_scene": 25,
+  "method_count": 6,
+  "summary": {
+    "FSGS": {
+      "PSNR": {
+        "mean": 17.459675554124107,
+        "scene_sample_std": 2.872715198104168
+      },
+      "SSIM": {
+        "mean": 0.8295802773634593,
+        "scene_sample_std": 0.07674648688249802
+      },
+      "LPIPS": {
+        "mean": 0.1549906343370676,
+        "scene_sample_std": 0.06226180132033635
+      }
+    },
+    "CoR-GS": {
+      "PSNR": {
+        "mean": 19.31927627835519,
+        "scene_sample_std": 2.9449099580597053
+      },
+      "SSIM": {
+        "mean": 0.8564502347310384,
+        "scene_sample_std": 0.07921909066934833
+      },
+      "LPIPS": {
+        "mean": 0.12085503932833672,
+        "scene_sample_std": 0.056808649877559486
+      }
+    },
+    "DropoutGS": {
+      "PSNR": {
+        "mean": 16.267295154136146,
+        "scene_sample_std": 2.586946333803209
+      },
+      "SSIM": {
+        "mean": 0.7553012518882751,
+        "scene_sample_std": 0.11920512132768785
+      },
+      "LPIPS": {
+        "mean": 0.19579631938536962,
+        "scene_sample_std": 0.08061227232186467
+      }
+    },
+    "DNGaussian": {
+      "PSNR": {
+        "mean": 13.83881968157177,
+        "scene_sample_std": 1.9957295234455965
+      },
+      "SSIM": {
+        "mean": 0.6559149452050527,
+        "scene_sample_std": 0.1623739222788384
+      },
+      "LPIPS": {
+        "mean": 0.26474107658863066,
+        "scene_sample_std": 0.11094501243389737
+      }
+    },
+    "Difix3D_10k": {
+      "PSNR": {
+        "mean": 16.07657777170489,
+        "scene_sample_std": 3.18555717564396
+      },
+      "SSIM": {
+        "mean": 0.8088997410138448,
+        "scene_sample_std": 0.09041557644637627
+      },
+      "LPIPS": {
+        "mean": 0.16563079886635146,
+        "scene_sample_std": 0.0626870817132142
+      }
+    },
+    "our_method": {
+      "PSNR": {
+        "mean": 20.324581648089946,
+        "scene_sample_std": 2.259292602528981
+      },
+      "SSIM": {
+        "mean": 0.8149153219064077,
+        "scene_sample_std": 0.08660543456351959
+      },
+      "LPIPS": {
+        "mean": 0.16200692235305905,
+        "scene_sample_std": 0.07599501903967576
+      }
+    }
+  }
+}

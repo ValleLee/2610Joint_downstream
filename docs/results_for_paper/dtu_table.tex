@@ -1,0 +1,20 @@
+% Preamble requirement: \usepackage[table]{xcolor}
+\definecolor{rankbest}{HTML}{F5C6C6}
+\definecolor{ranksecond}{HTML}{FCE0CC}
+\definecolor{rankthird}{HTML}{FFF9C4}
+\begin{table}[t]
+\centering
+\caption{DTU three-view comparison under the common 25-view foreground-mask evaluation. Values are mean $\pm$ standard deviation across 15 scans. Per metric, the best, second-best, and third-best results are shaded red, orange, and yellow. Training configurations are described in the experiment protocol.}
+\label{tab:dtu_main}
+\begin{tabular}{lrrr}
+\toprule
+Method & PSNR $\uparrow$ & SSIM $\uparrow$ & LPIPS $\downarrow$ \\
+\midrule
+3DGS & 17.753 $\pm$ 2.726 & \cellcolor{rankthird}0.827 $\pm$ 0.085 & \cellcolor{ranksecond}0.146 $\pm$ 0.063 \\
+CoR-GS & \cellcolor{rankthird}19.319 $\pm$ 2.945 & \cellcolor{rankbest}0.856 $\pm$ 0.079 & \cellcolor{rankbest}0.121 $\pm$ 0.057 \\
+DNGaussian & 18.660 $\pm$ 2.517 & 0.771 $\pm$ 0.139 & 0.182 $\pm$ 0.099 \\
+DropoutGS & \cellcolor{ranksecond}20.322 $\pm$ 2.338 & \cellcolor{ranksecond}0.833 $\pm$ 0.101 & \cellcolor{rankthird}0.159 $\pm$ 0.082 \\
+Ours & \cellcolor{rankbest}20.325 $\pm$ 2.259 & 0.815 $\pm$ 0.087 & 0.162 $\pm$ 0.076 \\
+\bottomrule
+\end{tabular}
+\end{table}

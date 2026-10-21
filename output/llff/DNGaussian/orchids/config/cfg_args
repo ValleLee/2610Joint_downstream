@@ -1,0 +1,1 @@
+Namespace(data_device='cuda:0', dataset='LLFF', eval=True, images='images_4', model_path='/tmp/lilinwei/1007baselines/scratch/seed2024_fsgs_official_mvs/DNGaussian/orchids', mvs_pcd=True, n_sparse=3, rand_pcd=False, resolution=1, sh_degree=3, source_path='/tmp/lilinwei/1007baselines/data/orchids', white_background=False)

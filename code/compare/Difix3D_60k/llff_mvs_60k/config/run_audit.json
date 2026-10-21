@@ -1,0 +1,248 @@
+{
+  "method": "Difix3D_60k",
+  "run_id": "seed2024_fsgs_official_mvs_Difix3D_60k",
+  "status": "SUCCESS",
+  "started_at": "2026-10-08T00:13:39+08:00",
+  "completed_at": "2026-10-08T01:48:08+08:00",
+  "seed": 2024,
+  "gpu_policy": "Allowed physical GPUs 0,1,2,3,4,5,7; GPU 6 excluded. Seven workers dynamically claimed eight scenes.",
+  "training_schedule": "30,000 real-view base updates with Difix disabled; resume the per-scene 29,999 checkpoint for 30,000 additional updates with target-pose fixes every 2,000 updates.",
+  "protocol": {
+    "images": "images_4",
+    "training_views_per_scene": 3,
+    "test_views_total": 43,
+    "metric_gt": "canonical 1007fsgsmvs held-out ground truth",
+    "metric_aggregation": "mean over views per scene, then equal mean over eight scenes",
+    "scratch_retained": true
+  },
+  "change_from_previous_60k": "Only initialization changed to official three-view FSGS MVS point clouds. Existing seed, code, data split, world-space normalization, undistortion, loss, schedule, and evaluation settings were preserved.",
+  "audit": {
+    "all_8_status_success": true,
+    "all_mvs_hashes_match": true,
+    "all_seed_2024_and_60k": true,
+    "all_render_gt_counts_match": true,
+    "split_mapping_matches_canonical": true
+  },
+  "metrics": [
+    {
+      "step": 30000,
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 17.265339352829116,
+      "SSIM": 0.5480090282059142,
+      "LPIPS": 0.34658729238879116
+    },
+    {
+      "step": 60000,
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 18.49398283007599,
+      "SSIM": 0.6016544166908023,
+      "LPIPS": 0.2841622493584596
+    }
+  ],
+  "scenes": {
+    "fern": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 2984,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/fern/initial_point_cloud.ply",
+      "mvs_source_sha256": "2c337dce6478940968bffc3ca7f1568512b75f5fb283ce02273ff3376e0899db",
+      "mvs_archived_sha256": "2c337dce6478940968bffc3ca7f1568512b75f5fb283ce02273ff3376e0899db",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 3,
+      "checkpoint_60000_bytes": 182005410,
+      "outputs": {
+        "30000": {
+          "render_pngs": 3,
+          "gt_pngs": 3,
+          "gaussian_ply_bytes": 191258883
+        },
+        "60000": {
+          "render_pngs": 3,
+          "gt_pngs": 3,
+          "gaussian_ply_bytes": 191258883
+        }
+      }
+    },
+    "flower": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 2976,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/flower/initial_point_cloud.ply",
+      "mvs_source_sha256": "0fc1cb029dd09c836a7a33dede0cf0d1c491877d50509ccc585212ed1fd6f7d1",
+      "mvs_archived_sha256": "0fc1cb029dd09c836a7a33dede0cf0d1c491877d50509ccc585212ed1fd6f7d1",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 5,
+      "checkpoint_60000_bytes": 151103842,
+      "outputs": {
+        "30000": {
+          "render_pngs": 5,
+          "gt_pngs": 5,
+          "gaussian_ply_bytes": 158786011
+        },
+        "60000": {
+          "render_pngs": 5,
+          "gt_pngs": 5,
+          "gaussian_ply_bytes": 158786011
+        }
+      }
+    },
+    "fortress": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 2940,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/fortress/initial_point_cloud.ply",
+      "mvs_source_sha256": "8ed7a80c6e1a1610ca801547bb2c7451bf80683aaa3bf519c67c9608e877308f",
+      "mvs_archived_sha256": "8ed7a80c6e1a1610ca801547bb2c7451bf80683aaa3bf519c67c9608e877308f",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 6,
+      "checkpoint_60000_bytes": 124257634,
+      "outputs": {
+        "30000": {
+          "render_pngs": 6,
+          "gt_pngs": 6,
+          "gaussian_ply_bytes": 130574771
+        },
+        "60000": {
+          "render_pngs": 6,
+          "gt_pngs": 6,
+          "gaussian_ply_bytes": 130574771
+        }
+      }
+    },
+    "horns": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 3025,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/horns/initial_point_cloud.ply",
+      "mvs_source_sha256": "d46a8efb4cf8afedc0609ab8b3df9888eb7c2090317820ef3fca1319cf62e1af",
+      "mvs_archived_sha256": "d46a8efb4cf8afedc0609ab8b3df9888eb7c2090317820ef3fca1319cf62e1af",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 8,
+      "checkpoint_60000_bytes": 175142562,
+      "outputs": {
+        "30000": {
+          "render_pngs": 8,
+          "gt_pngs": 8,
+          "gaussian_ply_bytes": 184047043
+        },
+        "60000": {
+          "render_pngs": 8,
+          "gt_pngs": 8,
+          "gaussian_ply_bytes": 184047043
+        }
+      }
+    },
+    "leaves": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 3771,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/leaves/initial_point_cloud.ply",
+      "mvs_source_sha256": "49b4a2e2000373bf0d0a528c97bfd925018a000fbcfd1df68e790190b27212bc",
+      "mvs_archived_sha256": "49b4a2e2000373bf0d0a528c97bfd925018a000fbcfd1df68e790190b27212bc",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 4,
+      "checkpoint_60000_bytes": 505202402,
+      "outputs": {
+        "30000": {
+          "render_pngs": 4,
+          "gt_pngs": 4,
+          "gaussian_ply_bytes": 530889428
+        },
+        "60000": {
+          "render_pngs": 4,
+          "gt_pngs": 4,
+          "gaussian_ply_bytes": 530889428
+        }
+      }
+    },
+    "orchids": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 2929,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/orchids/initial_point_cloud.ply",
+      "mvs_source_sha256": "0f50da0633ec38d2eda47850b0a2bdd7f5d1e36a09a8a68850c9181e4acaf522",
+      "mvs_archived_sha256": "0f50da0633ec38d2eda47850b0a2bdd7f5d1e36a09a8a68850c9181e4acaf522",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 4,
+      "checkpoint_60000_bytes": 156076578,
+      "outputs": {
+        "30000": {
+          "render_pngs": 4,
+          "gt_pngs": 4,
+          "gaussian_ply_bytes": 164011619
+        },
+        "60000": {
+          "render_pngs": 4,
+          "gt_pngs": 4,
+          "gaussian_ply_bytes": 164011619
+        }
+      }
+    },
+    "room": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 2731,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/room/initial_point_cloud.ply",
+      "mvs_source_sha256": "d96847e18d958f7f19e2d00bd2dd0deeec23cb1e6e0fe4ea4c694427317ea731",
+      "mvs_archived_sha256": "d96847e18d958f7f19e2d00bd2dd0deeec23cb1e6e0fe4ea4c694427317ea731",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 6,
+      "checkpoint_60000_bytes": 73815906,
+      "outputs": {
+        "30000": {
+          "render_pngs": 6,
+          "gt_pngs": 6,
+          "gaussian_ply_bytes": 77567995
+        },
+        "60000": {
+          "render_pngs": 6,
+          "gt_pngs": 6,
+          "gaussian_ply_bytes": 77567995
+        }
+      }
+    },
+    "trex": {
+      "status": "SUCCESS",
+      "seed": 2024,
+      "completed_updates": 60000,
+      "elapsed_seconds": 2938,
+      "mvs_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/trex/initial_point_cloud.ply",
+      "mvs_source_sha256": "21ac7afe19d18baecabbd16be3f6c3411ebab1a8a40d873a7c24f7b83f26dd48",
+      "mvs_archived_sha256": "21ac7afe19d18baecabbd16be3f6c3411ebab1a8a40d873a7c24f7b83f26dd48",
+      "mvs_sha256_matches_manifest": true,
+      "training_views": 3,
+      "test_views": 7,
+      "checkpoint_60000_bytes": 151687906,
+      "outputs": {
+        "30000": {
+          "render_pngs": 7,
+          "gt_pngs": 7,
+          "gaussian_ply_bytes": 159399811
+        },
+        "60000": {
+          "render_pngs": 7,
+          "gt_pngs": 7,
+          "gaussian_ply_bytes": 159399811
+        }
+      }
+    }
+  },
+  "scratch_root": "/tmp/lilinwei/1007baselines/scratch/seed2024_fsgs_official_mvs_Difix3D_60k",
+  "method_root": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k"
+}

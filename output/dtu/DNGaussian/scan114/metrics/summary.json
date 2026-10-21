@@ -1,0 +1,10 @@
+{
+  "dataset": "dtu",
+  "method": "DNGaussian",
+  "scene": "scan114",
+  "evaluated_views": 25,
+  "PSNR": 18.946490369855862,
+  "SSIM": 0.7901219964027405,
+  "LPIPS": 0.15184372901916504,
+  "derived_from": "output/dtu/source_metrics/official_random_6k/per_scene_corgs25_mask.csv"
+}

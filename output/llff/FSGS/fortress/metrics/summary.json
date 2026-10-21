@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "fortress",
+  "evaluated_views": 6,
+  "PSNR": 23.04742654164632,
+  "SSIM": 0.7057429154713949,
+  "LPIPS": 0.24486751109361649,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

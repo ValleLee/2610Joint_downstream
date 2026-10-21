@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "orchids",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/DNGaussian/orchids/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/eval/ours_10000/renders/00000.png",
+      "bytes": 1327726,
+      "sha256": "cde939dfb8c5b8de2ecdfe4fca134a9d79baa9d214eb7c3b66e984356f9684a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/eval/ours_10000/renders/00001.png",
+      "bytes": 1372431,
+      "sha256": "156c5f2660dd77029d6957d76904c4fefd932430f33c55de76c45e48201d268e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/eval/ours_10000/renders/00002.png",
+      "bytes": 1370177,
+      "sha256": "9584c1a1e746ba8e0d821f2b69eef23bcdbb5bfb2e0d3d638d43b9fdd38afbb4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/eval/ours_10000/renders/00003.png",
+      "bytes": 1363522,
+      "sha256": "bf169d1902f5382e17b053a477936fe6bc3d0daed5d39338f3baa72ea72da618",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/cfg_args",
+      "bytes": 322,
+      "sha256": "867ae255d6f855fead8b245442cdcc75e351efa724e074f6f26c88daa08780c5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/cameras.json",
+      "bytes": 11676,
+      "sha256": "6ffe382eee2e84c1213a37ecc3163a0d1371d9b7cdd89051f2fcf3d395967b76",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/data_split.json",
+      "bytes": 1312,
+      "sha256": "cf174283864014ad61eb97b001c70b01354a39a5da731c5c29b66bc6dc65db28",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 6102670,
+      "sha256": "c6a6a79abc38a70eec5a675605f56bcc5e773994efc9af933883c85026acc445",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids/chkpnt10000.pth",
+      "bytes": 180431132,
+      "sha256": "ccae8f0b55a454fbce47ca7ee19668a77e2f1b2ee30b8d64cbf41956b3753328",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 672,
+      "sha256": "6ea4b9eed15bb2f2e5d24ea090d9f6f5634d45f3f2c4c12f703ef7419d24ecc8",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/orchids/metrics/summary.json",
+      "source": "output/llff/DNGaussian/metrics/public_common_eval.json",
+      "bytes": 262,
+      "sha256": "f1bb293a551c3b1d4400b631aa21707a8bf8aa2afbf7e00e6b126160a44acfdc",
+      "publish_on_git": true
+    }
+  ]
+}

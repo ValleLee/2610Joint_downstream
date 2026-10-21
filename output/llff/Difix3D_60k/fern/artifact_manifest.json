@@ -1,0 +1,65 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "fern",
+  "main_table": true,
+  "rgb_render_count": 3,
+  "files": [
+    {
+      "path": "output/llff/Difix3D_60k/fern/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fern/eval/ours_60000/renders/00000.png",
+      "bytes": 1316000,
+      "sha256": "6fd22ebf899ac70de31c106effd2c0f063e756c1b91b107fe4a7679ec4947a5a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fern/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fern/eval/ours_60000/renders/00001.png",
+      "bytes": 1300623,
+      "sha256": "b9527b8135d877a9159fe6596dd47ea2c958d094670ae15cadac9a24c1b193e0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fern/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fern/eval/ours_60000/renders/00002.png",
+      "bytes": 1277573,
+      "sha256": "c7b28ed9ac516feadfecef0ae4c90c0946c67eea3f41fc95a33e50d8a6c7ee9a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fern/config/cfg.yml",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fern/cfg.yml",
+      "bytes": 1975,
+      "sha256": "6d2430fb326e7a7701edc38f7d73c2b918f9ee8b6d567ef4c460107daad344ed",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fern/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fern/point_cloud/iteration_60000/point_cloud.ply",
+      "bytes": 191258883,
+      "sha256": "17f6ddf90731ef10ac335899494334c93dd58902b1576a4f79cb7ce2657fe79c",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fern/checkpoints/ckpt_60000_rank0.pt",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fern/ckpt_60000_rank0.pt",
+      "bytes": 182005410,
+      "sha256": "ecb9f12125d37439a376b9e0bfea31ffc9bf6d123d8568b2bb0e57477606e075",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fern/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 650,
+      "sha256": "b3315d9cfdeac6b52b04e39f3d7f7a482941f502391ca78f2d1d306fc0aa1048",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fern/metrics/summary.json",
+      "source": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json",
+      "bytes": 267,
+      "sha256": "d497a99a2d9f013af310e24d67cedcbd8011d8e2d793b4f2d74c15cdab1c7f4d",
+      "publish_on_git": true
+    }
+  ]
+}

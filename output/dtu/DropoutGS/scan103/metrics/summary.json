@@ -1,0 +1,10 @@
+{
+  "dataset": "dtu",
+  "method": "DropoutGS",
+  "scene": "scan103",
+  "evaluated_views": 25,
+  "PSNR": 21.965389986407068,
+  "SSIM": 0.9007546043395996,
+  "LPIPS": 0.1264941444993019,
+  "derived_from": "output/dtu/source_metrics/official_random_6k/per_scene_corgs25_mask.csv"
+}

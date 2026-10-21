@@ -1,0 +1,1 @@
+This is the exact Difix3D 60k adapter copied from the preceding 1007 baseline rerun source (`/tmp/lilinwei/1007baselines/repos/Difix3D_60k_adapter`). The adapter SHA-256 is recorded in `../config/adapter_provenance.json`. The training implementation is unchanged; this run points `--mvs-ply` to the FSGS official three-view MVS input.

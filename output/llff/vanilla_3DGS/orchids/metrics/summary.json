@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "orchids",
+  "evaluated_views": 4,
+  "PSNR": 14.392132997512817,
+  "SSIM": 0.4014718756079674,
+  "LPIPS": 0.363245889544487,
+  "derived_from": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json"
+}

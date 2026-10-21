@@ -1,0 +1,107 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "room",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/CoR-GS/room/renders/DJI_20200226_143850_006.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/eval/ours_10000/renders/DJI_20200226_143850_006.png",
+      "bytes": 562122,
+      "sha256": "4cd310f075a844dd093cad544fb34413646bca4bc80b238111b39bff072bf4da",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/renders/DJI_20200226_143901_419.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/eval/ours_10000/renders/DJI_20200226_143901_419.png",
+      "bytes": 542539,
+      "sha256": "a09c63261ab100c5656784743b96366df03b8fc95dd9665b9f518e2de06eaa94",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/renders/DJI_20200226_143912_008.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/eval/ours_10000/renders/DJI_20200226_143912_008.png",
+      "bytes": 582295,
+      "sha256": "fb8eb90eaad0ecd0c1cda8a8a9cc32b3745cacdc12de7416ca9576d470f7d45b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/renders/DJI_20200226_143926_241.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/eval/ours_10000/renders/DJI_20200226_143926_241.png",
+      "bytes": 534408,
+      "sha256": "b4f75c8cfc30f43e8f51e1bc924c89b1eacd4632fb997ec5b27943d08aa4d7e6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/renders/DJI_20200226_143938_168.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/eval/ours_10000/renders/DJI_20200226_143938_168.png",
+      "bytes": 534456,
+      "sha256": "7a16b005348794a786015fbb19a4041872ff86d95d3b70fd8114ee623ba4eb2d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/renders/DJI_20200226_143948_113.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/eval/ours_10000/renders/DJI_20200226_143948_113.png",
+      "bytes": 545830,
+      "sha256": "11f808e8c4b532c33273a19a76c7d063ed1775fa59ae94a2fddac9581a23bd72",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/cfg_args",
+      "bytes": 297,
+      "sha256": "cca63385b663e86e92bdc70a55c9738c667d1200c21c04313048a3c7183952bd",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/cameras.json",
+      "bytes": 3775,
+      "sha256": "fd4a688e7d2f64e7645e7b7639244c43ab286c13f66af13fc77fef28c3d5739e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/data_split.json",
+      "bytes": 1465,
+      "sha256": "4f974a1ce9d04c70340d05069e2a838f47fcea9046eb512e3ff115f77092625a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 11257754,
+      "sha256": "a910bd0b861268b30af361695996de8d3c52a639308e54583c732cc3c10e81f2",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/room/point_cloud/point_cloud_gs2.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/point_cloud_gs2/iteration_10000/point_cloud.ply",
+      "bytes": 11529562,
+      "sha256": "3e1608750a219795cb3299a2cf11a9259a70f2561d2e2d588a02b8c01b789f01",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/room/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/room/chkpnt10000.pth",
+      "bytes": 32687496,
+      "sha256": "5bb504aaf2369a3d0bd7efeed2fce260a5609176f6c604fb7278913d95f51dab",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/room/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 829,
+      "sha256": "437655c4bc75b6ab8c08e45052f92804fd9980ba8f72762d861914c53d6ee5ce",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/room/metrics/summary.json",
+      "source": "output/llff/CoR-GS/metrics/public_common_eval.json",
+      "bytes": 251,
+      "sha256": "9a5cb263f32169cdf97f7515e48775ef187b02ba1e02578bb64da27b4005573d",
+      "publish_on_git": true
+    }
+  ]
+}

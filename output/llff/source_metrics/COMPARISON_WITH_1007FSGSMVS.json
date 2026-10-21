@@ -1,0 +1,77 @@
+{
+  "protocol": {
+    "scenes": [
+      "fern",
+      "flower",
+      "fortress",
+      "horns",
+      "leaves",
+      "orchids",
+      "room",
+      "trex"
+    ],
+    "n_scenes": 8,
+    "n_views_per_method": 43,
+    "aggregation": "mean over test views within each scene, then unweighted mean over 8 scenes",
+    "PSNR_SSIM_LPIPS": "same metric implementation and same canonical GT files for every row"
+  },
+  "results": [
+    {
+      "method": "FSGS",
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 19.740415745831672,
+      "SSIM": 0.6639519120433501,
+      "LPIPS": 0.2700068609855537
+    },
+    {
+      "method": "CoR-GS",
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 19.549111283676964,
+      "SSIM": 0.6730259065205852,
+      "LPIPS": 0.27319681477688607
+    },
+    {
+      "method": "DNGaussian",
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 19.377019269409633,
+      "SSIM": 0.6594836244714402,
+      "LPIPS": 0.2831020678304845
+    },
+    {
+      "method": "DropoutGS",
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 19.803867495627628,
+      "SSIM": 0.67974258427996,
+      "LPIPS": 0.27079490671998685
+    },
+    {
+      "method": "Difix3D_10k",
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 18.001689803742224,
+      "SSIM": 0.5895886529325729,
+      "LPIPS": 0.3143415678647302
+    },
+    {
+      "method": "1007fsgsmvs (ours)",
+      "n_scenes": 8,
+      "n_views": 43,
+      "PSNR": 19.799208851371493,
+      "SSIM": 0.6586946134411154,
+      "LPIPS": 0.28556244664248964
+    }
+  ],
+  "ours_evaluation": {
+    "n_scenes": 8,
+    "n_views": 43,
+    "PSNR": 19.799208851371493,
+    "SSIM": 0.6586946134411154,
+    "LPIPS": 0.28556244664248964,
+    "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output",
+    "re_evaluated_with": "configs/compute_unified_metrics.py metric functions, same 1007fsgsmvs canonical GT, per-view means then equal scene macro mean"
+  }
+}

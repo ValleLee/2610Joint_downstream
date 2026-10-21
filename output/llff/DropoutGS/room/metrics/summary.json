@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "room",
+  "evaluated_views": 6,
+  "PSNR": 21.575295130411785,
+  "SSIM": 0.8561605115731558,
+  "LPIPS": 0.1943773776292801,
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

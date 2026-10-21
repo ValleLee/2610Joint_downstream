@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "room",
+  "evaluated_views": 6,
+  "PSNR": 21.839725812276203,
+  "SSIM": 0.8595077196756998,
+  "LPIPS": 0.18037997682889303,
+  "derived_from": "output/llff/our_R4/room/metrics/per_view.json"
+}

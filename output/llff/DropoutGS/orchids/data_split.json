@@ -1,0 +1,31 @@
+{
+  "scene": "orchids",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/orchids",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/orchids",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "IMG_4468.JPG",
+    "IMG_4479.JPG",
+    "IMG_4490.JPG"
+  ],
+  "fsgs_test_names": [
+    "IMG_4467.JPG",
+    "IMG_4475.JPG",
+    "IMG_4483.JPG",
+    "IMG_4491.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/orchids/3_views/dense/fused.ply",
+  "points_written": 5124,
+  "points_total": 13105,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/orchids/poses_bounds.npy",
+  "runtime_initialization_audit": {
+    "canonical_source_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/orchids/initial_point_cloud.ply",
+    "actual_training_loader_ply": "/tmp/lilinwei/1007baselines/data/orchids/3_views/dense/fused.ply",
+    "sha256": "0f50da0633ec38d2eda47850b0a2bdd7f5d1e36a09a8a68850c9181e4acaf522",
+    "point_count": 12849,
+    "note": "This is a legacy dataset-preparation reference and does not identify the point cloud loaded by the completed training run. The actual MVS loader input and verified SHA-256 are recorded in configs/actual_initialization_audit.json."
+  }
+}

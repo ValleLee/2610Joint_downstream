@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/tmp/lilinwei/1007baselines/data/orchids', model_path='/tmp/lilinwei/1007baselines/scratch/seed2024_fsgs_official_mvs/FSGS/orchids', images='images_4', resolution=1, white_background=False, data_device='cuda', eval=True, n_views=3)

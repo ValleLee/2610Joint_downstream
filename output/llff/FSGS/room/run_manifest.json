@@ -1,0 +1,26 @@
+{
+  "assembled_manifest": true,
+  "dataset": "LLFF",
+  "method": "FSGS",
+  "scene": "room",
+  "seed": 2024,
+  "iterations": 10000,
+  "training_rgb_count": 3,
+  "evaluation_rgb_count": 6,
+  "train_names": [
+    "DJI_20200226_143851_396.JPG",
+    "DJI_20200226_143918_576.JPG",
+    "DJI_20200226_143946_704.JPG"
+  ],
+  "test_names": [
+    "DJI_20200226_143850_006.JPG",
+    "DJI_20200226_143901_419.JPG",
+    "DJI_20200226_143912_008.JPG",
+    "DJI_20200226_143926_241.JPG",
+    "DJI_20200226_143938_168.JPG",
+    "DJI_20200226_143948_113.JPG"
+  ],
+  "initial_cloud_sha256": "d96847e18d958f7f19e2d00bd2dd0deeec23cb1e6e0fe4ea4c694427317ea731",
+  "source_config": "code/compare/FSGS/llff_mvs10k/config/experiment_config.json",
+  "source_output": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/room"
+}

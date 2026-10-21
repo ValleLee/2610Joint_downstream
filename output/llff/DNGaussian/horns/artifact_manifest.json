@@ -1,0 +1,121 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "horns",
+  "main_table": true,
+  "rgb_render_count": 8,
+  "files": [
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00000.png",
+      "bytes": 1015559,
+      "sha256": "b3d6ab60cc524302c03308493c09293985ee46c0c171d7eb6cdfa5da0e4964ff",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00001.png",
+      "bytes": 1141231,
+      "sha256": "a5f1cbfac282f5619182798a5939c8f0e1471a975f30f4b25d8dbd4eb9e59f56",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00002.png",
+      "bytes": 1043717,
+      "sha256": "3ecbf48e7c9a7affa44ba0dfd4d1ce142e3160ed98d08e540fd8cbe59ae479b0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00003.png",
+      "bytes": 1105609,
+      "sha256": "3a828428d01206b92758563f1cc9d13c5538d5e78ed4128d27d67d3a172477a9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00004.png",
+      "bytes": 1111880,
+      "sha256": "bd051bd88381747d7fba821a6aaefb97cf80cae3f18fdd7bbd5bf9acdebc23a1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00005.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00005.png",
+      "bytes": 1078448,
+      "sha256": "c3da42e7fae09da26d1dcdf88a04b8424cbe12f227433282b861c949103a427d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00006.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00006.png",
+      "bytes": 1093022,
+      "sha256": "a4c6499a47d3c459185edb2d01cf49cbc6749d6b1add62148c8b5e2bf927b575",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/renders/00007.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/eval/ours_10000/renders/00007.png",
+      "bytes": 1043487,
+      "sha256": "77ad03a966d7d0810dbe4c59d593051ac8f5f6468097b07abf1baa0ac1ed73f4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/cfg_args",
+      "bytes": 318,
+      "sha256": "c543b848f1b5ab17e2954f376376b5afde13ff459bbd0d1c5d1f35c1db39a3f1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/cameras.json",
+      "bytes": 29335,
+      "sha256": "83b019c1a221a26d9d8d7d8b1945482ab8c5f4095afd12219cdb73e6e4dcda97",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/data_split.json",
+      "bytes": 1544,
+      "sha256": "95fe3b32adf3ebf65d26d0f4e6aaed9bfa3c9e6cdeabe602d3bd2c6c0004a393",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 6016766,
+      "sha256": "ccaa9d0b1c74783d52d994e9e3b57d6ef7386531f4d316adfee5e0334d6875d9",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/horns/chkpnt10000.pth",
+      "bytes": 182126492,
+      "sha256": "265f4a38dc5680413b58e3bb4183cc39fca84ae330d370c344ef4537650bc8fa",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 913,
+      "sha256": "53fb193e09c366c744bf699d68dc612750a9598975cc3fcce4ac71e180235a92",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/horns/metrics/summary.json",
+      "source": "output/llff/DNGaussian/metrics/public_common_eval.json",
+      "bytes": 260,
+      "sha256": "7885e8f302580dc01ee6fc101be2d60c88aa0fbf795080a4726fb694f1eba5a0",
+      "publish_on_git": true
+    }
+  ]
+}

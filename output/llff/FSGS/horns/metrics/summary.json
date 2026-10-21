@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "horns",
+  "evaluated_views": 8,
+  "PSNR": 19.666200041770935,
+  "SSIM": 0.6759109869599342,
+  "LPIPS": 0.30008635483682156,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

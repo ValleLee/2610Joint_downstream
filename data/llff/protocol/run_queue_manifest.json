@@ -1,0 +1,38 @@
+{
+  "queue_path": "/tmp/lilinwei/1007baselines/queue/tasks_fsgs_official_mvs_10k.tsv",
+  "task_count": 40,
+  "methods": [
+    "FSGS",
+    "CoR-GS",
+    "DNGaussian",
+    "DropoutGS",
+    "Difix3D_10k"
+  ],
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "excluded_gpus": [
+    6
+  ],
+  "seed": 2024,
+  "run_tag": "seed2024_fsgs_official_mvs",
+  "output_root": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines",
+  "scratch_root": "/tmp/lilinwei/1007baselines/scratch/seed2024_fsgs_official_mvs",
+  "difference_from_previous_run": "initialization point cloud only"
+}

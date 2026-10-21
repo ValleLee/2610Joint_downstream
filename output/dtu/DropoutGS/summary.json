@@ -1,0 +1,32 @@
+{
+  "dataset": "dtu",
+  "method": "DropoutGS",
+  "scenes": [
+    "scan8",
+    "scan21",
+    "scan30",
+    "scan31",
+    "scan34",
+    "scan38",
+    "scan40",
+    "scan41",
+    "scan45",
+    "scan55",
+    "scan63",
+    "scan82",
+    "scan103",
+    "scan110",
+    "scan114"
+  ],
+  "macro": {
+    "PSNR": 20.321931632682382,
+    "SSIM": 0.8326210643450419,
+    "LPIPS": 0.15909022915860016
+  },
+  "scene_sample_std": {
+    "PSNR": 2.33823249266833,
+    "SSIM": 0.10073766391094345,
+    "LPIPS": 0.08216430289202208
+  },
+  "derived_from": "output/dtu/source_metrics/official_random_6k/per_scene_corgs25_mask.csv"
+}

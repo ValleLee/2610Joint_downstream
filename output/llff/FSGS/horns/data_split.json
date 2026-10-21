@@ -1,0 +1,35 @@
+{
+  "scene": "horns",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/horns",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/horns",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "DJI_20200223_163017_967.jpg",
+    "DJI_20200223_163053_863.jpg",
+    "DJI_20200223_163225_243.jpg"
+  ],
+  "fsgs_test_names": [
+    "DJI_20200223_163016_842.jpg",
+    "DJI_20200223_163024_597.jpg",
+    "DJI_20200223_163033_432.jpg",
+    "DJI_20200223_163047_307.jpg",
+    "DJI_20200223_163055_437.jpg",
+    "DJI_20200223_163103_777.jpg",
+    "DJI_20200223_163201_633.jpg",
+    "DJI_20200223_163208_938.jpg"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/horns/3_views/dense/fused.ply",
+  "points_written": 11218,
+  "points_total": 37399,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/horns/poses_bounds.npy",
+  "runtime_initialization_audit": {
+    "canonical_source_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/horns/initial_point_cloud.ply",
+    "actual_training_loader_ply": "/tmp/lilinwei/1007baselines/data/horns/3_views/dense/fused.ply",
+    "sha256": "d46a8efb4cf8afedc0609ab8b3df9888eb7c2090317820ef3fca1319cf62e1af",
+    "point_count": 18161,
+    "note": "This is a legacy dataset-preparation reference and does not identify the point cloud loaded by the completed training run. The actual MVS loader input and verified SHA-256 are recorded in configs/actual_initialization_audit.json."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "macro": {
+    "PSNR": 19.549111283676964,
+    "SSIM": 0.6730259065205852,
+    "LPIPS": 0.27319681477688607
+  },
+  "derived_from": "output/llff/CoR-GS/metrics/public_common_eval.json"
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "leaves",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/CoR-GS/leaves/renders/IMG_2997.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/eval/ours_10000/renders/IMG_2997.png",
+      "bytes": 1435486,
+      "sha256": "15ce844ac7429bac1403b9575c68a3be20acfaa27de3e552de6c38318b4317a2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/renders/IMG_3006.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/eval/ours_10000/renders/IMG_3006.png",
+      "bytes": 1389384,
+      "sha256": "ff2428ab3e15e9fb96e19c0bb574f12a325b8e146666afd0284969ae5698365a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/renders/IMG_3014.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/eval/ours_10000/renders/IMG_3014.png",
+      "bytes": 1364766,
+      "sha256": "e99e0b39e31a720a20b38182882d458c1717048d5c3c4f57f1ac8f659d313996",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/renders/IMG_3022.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/eval/ours_10000/renders/IMG_3022.png",
+      "bytes": 1361095,
+      "sha256": "512ca101bb636f2b58d29cc42dee5184dcaea5a244ed5dbc376011e34cc3c577",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/cfg_args",
+      "bytes": 301,
+      "sha256": "020d59379deb34545b3eda52f5194964c60fe7658f037faa846dc7450bbf5502",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/cameras.json",
+      "bytes": 2833,
+      "sha256": "55c0a8fd3b12058d1851f255d65b48fbaba2306578403d623247c50e3aba20b8",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/data_split.json",
+      "bytes": 1304,
+      "sha256": "4e76e303c694129d3164df83c1b1db947e856bc7676f83d9621cc62f0b91237a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 52401451,
+      "sha256": "a6f5b26c1823a6bdf3e78d855926b02c08a8f660bd2f73a20141d024b220d0f4",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/point_cloud/point_cloud_gs2.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/point_cloud_gs2/iteration_10000/point_cloud.ply",
+      "bytes": 51418627,
+      "sha256": "de48ede8082fbaa2334d82271348bd5a5b3ae6cd1d00ff87918ca51d66818d4c",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/leaves/chkpnt10000.pth",
+      "bytes": 152136712,
+      "sha256": "36f1c528908cf2fc926c2762ac2cc279983b2d37c3fc46469ff525951fba1574",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 658,
+      "sha256": "3d1305c828f1b46682879d48176821638800bab347860885badd4d9d8a8987a3",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/leaves/metrics/summary.json",
+      "source": "output/llff/CoR-GS/metrics/public_common_eval.json",
+      "bytes": 255,
+      "sha256": "ddf6b21c8e819a6d4dfe8f54a37497148728d0817cda5a41dfdde95c4bf05dd5",
+      "publish_on_git": true
+    }
+  ]
+}

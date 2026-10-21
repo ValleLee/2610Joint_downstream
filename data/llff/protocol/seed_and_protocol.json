@@ -1,0 +1,25 @@
+{
+  "seed": 2024,
+  "methods": [
+    "FSGS",
+    "CoR-GS",
+    "DNGaussian",
+    "DropoutGS",
+    "Difix3D_10k"
+  ],
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "excluded_method": "Difix3D_60k (user requested temporary pause)",
+  "only_method_difference_from_previous_run": "initialization point cloud",
+  "data": "same images_4, selected three training views, and canonical held-out test mapping",
+  "evaluation": "same unified CPU metrics script and canonical images_4 ground truth",
+  "input_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs"
+}

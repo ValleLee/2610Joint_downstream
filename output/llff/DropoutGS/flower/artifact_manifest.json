@@ -1,0 +1,100 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "flower",
+  "main_table": true,
+  "rgb_render_count": 5,
+  "files": [
+    {
+      "path": "output/llff/DropoutGS/flower/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/eval/ours_10000/renders/00000.png",
+      "bytes": 1001543,
+      "sha256": "6b045cbc059ba0802799f826db7b39e091618712ba808ba6d12b3a37b2155ec2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/eval/ours_10000/renders/00001.png",
+      "bytes": 937086,
+      "sha256": "1b83370abbc614f18180fc70eff1310f2433a3fafb891ad249326a6b7a4d05da",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/eval/ours_10000/renders/00002.png",
+      "bytes": 1003823,
+      "sha256": "f5e9b9674e806b77dc444b22b7ab7fd404e97879cc63df42fa7dbff5945f976e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/eval/ours_10000/renders/00003.png",
+      "bytes": 939790,
+      "sha256": "a1905db4a23f1232709fac7992af7f31296f4bbf8fb48f21f786d54146772c2a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/eval/ours_10000/renders/00004.png",
+      "bytes": 998263,
+      "sha256": "e81a0e2325b3d749aa83a9332dfdcfc35fedce5994c9ded20f29b46b276ab5f5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/cfg_args",
+      "bytes": 319,
+      "sha256": "4ef31333b8d7b94d56156aad786cec5f2b1444bf6f175db685d904c0f20b6858",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/cameras.json",
+      "bytes": 15860,
+      "sha256": "770144ebe5e2027d2322ff495febc8559be982ccd1efd9a0e5da861b7f4b0c21",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/data_split.json",
+      "bytes": 1324,
+      "sha256": "11f0576aded0b88a9008f19ba2bf1a8e99f9fea2474bac5b87a269d309f1d8fb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 3905509,
+      "sha256": "c61bc45cb7b7bb2033924847513fa7970e42109f9f79b8cfc8a748b63ead8cad",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/flower/chkpnt10000.pth",
+      "bytes": 178800478,
+      "sha256": "7ac8cc8c329c7db9e9f4745144379859140a00aba3bbaedbee5a59209fd3c681",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 687,
+      "sha256": "7f192107df9aa7d5e5cefed57b8b80a24fcdc5caa4d17135fd249808ccb4bd07",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/flower/metrics/summary.json",
+      "source": "output/llff/DropoutGS/metrics/public_common_eval.json",
+      "bytes": 260,
+      "sha256": "edef153da81ab3aed4e98d314cbc17c95221261e81570fef2a86cd50ac0430ff",
+      "publish_on_git": true
+    }
+  ]
+}

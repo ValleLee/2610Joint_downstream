@@ -1,0 +1,86 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "fern",
+  "main_table": true,
+  "rgb_render_count": 3,
+  "files": [
+    {
+      "path": "output/llff/DropoutGS/fern/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/eval/ours_10000/renders/00000.png",
+      "bytes": 1036830,
+      "sha256": "fa4d126200d49a48efdd275275db3480766c89ad5cc698f98ee0bebfc9c9bba3",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/eval/ours_10000/renders/00001.png",
+      "bytes": 1002883,
+      "sha256": "eb65fd8fd6c002ad4ca557cc24fd8137a74ec88fa97c82aaee6aa2228c597c1e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/eval/ours_10000/renders/00002.png",
+      "bytes": 1021430,
+      "sha256": "a10285252b10a4dc53ae83d0cbf404d4467403ae1b3162d5b0ffb6e068552adb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/cfg_args",
+      "bytes": 315,
+      "sha256": "09ece897786474b3fd4e154635143e4b9965c44a74cb4a01994d23117d322e84",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/cameras.json",
+      "bytes": 9317,
+      "sha256": "fb2d64a99401fbc99326080cf090d85173bd68a0083583a30e53cc6cc42bf0d4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/data_split.json",
+      "bytes": 1271,
+      "sha256": "d918971e74a7a143b94b30912ef951d7fe5470bc92cb9da72a489e39441ca703",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 4975389,
+      "sha256": "d6bf846950cc1eb464bdb532c7b463aa80c9dc2170f94a868c241ed80477751c",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fern/chkpnt10000.pth",
+      "bytes": 179583262,
+      "sha256": "99bf0cb4f2f484dea79fc1fc86a78c9bf54a60b9ace211ac3cb60086284c5d79",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 643,
+      "sha256": "c4621a62cc0e8448fe731c6a663eeb445c8849bef603603b817df84adcee5a2c",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/fern/metrics/summary.json",
+      "source": "output/llff/DropoutGS/metrics/public_common_eval.json",
+      "bytes": 258,
+      "sha256": "5eeefd92574609594ac56363d9abc9a7ec17f8233b1ccf32ea4ec7eb4d1734ae",
+      "publish_on_git": true
+    }
+  ]
+}

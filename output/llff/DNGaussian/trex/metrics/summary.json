@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "trex",
+  "evaluated_views": 7,
+  "PSNR": 20.430056708199636,
+  "SSIM": 0.760472868170057,
+  "LPIPS": 0.24812637908118113,
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

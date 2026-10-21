@@ -1,0 +1,182 @@
+{
+  "dataset": "DTU CoR-GS selected 15 scans",
+  "methods": [
+    "FSGS",
+    "CoR-GS",
+    "DropoutGS",
+    "DNGaussian",
+    "Difix3D_10k",
+    "our_method"
+  ],
+  "seed": 2024,
+  "iterations": 10000,
+  "resolution_factor": 4,
+  "shared_initialization": "one recomputed three-view COLMAP MVS PLY per scene",
+  "scenes": [
+    {
+      "scan": "scan8",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "0d5435b62ded52b68cb2c9066e62e2bbeaffb14d1c8097ed442da7912657f2d4",
+      "point_count": 69320
+    },
+    {
+      "scan": "scan21",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "75256bc36d0cb458b9ee39cde0a48c8a1b5e2c39c2e54646772bba78a3035d68",
+      "point_count": 23348
+    },
+    {
+      "scan": "scan30",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "0649c3db859adbf24c640f0d152e234e004c489eb1b1fe2064056a7e487cce36",
+      "point_count": 4296
+    },
+    {
+      "scan": "scan31",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "5e4bb20a05225c5de7955f16ee5f0908880c9efdc6c1f1eb64384c6ae101f7f5",
+      "point_count": 19188
+    },
+    {
+      "scan": "scan34",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "27860a80a296c9e36a8e0a127454a2335c621e27c6ced2929cf97bf18292e84b",
+      "point_count": 127945
+    },
+    {
+      "scan": "scan38",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "091c96fc8590ea9e2ba4ffcbe5c01df28e9be27ea52c02296d62778a9f0d08fe",
+      "point_count": 112051
+    },
+    {
+      "scan": "scan40",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "0640f0530852650de5b2ef7c8db15db0ac9bb29b2964a2580a57604e734ec058",
+      "point_count": 65650
+    },
+    {
+      "scan": "scan41",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "304976ec937f128af4e03fceb72295118f6882f0f92dcfdcd185ab1968177e7e",
+      "point_count": 41650
+    },
+    {
+      "scan": "scan45",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "8bd06020fdf67eb5e4db3e4e9e63aa17c60a988f386fbc0259cecce996cd6ce0",
+      "point_count": 41885
+    },
+    {
+      "scan": "scan55",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "2902bc30518f1fac3506574c49a19f2bb82c7d25617d227b8075ee6222b0565c",
+      "point_count": 57885
+    },
+    {
+      "scan": "scan63",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "0071ca0d8ad5d0c43035eba80d1b6471b6f03ac3539a331805438d1f85440621",
+      "point_count": 17278
+    },
+    {
+      "scan": "scan82",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "2779fd9ec165235ccf05d16c3a8e2bd9f546e945469bedf457db7f77ff22df7f",
+      "point_count": 4909
+    },
+    {
+      "scan": "scan103",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "01100e389925609c3abd768307366d634dc287d8818f8550b731f952b184e038",
+      "point_count": 7278
+    },
+    {
+      "scan": "scan110",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "c3177ec990e59424b489947e327e9846eda51a7f55878b2ebdabc4fe8f183b48",
+      "point_count": 8878
+    },
+    {
+      "scan": "scan114",
+      "train_names": [
+        "rect_023_3_r5000.png",
+        "rect_026_3_r5000.png",
+        "rect_029_3_r5000.png"
+      ],
+      "test_count": 31,
+      "initial_cloud_sha256": "965f16d869949aa4bcdbb37b5d61ccc176cba56b9a0030a887338f69c3a12312",
+      "point_count": 34320
+    }
+  ]
+}

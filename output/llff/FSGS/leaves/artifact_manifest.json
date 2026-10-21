@@ -1,0 +1,86 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "leaves",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/FSGS/leaves/renders/IMG_2997.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/eval/ours_10000/renders/IMG_2997.png",
+      "bytes": 1537397,
+      "sha256": "5923a47887e326d8daf2d381770d512fbb35dfe56902edc621343d12f2da906a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/renders/IMG_3006.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/eval/ours_10000/renders/IMG_3006.png",
+      "bytes": 1511667,
+      "sha256": "857357e62ecd7a50c44f15c09bb945d721724a369a9ac961570d80d6b53af1e1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/renders/IMG_3014.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/eval/ours_10000/renders/IMG_3014.png",
+      "bytes": 1457210,
+      "sha256": "413ec13492a9a6d13507a996777b28abd5f7d7951b19b52f4d9e029b093ad142",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/renders/IMG_3022.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/eval/ours_10000/renders/IMG_3022.png",
+      "bytes": 1489751,
+      "sha256": "7f4de9f4fb7757a8cb49fe340eda8b316287b4a0ff2edda56dd21b8ff4b2cddc",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/cfg_args",
+      "bytes": 265,
+      "sha256": "376b3ec51e42d234f94d0582f8481cd60bb7a16803e4ccc67ccba6c794012e66",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/cameras.json",
+      "bytes": 2833,
+      "sha256": "55c0a8fd3b12058d1851f255d65b48fbaba2306578403d623247c50e3aba20b8",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/data_split.json",
+      "bytes": 1304,
+      "sha256": "4e76e303c694129d3164df83c1b1db947e856bc7676f83d9621cc62f0b91237a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 409242204,
+      "sha256": "4839253eb098aefbda531534cf50f57adba9a226a68f18c9a3b52ba2ae0d2e45",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/leaves/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/leaves/chkpnt10000.pth",
+      "bytes": 1188126785,
+      "sha256": "6abb5e268fb650995e0516f3c2eba8704cb71d569d2e4b421be9f205098a5b64",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/leaves/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 652,
+      "sha256": "455835ae0e82f84fbf232b36d6c6cbd72f308273a22c308bdbc56d36dd15ef90",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/leaves/metrics/summary.json",
+      "source": "output/llff/FSGS/metrics/public_common_eval.json",
+      "bytes": 250,
+      "sha256": "f12424addad88b3242e04e159b91b0a435b91492f1380162f6f2b71b65f0df26",
+      "publish_on_git": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "flower",
+  "main_table": true,
+  "rgb_render_count": 5,
+  "files": [
+    {
+      "path": "output/llff/DNGaussian/flower/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/eval/ours_10000/renders/00000.png",
+      "bytes": 1070400,
+      "sha256": "483be0e3987bea4b7f2dea868ec1d52ef970e1ebe5adda023af5360c6a172ee8",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/eval/ours_10000/renders/00001.png",
+      "bytes": 992918,
+      "sha256": "479443a97efa75e2cef6e8694772138c80350187bb6be35fbc35b26705884c52",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/eval/ours_10000/renders/00002.png",
+      "bytes": 1072317,
+      "sha256": "e5c6c422d95e181a3b2d8adc9567b70eed6f08c8aaeb3c28f0d967f553be0c0d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/eval/ours_10000/renders/00003.png",
+      "bytes": 992004,
+      "sha256": "05325de64380028305d306cbc32092c0bc11a5c917a9211681af3f96e2f40629",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/eval/ours_10000/renders/00004.png",
+      "bytes": 1058028,
+      "sha256": "ed3801e275b0efea2a73633099b98bf957b593f79dde2a8769c67b90236e6e65",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/cfg_args",
+      "bytes": 320,
+      "sha256": "cd8c4ae05ddd04bb99f8ddf8c61e79439ccc0e4a23020f9afc8be8de89c6a453",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/cameras.json",
+      "bytes": 15860,
+      "sha256": "770144ebe5e2027d2322ff495febc8559be982ccd1efd9a0e5da861b7f4b0c21",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/data_split.json",
+      "bytes": 1324,
+      "sha256": "11f0576aded0b88a9008f19ba2bf1a8e99f9fea2474bac5b87a269d309f1d8fb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 4931989,
+      "sha256": "af3d00793136d6301ef47736bb1614180ce32731d9598c6733c0ead899f84d3e",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/flower/chkpnt10000.pth",
+      "bytes": 180955228,
+      "sha256": "f5b259bb91e563c846d5c57a903901feedb5d0f4b5fb21ddd50ed5815c89ab79",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 690,
+      "sha256": "b6e06eb2e0771b59bdca35314da8c7349dab0170938011e7c6d5be0c5d4902ab",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/flower/metrics/summary.json",
+      "source": "output/llff/DNGaussian/metrics/public_common_eval.json",
+      "bytes": 260,
+      "sha256": "47b5c831f0ec2d7adcf04a444e2f0612be038eaee5f044f1f5f15afe5b7d91ba",
+      "publish_on_git": true
+    }
+  ]
+}

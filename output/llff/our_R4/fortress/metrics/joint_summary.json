@@ -1,0 +1,43 @@
+{
+  "iterations": 10000,
+  "pseudo_update_interval": 200,
+  "scheduled_updates": 38,
+  "pseudo_update_attempts": 38,
+  "pseudo_labels_generated": 228,
+  "predictor_calls": 228,
+  "pseudo_training_steps": 2289,
+  "pseudo_rgb_used_steps": 2289,
+  "pseudo_depth_used_steps": 2289,
+  "anchor_camera_id": 0,
+  "target_camera_id": 0,
+  "target_camera_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "target_camera_count": 6,
+  "target_camera_source": "test",
+  "target_pose_file": null,
+  "target_camera_names": [
+    "IMG_1800",
+    "IMG_1808",
+    "IMG_1816",
+    "IMG_1824",
+    "IMG_1832",
+    "IMG_1840"
+  ],
+  "pseudo_rgb_weight": 0.35,
+  "pseudo_depth_weight": 0.01,
+  "pseudo_history_mode": "accumulate",
+  "pseudo_history_size": 228,
+  "pseudo_training_mode": "difix",
+  "pseudo_real_probability": 0.7,
+  "pseudo_pose_step": 0.5,
+  "depth_conversion": "1 - predictor_depth01",
+  "training_seconds": 701.8531990220072,
+  "mean_iteration_seconds": 0.07018531990220071,
+  "checkpoint": "/data/lilinwei/3D/A_our_denoiser/20261002_164657_train_rgbdepth_teacher_perimg/checkpoint/iter_014000"
+}

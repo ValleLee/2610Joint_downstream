@@ -1,0 +1,25 @@
+{
+  "scene": "flower",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/flower",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/flower",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "IMG_2963.JPG",
+    "IMG_2979.JPG",
+    "IMG_2995.JPG"
+  ],
+  "fsgs_test_names": [
+    "IMG_2962.JPG",
+    "IMG_2970.JPG",
+    "IMG_2978.JPG",
+    "IMG_2986.JPG",
+    "IMG_2994.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/flower/3_views/dense/fused.ply",
+  "points_written": 7758,
+  "points_total": 23477,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/flower/poses_bounds.npy"
+}

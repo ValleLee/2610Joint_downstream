@@ -1,0 +1,107 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "fortress",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/DNGaussian/fortress/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/eval/ours_10000/renders/00000.png",
+      "bytes": 1045794,
+      "sha256": "7634264f9b3d4280785bceee31bcf2f6b867ed17077a734237bff7e6729961ef",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/eval/ours_10000/renders/00001.png",
+      "bytes": 1086095,
+      "sha256": "b0a599a8719534b294ea5ca68dc2f56150b60c7a2f840c69b6c2f988fcc58caa",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/eval/ours_10000/renders/00002.png",
+      "bytes": 1076979,
+      "sha256": "cdea15a8dd058cca65d0cca4bf1edb2132f1c53ed831c049f634ce9930b793e2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/eval/ours_10000/renders/00003.png",
+      "bytes": 1003536,
+      "sha256": "03f7b42c2baefec7b4a2dbc8ab182adde2ed23bc44a3dd45ac0a0bbf55ec73b1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/eval/ours_10000/renders/00004.png",
+      "bytes": 1004062,
+      "sha256": "a5c9b5b223b175f1a56e24547f65c626e2ff4a91cd9868f18b0bddf79dc4312e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/renders/00005.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/eval/ours_10000/renders/00005.png",
+      "bytes": 1011629,
+      "sha256": "708d9aee04548e3a38cc1cb55e495caa5b34ee6881ce04c7abd95b05568d515d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/cfg_args",
+      "bytes": 324,
+      "sha256": "6a68cb05b0d376cc505b7a83eac765333adf87191639badfda8ec09a0529cc51",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/cameras.json",
+      "bytes": 19524,
+      "sha256": "e78c1944bd4df6730110c8e138c6c0245934dc94d9fa037608453ae32691ec5c",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/data_split.json",
+      "bytes": 1360,
+      "sha256": "bce66f2915d5a11d86c035f65860d38949941badf370193b89b55919e77c490e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 4026693,
+      "sha256": "c3b7c573917ebbdf34fe8006985f48f838b0df2fd62dda56dfea690a60360112",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/fortress/chkpnt10000.pth",
+      "bytes": 172760092,
+      "sha256": "e6c75b73a0e4fb8adb5d3295f6e2f522e5b3e59541583e1edcd4b2d4377ae697",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 714,
+      "sha256": "efe6cbefb498b4fb7f3e953ebffa83ddb4c28ad5577c1b41e4091ae40294a315",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/fortress/metrics/summary.json",
+      "source": "output/llff/DNGaussian/metrics/public_common_eval.json",
+      "bytes": 264,
+      "sha256": "ab3379157bf7dd42b685314b1d8b06d95ddc619ca21256a4c7c763fbda1330fb",
+      "publish_on_git": true
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "flower",
+  "main_table": true,
+  "rgb_render_count": 5,
+  "files": [
+    {
+      "path": "output/llff/Difix3D_60k/flower/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/eval/ours_60000/renders/00000.png",
+      "bytes": 1258091,
+      "sha256": "8f8e052efc863230a1481bd9db0673c27a3bd6e02f86ff2da17690d7e7588259",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/eval/ours_60000/renders/00001.png",
+      "bytes": 1059940,
+      "sha256": "442727ccb86eb1cf4621b9fe85d478cb2a244a64a59e693729bbb860305a0924",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/eval/ours_60000/renders/00002.png",
+      "bytes": 1248009,
+      "sha256": "2198e46492345cd084f9a472a1bd3dff1147c589779a09d8629eec3e5a8746ed",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/eval/ours_60000/renders/00003.png",
+      "bytes": 1077231,
+      "sha256": "2a9c924f24950f2c23d639841b3ff18ac051d86f06db222b800343d03e9b4ec3",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/eval/ours_60000/renders/00004.png",
+      "bytes": 1245853,
+      "sha256": "f3118f4020319e860f4a276fbfa1bd2a958c46d01d11a4ba457960d1faf0cf6e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/config/cfg.yml",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/cfg.yml",
+      "bytes": 1985,
+      "sha256": "cc3928512288ab8208312335f4980879ef7b698ffd809a26ef0a13dc227de455",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/point_cloud/iteration_60000/point_cloud.ply",
+      "bytes": 158786011,
+      "sha256": "9d485404f1bd6c5efa0b9d1a3987123fb6ca1e06679aacdf9af0684878900d40",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/checkpoints/ckpt_60000_rank0.pt",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/flower/ckpt_60000_rank0.pt",
+      "bytes": 151103842,
+      "sha256": "5c018402ca638e909cd6dc94049cd61d3e09947d66c4d1afa84a7ef0b500939a",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 694,
+      "sha256": "5f120eb604b7909ebb950ba4fc72c7693f9d3a3e499345b2fbd3e1588b77f26c",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/flower/metrics/summary.json",
+      "source": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json",
+      "bytes": 269,
+      "sha256": "c7a1427041d6aedf2e146fe9937bb8b6e7122f2c183f0af86ad6b325137bbb72",
+      "publish_on_git": true
+    }
+  ]
+}

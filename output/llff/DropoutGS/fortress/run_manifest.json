@@ -1,0 +1,26 @@
+{
+  "assembled_manifest": true,
+  "dataset": "LLFF",
+  "method": "DropoutGS",
+  "scene": "fortress",
+  "seed": 2024,
+  "iterations": 10000,
+  "training_rgb_count": 3,
+  "evaluation_rgb_count": 6,
+  "train_names": [
+    "IMG_1801.JPG",
+    "IMG_1821.JPG",
+    "IMG_1841.JPG"
+  ],
+  "test_names": [
+    "IMG_1800.JPG",
+    "IMG_1808.JPG",
+    "IMG_1816.JPG",
+    "IMG_1824.JPG",
+    "IMG_1832.JPG",
+    "IMG_1840.JPG"
+  ],
+  "initial_cloud_sha256": "8ed7a80c6e1a1610ca801547bb2c7451bf80683aaa3bf519c67c9608e877308f",
+  "source_config": "code/compare/DropoutGS/llff_mvs10k/config/experiment_config.json",
+  "source_output": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/fortress"
+}

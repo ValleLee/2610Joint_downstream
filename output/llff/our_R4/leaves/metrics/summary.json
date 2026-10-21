@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "leaves",
+  "evaluated_views": 4,
+  "PSNR": 16.97786235809326,
+  "SSIM": 0.5249529629945755,
+  "LPIPS": 0.3120340034365654,
+  "derived_from": "output/llff/our_R4/leaves/metrics/per_view.json"
+}

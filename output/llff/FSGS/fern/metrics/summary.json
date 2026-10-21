@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "fern",
+  "evaluated_views": 3,
+  "PSNR": 20.40280278523763,
+  "SSIM": 0.6724907358487447,
+  "LPIPS": 0.2745360533396403,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "fern",
+  "evaluated_views": 3,
+  "PSNR": 15.610315640767416,
+  "SSIM": 0.531737893819809,
+  "LPIPS": 0.41423744956652325,
+  "derived_from": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json"
+}

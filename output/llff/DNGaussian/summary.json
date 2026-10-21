@@ -1,0 +1,20 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "macro": {
+    "PSNR": 19.377019269409633,
+    "SSIM": 0.6594836244714402,
+    "LPIPS": 0.2831020678304845
+  },
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

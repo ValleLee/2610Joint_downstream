@@ -1,0 +1,24 @@
+{
+  "assembled_manifest": true,
+  "dataset": "LLFF",
+  "method": "DNGaussian",
+  "scene": "orchids",
+  "seed": 2024,
+  "iterations": 10000,
+  "training_rgb_count": 3,
+  "evaluation_rgb_count": 4,
+  "train_names": [
+    "IMG_4468.JPG",
+    "IMG_4479.JPG",
+    "IMG_4490.JPG"
+  ],
+  "test_names": [
+    "IMG_4467.JPG",
+    "IMG_4475.JPG",
+    "IMG_4483.JPG",
+    "IMG_4491.JPG"
+  ],
+  "initial_cloud_sha256": "0f50da0633ec38d2eda47850b0a2bdd7f5d1e36a09a8a68850c9181e4acaf522",
+  "source_config": "code/compare/DNGaussian/llff_mvs10k/config/experiment_config.json",
+  "source_output": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/orchids"
+}

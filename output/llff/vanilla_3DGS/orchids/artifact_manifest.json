@@ -1,0 +1,65 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "orchids",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/renders/IMG_4467.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/orchids/renders/IMG_4467.png",
+      "bytes": 1432879,
+      "sha256": "0a12c9bef38c4141d2cf6d82ff492cb64b8df997ba799789d179f5a681406f05",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/renders/IMG_4475.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/orchids/renders/IMG_4475.png",
+      "bytes": 1449862,
+      "sha256": "21fc9084586ced35d337789f834f5004fda0bc3447ee86d01c735404bbc7e917",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/renders/IMG_4483.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/orchids/renders/IMG_4483.png",
+      "bytes": 1425153,
+      "sha256": "833122b70eba39bb87af99479d4426ab92b9fa9d18b0df6b8bda0fd5665e86a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/renders/IMG_4491.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/orchids/renders/IMG_4491.png",
+      "bytes": 1458453,
+      "sha256": "33a5239763e7c8342a883bdea0f972b841ffafb757854a7266ee4bb709cf2047",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/run_manifest.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/orchids/run_manifest.json",
+      "bytes": 4031,
+      "sha256": "a23a09de6815b6988952e3547ecdae7c821615645d841fdff663122af78013f9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/orchids/cfg_args",
+      "bytes": 268,
+      "sha256": "2742edd41b12f10d87467adb1b05ef77647f074c3e932ec915b7d1b0e94cebcf",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/point_cloud/final_point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/orchids/final_point_cloud.ply",
+      "bytes": 62370803,
+      "sha256": "982fcf1efe04ba57fae5c833b99205ae4f57a48ec3a780e1e0ebbc414465674b",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/orchids/metrics/summary.json",
+      "source": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json",
+      "bytes": 274,
+      "sha256": "c0a18e102d5608d1145fe2f589e27c7ab7119f397d8dd07e377b1c5d60236952",
+      "publish_on_git": true
+    }
+  ]
+}

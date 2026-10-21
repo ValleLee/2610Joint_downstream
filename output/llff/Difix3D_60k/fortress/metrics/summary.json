@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "fortress",
+  "evaluated_views": 6,
+  "PSNR": 20.464385986328125,
+  "SSIM": 0.5802017350991567,
+  "LPIPS": 0.2690909554560979,
+  "derived_from": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json"
+}

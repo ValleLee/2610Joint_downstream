@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "room",
+  "evaluated_views": 6,
+  "PSNR": 21.204405784606934,
+  "SSIM": 0.8552950819333395,
+  "LPIPS": 0.18258487929900488,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

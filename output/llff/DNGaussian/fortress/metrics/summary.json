@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "fortress",
+  "evaluated_views": 6,
+  "PSNR": 22.37204933166504,
+  "SSIM": 0.7147965232531229,
+  "LPIPS": 0.24468094110488892,
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "flower",
+  "main_table": true,
+  "rgb_render_count": 5,
+  "files": [
+    {
+      "path": "output/llff/FSGS/flower/renders/IMG_2962.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/eval/ours_10000/renders/IMG_2962.png",
+      "bytes": 1094530,
+      "sha256": "77afade1cadc6c204b3c141ca9f6883123b6d2a7a5e24ced66bc242822448fdd",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/renders/IMG_2970.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/eval/ours_10000/renders/IMG_2970.png",
+      "bytes": 1061607,
+      "sha256": "4d2ef1127fae1b85b02f66b2830a56cc3f2666c8687412c3e3056a22576cdf2b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/renders/IMG_2978.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/eval/ours_10000/renders/IMG_2978.png",
+      "bytes": 1086253,
+      "sha256": "160de1d71b95d08f70fb9e0ba980ca22462ecf65d2ab5a59229470aa29a713da",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/renders/IMG_2986.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/eval/ours_10000/renders/IMG_2986.png",
+      "bytes": 1050421,
+      "sha256": "0017d97e742d27cfc713851c0962aa095e511df2f586a529865d12dec5ae3f52",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/renders/IMG_2994.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/eval/ours_10000/renders/IMG_2994.png",
+      "bytes": 1077785,
+      "sha256": "aafe97672548d0475304393198bcc99434f1cef7bcab32123ef678472fdd1dfd",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/cfg_args",
+      "bytes": 265,
+      "sha256": "f989f243fea1ded7fef8042b56b276a6e174ec88c9a2b1d218021edbd9bdb31f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/cameras.json",
+      "bytes": 3237,
+      "sha256": "b4a4ae4c44e728f02f93066511c84000a7d2ed9256ecc1b0cb6f17ff87527d2d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/data_split.json",
+      "bytes": 1324,
+      "sha256": "11f0576aded0b88a9008f19ba2bf1a8e99f9fea2474bac5b87a269d309f1d8fb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 125153987,
+      "sha256": "95e08fff0ae819d30b5d1341f0f297453cf5e0a315028eeb2d56029365ce54b5",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/flower/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/flower/chkpnt10000.pth",
+      "bytes": 363354497,
+      "sha256": "0d47f62932058e14fbd97e860b466acf6bd1c4d0a6ff23b496aaab1bdf3f48e2",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/flower/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 672,
+      "sha256": "61882db308ef629a0ad4bc246ef14e18f2e83ed21674604df1075a00e51cf905",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/flower/metrics/summary.json",
+      "source": "output/llff/FSGS/metrics/public_common_eval.json",
+      "bytes": 250,
+      "sha256": "d616590f138acd4c8fc6bea3a9f6547a04ec187247e4825bf3508d0bb8132220",
+      "publish_on_git": true
+    }
+  ]
+}

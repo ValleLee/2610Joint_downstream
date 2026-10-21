@@ -1,0 +1,66 @@
+{
+  "source_output_reference": "/data/lilinwei/3D/baselines/output/1009_fsgs_mvs_mipnerf",
+  "execution_isolation": {
+    "experiment_output": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output",
+    "1009_reference_scripts": "copied for inspection and protected from direct execution so they cannot write into the 1009 output directory",
+    "baseline_repositories_modified": false
+  },
+  "methods": {
+    "FSGS": {
+      "source": "/data/lilinwei/3D/D23E/Aref/FSGS",
+      "revision": "a536a64c5b366b1088be64eeadf9e791ca26897c",
+      "copy": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/code/methods/FSGS",
+      "license_file": "LICENSE.md"
+    },
+    "CoR-GS": {
+      "source": "/data/lilinwei/3D/baselines/CoR-GS",
+      "revision": "1db13a4da6ef6dd61da674d87d76cc342572badf",
+      "copy": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/code/methods/CoR-GS",
+      "license_file": "LICENSE.md"
+    },
+    "DropoutGS": {
+      "source": "/data/lilinwei/3D/baselines/DropoutGS",
+      "revision": "5ff8d1ae469970f924de4eca8d3498333d6f3214",
+      "copy": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/code/methods/DropoutGS",
+      "license_file": "LICENSE.md"
+    },
+    "DNGaussian": {
+      "source": "/data/lilinwei/3D/baselines/DNGaussian",
+      "revision": "22a588c74db48e587294451005a05b156435b3d2",
+      "copy": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/code/methods/DNGaussian",
+      "license_file": "LICENSE.md"
+    },
+    "Difix3D": {
+      "source": "/data/lilinwei/3D/baselines/Difix3D",
+      "revision": "c76edc595586e16732c91ddee82f3a6d83a8a9cc",
+      "copy": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/code/methods/Difix3D",
+      "license_file": "LICENSE.txt"
+    }
+  },
+  "seed_policy": {
+    "target_seed": 2024,
+    "patched_copies_only": true,
+    "notes": {
+      "FSGS": "safe_state hardcoded 1 -> BASELINE_SEED",
+      "CoR-GS": "seed_everything(42) and safe_state(1) -> BASELINE_SEED",
+      "DropoutGS": "Python/NumPy/Torch hardcoded 0 -> BASELINE_SEED",
+      "DNGaussian": "Python/NumPy/Torch hardcoded 0 -> BASELINE_SEED",
+      "Difix3D": "uses adapter --seed 2024; copied adapter config under methods/Difix3D/configs/difix10k",
+      "our_method": "R4 safe_state in the parent has seed=1; local utils copy at r4_support/utils/general_utils.py reads BASELINE_SEED, and copied DTU entrypoint inserts r4_support before the parent code path."
+    }
+  },
+  "dtu_protocol_adapters": {
+    "camera_split": "CoR-GS/DNGaussian/DropoutGS copied readers consume frozen dtu_overlay_manifest.json: 3 train and 31 eval views",
+    "depth_dtype": "DNGaussian/DropoutGS copied PIL converters normalize uint16 MiDaS priors by 65535",
+    "r4_teacher": "local Marigold base at /data/lilinwei/3D/D23E/checkpoints and 0930jointR code; eight pose-only external targets use difix mode",
+    "disabled_gpu": 6
+  },
+  "preexisting_source_worktree_state": {
+    "CoR-GS": "clean tracked files at inspection; only run/ and compiled extension outputs were untracked",
+    "DropoutGS": "train_llff_mvs.py had pre-existing modifications; run/ and compiled/cache files untracked",
+    "DNGaussian": "diff-gaussian-rasterization/, run/, and compiled/cache files untracked",
+    "Difix3D": "examples/gsplat/datasets/colmap.py had pre-existing modifications; two planning markdown files, weights/, run/, and cache files untracked",
+    "FSGS": "only compiled extension outputs untracked",
+    "note": "All source paths were read/copied only. This experiment has not written to the baseline repositories."
+  }
+}

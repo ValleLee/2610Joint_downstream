@@ -1,0 +1,97 @@
+{
+  "name": "Graphdeco original 3DGS, three-view shared MVS initialization",
+  "date": "2026-10-20",
+  "datasets": {
+    "DTU": {
+      "scenes": [
+        "scan8",
+        "scan21",
+        "scan30",
+        "scan31",
+        "scan34",
+        "scan38",
+        "scan40",
+        "scan41",
+        "scan45",
+        "scan55",
+        "scan63",
+        "scan82",
+        "scan103",
+        "scan110",
+        "scan114"
+      ],
+      "training_views": 3,
+      "evaluation_views_per_scene": 25,
+      "evaluation_protocol": "CoR-GS source-code official 25 test views; per-object mask PSNR, white-background 3DGS SSIM and VGG LPIPS",
+      "shared_initialization_root": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/initialization",
+      "canonical_gt_root": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/output/ground_truth",
+      "masks": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/eval_masks/corgs_25view_masks.zip"
+    },
+    "LLFF": {
+      "scenes": [
+        "fern",
+        "flower",
+        "fortress",
+        "horns",
+        "leaves",
+        "orchids",
+        "room",
+        "trex"
+      ],
+      "training_views": 3,
+      "evaluation_views_total": 43,
+      "evaluation_protocol": "FSGS/NeRF LLFF holdout, every 8th image; canonical images_4 pixels; public common PSNR/skimage SSIM/VGG LPIPS",
+      "source_root": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data",
+      "shared_initialization_root": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs"
+    }
+  },
+  "method": {
+    "source_repository": "https://github.com/graphdeco-inria/gaussian-splatting",
+    "source_local": "/data/lilinwei/3D/gaussian-splatting",
+    "source_commit": "54c035f",
+    "iterations": 10000,
+    "seed": 2024,
+    "resolution": "images_4, resolution 1 (native 1/4 images)",
+    "loss": "vanilla RGB L1 + DSSIM; no depth/pseudo-view/CoR/Difix loss",
+    "optimizer_and_densification": "Graphdeco defaults, with position_lr_max_steps=10000 and densify_until_iter=10000",
+    "gpu_pool": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "excluded_gpu": 6,
+    "parallelism": "one serial per-GPU worker per screen session; up to seven GPU workers",
+    "optimization_defaults": {
+      "sh_degree": 3,
+      "position_lr_init": 0.00016,
+      "position_lr_final": 1.6e-06,
+      "position_lr_delay_mult": 0.01,
+      "position_lr_max_steps": 10000,
+      "feature_lr": 0.0025,
+      "opacity_lr": 0.025,
+      "scaling_lr": 0.005,
+      "rotation_lr": 0.001,
+      "percent_dense": 0.01,
+      "lambda_dssim": 0.2,
+      "densification_interval": 100,
+      "opacity_reset_interval": 3000,
+      "densify_from_iter": 500,
+      "densify_until_iter": 10000,
+      "densify_grad_threshold": 0.0002,
+      "random_background": false,
+      "white_background": false,
+      "optimizer_type": "default Adam"
+    },
+    "training_arguments_file_per_scene": "output/<dataset>/<scene>/cfg_args"
+  },
+  "randomness": "Graphdeco safe_state's original fixed seed 0 is changed only in the experiment copy to 2024; Python random, NumPy, and Torch share the same seed.",
+  "storage": {
+    "temporary_root": "/tmp/lilinwei/1007fsgsmvs_3dgs",
+    "persistent_root": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS",
+    "retain": "code, split/init manifests, initial/final PLY, final test renders, logs, metrics, Chinese analysis"
+  }
+}

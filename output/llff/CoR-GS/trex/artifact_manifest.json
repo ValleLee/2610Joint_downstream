@@ -1,0 +1,114 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "trex",
+  "main_table": true,
+  "rgb_render_count": 7,
+  "files": [
+    {
+      "path": "output/llff/CoR-GS/trex/renders/DJI_20200223_163548_810.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/eval/ours_10000/renders/DJI_20200223_163548_810.png",
+      "bytes": 841949,
+      "sha256": "8e61c111a101c195ab71817c7cbc65e55cfed1c5c5dfdd9c7883d44f905a67a1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/renders/DJI_20200223_163557_660.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/eval/ours_10000/renders/DJI_20200223_163557_660.png",
+      "bytes": 926485,
+      "sha256": "89d4e76734f4130e819958715d004f6ab46216bb200eb081ad9e19d4dff39a79",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/renders/DJI_20200223_163604_605.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/eval/ours_10000/renders/DJI_20200223_163604_605.png",
+      "bytes": 911401,
+      "sha256": "e7179c09ce07fe102836e511339a72b1c4f4cf8835b1af8d4ab280416d81b20d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/renders/DJI_20200223_163611_160.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/eval/ours_10000/renders/DJI_20200223_163611_160.png",
+      "bytes": 987803,
+      "sha256": "e55c50cb70b19ac0af770cad11dd4cf05ff1ca91492018a41fd5825d68aa2594",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/renders/DJI_20200223_163620_700.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/eval/ours_10000/renders/DJI_20200223_163620_700.png",
+      "bytes": 919855,
+      "sha256": "64cce9305fb86f3dfa0fbc08d6a46d5cd9322d84efc64d76e86f7f98c0ce9aad",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/renders/DJI_20200223_163639_916.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/eval/ours_10000/renders/DJI_20200223_163639_916.png",
+      "bytes": 888438,
+      "sha256": "bbf197d6b9001059014df905217b0a485b91d7dced68bbd44e56311929e71046",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/renders/DJI_20200223_163646_755.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/eval/ours_10000/renders/DJI_20200223_163646_755.png",
+      "bytes": 920766,
+      "sha256": "c6008461fcc40d2a8c5d31d8ed505b0fb17475b8a385bfb42edd8653c644c7a4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/cfg_args",
+      "bytes": 297,
+      "sha256": "d61537e0c91e4f13cbdb7e9eb83ac50f97cd13319a7f56a77698ddaf90ee56d5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/cameras.json",
+      "bytes": 4206,
+      "sha256": "1cf9ed651e0cf467ca35b835590e53ef6c330909d57f87e45781554ec7f512ef",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/data_split.json",
+      "bytes": 1502,
+      "sha256": "77deeee310fd0e7afd72416d83374d61ef4817e8b4effdf731a500244b1acaea",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 18493898,
+      "sha256": "61f1c302c3000b0d02923eb8c5b8cec9a7b033e0035b089a8eb2f47151a6975e",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/point_cloud/point_cloud_gs2.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/point_cloud_gs2/iteration_10000/point_cloud.ply",
+      "bytes": 18672954,
+      "sha256": "d313d9ddbe3a7fe31d2faabc894d50be47188c8a76966571f31e2cf0b72abbc2",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/trex/chkpnt10000.pth",
+      "bytes": 53695816,
+      "sha256": "d9f6e97f273b09e08937e6c35b65affdf36d0cd15159204acf76fdce795a72ee",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 864,
+      "sha256": "f6920ad58d15f8fdc1c665ef59cfd0abd397b7fb1111ad61e137200cbed03765",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/trex/metrics/summary.json",
+      "source": "output/llff/CoR-GS/metrics/public_common_eval.json",
+      "bytes": 252,
+      "sha256": "cfa7e79382de0613ba454e9e34beec99a2b91b806fef61fc6169485ea72ba890",
+      "publish_on_git": true
+    }
+  ]
+}

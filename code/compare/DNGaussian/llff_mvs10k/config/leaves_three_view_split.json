@@ -1,0 +1,24 @@
+{
+  "scene": "leaves",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/leaves",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/leaves",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "IMG_2998.JPG",
+    "IMG_3010.JPG",
+    "IMG_3023.JPG"
+  ],
+  "fsgs_test_names": [
+    "IMG_2997.JPG",
+    "IMG_3006.JPG",
+    "IMG_3014.JPG",
+    "IMG_3022.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/leaves/3_views/dense/fused.ply",
+  "points_written": 2047,
+  "points_total": 3294,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/leaves/poses_bounds.npy"
+}

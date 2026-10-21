@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "leaves",
+  "evaluated_views": 4,
+  "PSNR": 16.214433431625366,
+  "SSIM": 0.531737357378006,
+  "LPIPS": 0.28580885380506516,
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "macro": {
+    "PSNR": 14.479880735703876,
+    "SSIM": 0.48183832535786286,
+    "LPIPS": 0.41554871294203966
+  },
+  "derived_from": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "room",
+  "evaluated_views": 6,
+  "PSNR": 20.579467455546062,
+  "SSIM": 0.8292618294556936,
+  "LPIPS": 0.21491476893424988,
+  "derived_from": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json"
+}

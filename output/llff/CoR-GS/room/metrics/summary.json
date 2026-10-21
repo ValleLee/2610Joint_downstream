@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "room",
+  "evaluated_views": 6,
+  "PSNR": 21.3990904490153,
+  "SSIM": 0.8658254047234853,
+  "LPIPS": 0.16811328381299973,
+  "derived_from": "output/llff/CoR-GS/metrics/public_common_eval.json"
+}

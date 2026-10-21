@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "trex",
+  "evaluated_views": 7,
+  "PSNR": 20.854027339390345,
+  "SSIM": 0.7799319284302848,
+  "LPIPS": 0.23075867124966212,
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

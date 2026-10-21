@@ -1,0 +1,100 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "flower",
+  "main_table": true,
+  "rgb_render_count": 5,
+  "files": [
+    {
+      "path": "output/llff/our_R4/flower/renders/IMG_2962.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/test/ours_10000/renders/IMG_2962.png",
+      "bytes": 1091981,
+      "sha256": "fca287a1d02b1be4155606e3675e7ff4352e0d7178ec969bd507480410aea3f4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/renders/IMG_2970.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/test/ours_10000/renders/IMG_2970.png",
+      "bytes": 834655,
+      "sha256": "33dc25748f653506b6620fc97a829f89c7091b612f27d9b81ea4e62f2cf990d9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/renders/IMG_2978.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/test/ours_10000/renders/IMG_2978.png",
+      "bytes": 1101882,
+      "sha256": "2e56f768b263ca526707c0cee05e2db060adfbdcf7292d5cb5b69bcee3ac91db",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/renders/IMG_2986.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/test/ours_10000/renders/IMG_2986.png",
+      "bytes": 831223,
+      "sha256": "3f26a32ca77080c6a8cdf8dd41caf6b40a79ab4414529a24319f4fe2987a201a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/renders/IMG_2994.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/test/ours_10000/renders/IMG_2994.png",
+      "bytes": 1052776,
+      "sha256": "805c5809022a5bd74b7555b6626a644c26469bfe79c78914e87b61318c21e7b0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/cfg_args",
+      "bytes": 241,
+      "sha256": "80244cfb367263057ce6444265b87f770f58f1e5c768c0e4c8e724cd8d827cb0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/cameras.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/cameras.json",
+      "bytes": 3237,
+      "sha256": "b4a4ae4c44e728f02f93066511c84000a7d2ed9256ecc1b0cb6f17ff87527d2d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/metrics/joint_summary.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/joint_summary.json",
+      "bytes": 1076,
+      "sha256": "d9b6954a20b9e5698be3d0f067d22a5187c155b1497ee0f56256f0fc90fd4f50",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/metrics/per_view.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/per_view.json",
+      "bytes": 654,
+      "sha256": "73b5f42f996f74e5952b2c29606bb7e43fb5632046f9f35ea817556be92a1bd3",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/metrics/results.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/results.json",
+      "bytes": 113,
+      "sha256": "1f6f94a7b42175c89e26fe294037e64aaae1808915c70d73e6006a82945629e5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/flower/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 120345267,
+      "sha256": "a59dc857ae8ff24b15bb18d70d5b242dfb3bedd007becf8b59946c09b7ddccd6",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/our_R4/flower/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 623,
+      "sha256": "41cdffb60125e501d0fa0dc3f4ed1f37651c495857eaa3274e4fbb04e0395ccb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/flower/metrics/summary.json",
+      "source": "output/llff/our_R4/flower/metrics/per_view.json",
+      "bytes": 251,
+      "sha256": "d54bb5aae1d7dc58f519ae85dd25208155e7abc425d66da3a49568fa48b506e7",
+      "publish_on_git": true
+    }
+  ]
+}

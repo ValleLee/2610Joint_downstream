@@ -1,0 +1,23 @@
+{
+  "scene": "fern",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/fern",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fern",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "IMG_4027.JPG",
+    "IMG_4036.JPG",
+    "IMG_4045.JPG"
+  ],
+  "fsgs_test_names": [
+    "IMG_4026.JPG",
+    "IMG_4034.JPG",
+    "IMG_4042.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fern/3_views/dense/fused.ply",
+  "points_written": 3928,
+  "points_total": 10091,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fern/poses_bounds.npy"
+}

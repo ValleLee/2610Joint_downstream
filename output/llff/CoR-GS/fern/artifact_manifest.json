@@ -1,0 +1,86 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "fern",
+  "main_table": true,
+  "rgb_render_count": 3,
+  "files": [
+    {
+      "path": "output/llff/CoR-GS/fern/renders/IMG_4026.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/eval/ours_10000/renders/IMG_4026.png",
+      "bytes": 1050573,
+      "sha256": "8d6c8ed986fdc277f961b2b8151cdb9d5d9f2c660360547c4468a57a313a0e1d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/renders/IMG_4034.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/eval/ours_10000/renders/IMG_4034.png",
+      "bytes": 1022457,
+      "sha256": "c007c69d2c1e8daa9d2356ed614b91825276f1111cad2758e7127b50a8fa5742",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/renders/IMG_4042.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/eval/ours_10000/renders/IMG_4042.png",
+      "bytes": 1049664,
+      "sha256": "7516c06aec3bc9cfca33a8f19450b0ea6fddd5d812bd564736f14005d9da7670",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/cfg_args",
+      "bytes": 297,
+      "sha256": "70850a0aeeedcb0cf497e248aeafd5fdc1412e176dde8f9de90d1b73c0a68e29",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/cameras.json",
+      "bytes": 2422,
+      "sha256": "0be6235be330e8e6b46bb0f1ca6f2bccb5d7316714dedcabcccc536e62ff0d89",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/data_split.json",
+      "bytes": 1271,
+      "sha256": "d918971e74a7a143b94b30912ef951d7fe5470bc92cb9da72a489e39441ca703",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 26207443,
+      "sha256": "56feaf38a8b01726e62047b7321d79ae1025797df936f7feeac64c5a0503c80c",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/point_cloud/point_cloud_gs2.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/point_cloud_gs2/iteration_10000/point_cloud.ply",
+      "bytes": 26013755,
+      "sha256": "14618b09066057dd73e0312fc7cac33d3aef75faf8916397c2164d27abe76c2e",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/fern/chkpnt10000.pth",
+      "bytes": 76090184,
+      "sha256": "9300023a850b53057e2548a4f4d0f85274b3b5c30a1ea92e9d4caa9a1f657ae2",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 634,
+      "sha256": "4b231653d4020c3b7e11233cf4b5108fde2e6118f12de65a1642345698a64fa2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/fern/metrics/summary.json",
+      "source": "output/llff/CoR-GS/metrics/public_common_eval.json",
+      "bytes": 252,
+      "sha256": "9df7b224b8cd4a961a5b7a06bb7a8c406e85836ae8db6979f160642250a1ea48",
+      "publish_on_git": true
+    }
+  ]
+}

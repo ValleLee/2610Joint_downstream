@@ -1,0 +1,195 @@
+{
+  "recorded_at": "2026-10-22 04:53:46 Asia/Shanghai",
+  "method_name": "面向稀疏视角三维重建的先验学习与引导优化研究",
+  "note": "Byte-for-byte copies of the four source documents, upstream figures, and numerical evidence. Text snapshots retain original relative-link text as provenance; the integrated reference uses package-local image and evidence links.",
+  "files": [
+    {
+      "kind": "source_document_snapshot",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/docs/results_for_paper/EXPERIMENT_REFERENCE_20261022_040857.md",
+      "asset": "source_docs/downstream_experiments.txt",
+      "bytes": 34351,
+      "sha256": "c9899ed3dbacd5127724eecd5d8ebf4507555e6f0f419c14ad40563741c3503d"
+    },
+    {
+      "kind": "source_document_snapshot",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/docs/JOINT_PREDICTOR_3DGS_METHOD.md",
+      "asset": "source_docs/downstream_method.txt",
+      "bytes": 19517,
+      "sha256": "db6a9e0ac08ff7e62a32f449190dfcc918253ba42a262eee3f812cdf0245bef8"
+    },
+    {
+      "kind": "source_document_snapshot",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/results.md",
+      "asset": "source_docs/upstream_results.txt",
+      "bytes": 11729,
+      "sha256": "dcb6b069aff473f314b79f5c4ff94ac22c7e1d2917426f43b9af268604478b45"
+    },
+    {
+      "kind": "source_document_snapshot",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/method.md",
+      "asset": "source_docs/upstream_method.txt",
+      "bytes": 8404,
+      "sha256": "0df3c3db56832c76b9e5837cd87f4767b30fa61a7ae1a0854a817a8eee093f4b"
+    },
+    {
+      "kind": "unmodified_figure_copy",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/figures/validation_mse.png",
+      "asset": "upstream_figures/validation_mse.png",
+      "bytes": 105473,
+      "sha256": "890039d3e3aff6bcbe07bc0808b402be8c6e509c4a20dea4f8e114427a38d52e"
+    },
+    {
+      "kind": "unmodified_figure_copy",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/figures/garden_rgb.png",
+      "asset": "upstream_figures/garden_rgb.png",
+      "bytes": 4472756,
+      "sha256": "36553c8b3b0f43aac14992f4b44027adc5e38f35c4fa6265c2817df7cab048d8"
+    },
+    {
+      "kind": "unmodified_figure_copy",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/figures/sculpture_rgb.png",
+      "asset": "upstream_figures/sculpture_rgb.png",
+      "bytes": 3367771,
+      "sha256": "aee693ce1c3ec5c05e13fb63f3130b2a7a0ed6b9bf96da830a99d5b70c6e06e2"
+    },
+    {
+      "kind": "unmodified_figure_copy",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/figures/garden_depth.png",
+      "asset": "upstream_figures/garden_depth.png",
+      "bytes": 3129184,
+      "sha256": "c7068c6a1762df3a039764ce5731b9123430f4876f7ab666afc765190b7bf612"
+    },
+    {
+      "kind": "unmodified_figure_copy",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/figures/sculpture_depth.png",
+      "asset": "upstream_figures/sculpture_depth.png",
+      "bytes": 2127271,
+      "sha256": "de7f05cafbcfb7c561cc00e062264d0414f56e2f420fc1019a968a4e456e6e92"
+    },
+    {
+      "kind": "unmodified_figure_copy",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/figures/garden_depth_vs_da.png",
+      "asset": "upstream_figures/garden_depth_vs_da.png",
+      "bytes": 3509507,
+      "sha256": "92aa11bddf3686350b963b9f94998658fd6412c6b7f3634d22424010256b9a46"
+    },
+    {
+      "kind": "unmodified_figure_copy",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/figures/sculpture_depth_vs_da.png",
+      "asset": "upstream_figures/sculpture_depth_vs_da.png",
+      "bytes": 2387515,
+      "sha256": "0a4260ca8d941c38c2a84ed92cc628c7f3ceae0e5ba9147b5578cef6b77e1c19"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/evidence/validation_metrics.csv",
+      "asset": "evidence/upstream_validation_metrics.csv",
+      "bytes": 1419,
+      "sha256": "fc20e13a0b34bc835adfd4cde805cde39d8ff2a27d9f20789780414bb475afbf"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/evidence/da_comparison_100.csv",
+      "asset": "evidence/upstream_da_comparison_100.csv",
+      "bytes": 16853,
+      "sha256": "44c35ea65b8ceb8726707b71ec6aeced28ad0ecdf01fbefbc75db6266fed61fa"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/evidence/da_comparison_100_summary.json",
+      "asset": "evidence/upstream_da_comparison_100_summary.json",
+      "bytes": 544,
+      "sha256": "452f6ca02605d294c3882bf475355d0ec2dc4033b229103aed0ebbff7d6301e9"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/evidence/run_config.yaml",
+      "asset": "evidence/upstream_run_config.yaml",
+      "bytes": 5474,
+      "sha256": "5280bd0ba44b5009819e42f3480e66c471b569bcbd4ffebb0721a38d75c6b740"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/evidence/scheduler_config_iter014000.json",
+      "asset": "evidence/upstream_scheduler_config_iter014000.json",
+      "bytes": 533,
+      "sha256": "b27c3815e984ba74e1ff2fba6ba41d312f9a3dc2921077a0c056b4bc5e11bf72"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_upstream_codex/docs/evidence/provenance.json",
+      "asset": "evidence/upstream_provenance.json",
+      "bytes": 24047,
+      "sha256": "861691688b2fc6b9fdd891a473de06240be4cf8b43023b3dca2b9f5fd9b141b8"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/output/llff/summary.csv",
+      "asset": "evidence/llff_summary.csv",
+      "bytes": 548,
+      "sha256": "effd80f65b69619f9bfef865849641e607158df6a96433b56656524683b7f698"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/output/dtu/summary.csv",
+      "asset": "evidence/dtu_summary.csv",
+      "bytes": 837,
+      "sha256": "559af84f9217876786aa9995ec2f27523d9babef3cc1d5a3c39580dbfaa0be6f"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json",
+      "asset": "evidence/llff_crosscheck.json",
+      "bytes": 3273,
+      "sha256": "13244c7c2c187640cbb67960dbf77d93c05792c03cd32872355a0126c7a7efc0"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/output/llff/source_metrics/UNIFIED_METRICS.json",
+      "asset": "evidence/llff_unified.json",
+      "bytes": 38201,
+      "sha256": "3a24372861f0aa7d5fb2b541d9980fd0f4fb59f6063dc8df8c67bfd9e6c59445"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/output/dtu/source_metrics/graphdeco/dtu_per_scene.csv",
+      "asset": "evidence/dtu_graphdeco_per_scene.csv",
+      "bytes": 2526,
+      "sha256": "80d14f55454ede8625377fd17ad81c19114ca6164eb639c653c93cc41e3e50b7"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/output/dtu/source_metrics/mvs10k/per_scene_corgs25_mask.csv",
+      "asset": "evidence/dtu_mvs10k_per_scene.csv",
+      "bytes": 7026,
+      "sha256": "ff44be0cacd6e58bbb0175e4bd93d1061ef2781177dfe9a416ae7219e91c1318"
+    },
+    {
+      "kind": "source_evidence",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/output/dtu/source_metrics/official_random_6k/per_scene_corgs25_mask.csv",
+      "asset": "evidence/dtu_author_random_per_scene.csv",
+      "bytes": 2403,
+      "sha256": "5ba750d82890e5a8fc5365f36997e019cead24dddcf3e01b5ebfe98efa250898"
+    },
+    {
+      "kind": "example_downstream_run",
+      "source": "/data/lilinwei/3D/2610Joint_downstream/data/llff/protocol/r4_runs/room/joint_summary.json",
+      "asset": "evidence/llff_room_r4_joint_summary.json",
+      "bytes": 1189,
+      "sha256": "5a9284704a4b9e79494c469addccda80b71e723295cdf3f9fdd7be03eae96117"
+    }
+  ],
+  "generated_files": [
+    {
+      "asset": "evidence/upstream_split_audit.json",
+      "sha256": "9a0caf4efb42ca0c49e308d2e8bb127deb84e362ca9525861a2f53b727c99e22",
+      "note": "Derived from the original train/val lists; includes their source SHA-256."
+    },
+    {
+      "asset": "../../JARO_GS_RESEARCH_REFERENCE_20261022_045346.md",
+      "sha256": "bd6e7a1b1a95f71c4f34361f06df7d5eed7d718d16482f713e6dc0f5bd0a42e5",
+      "note": "Integrated Chinese research reference; current broad research title, with JARO-GS retained as a historical working name."
+    }
+  ],
+  "historical_working_name": "JARO-GS"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "flower",
+  "evaluated_views": 5,
+  "PSNR": 19.942684936523438,
+  "SSIM": 0.6122464001178741,
+  "LPIPS": 0.3271935939788818,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

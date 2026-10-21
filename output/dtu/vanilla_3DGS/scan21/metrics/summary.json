@@ -1,0 +1,10 @@
+{
+  "dataset": "dtu",
+  "method": "vanilla_3DGS",
+  "scene": "scan21",
+  "evaluated_views": 25,
+  "PSNR": 14.436841391189429,
+  "SSIM": 0.6393837141990661,
+  "LPIPS": 0.26266647279262545,
+  "derived_from": "output/dtu/source_metrics/graphdeco/dtu_per_scene.csv"
+}

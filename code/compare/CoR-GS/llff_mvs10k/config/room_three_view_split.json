@@ -1,0 +1,26 @@
+{
+  "scene": "room",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/room",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/room",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "DJI_20200226_143851_396.JPG",
+    "DJI_20200226_143918_576.JPG",
+    "DJI_20200226_143946_704.JPG"
+  ],
+  "fsgs_test_names": [
+    "DJI_20200226_143850_006.JPG",
+    "DJI_20200226_143901_419.JPG",
+    "DJI_20200226_143912_008.JPG",
+    "DJI_20200226_143926_241.JPG",
+    "DJI_20200226_143938_168.JPG",
+    "DJI_20200226_143948_113.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/room/3_views/dense/fused.ply",
+  "points_written": 2962,
+  "points_total": 8772,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/room/poses_bounds.npy"
+}

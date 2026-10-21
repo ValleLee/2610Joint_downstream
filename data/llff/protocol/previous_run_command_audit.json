@@ -1,0 +1,276 @@
+{
+  "description": "Canonicalized effective train-argv comparison between the previous completed baseline run and this official-MVS rerun. Source/model paths were normalized; all remaining argv tokens are compared exactly. Superseded attempts with different image arguments are excluded.",
+  "methods": {
+    "FSGS": {
+      "fern": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "flower": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "fortress": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "horns": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "leaves": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "orchids": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "room": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "trex": {
+        "old_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "new_final_argv_sha256": "1723ab1584fb5936b82ea9b4a4520434754b2645be5b17bcb12d019360415f07",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/do3/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --sample_pseudo_interval 1 --iterations 10000 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      }
+    },
+    "CoR-GS": {
+      "fern": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "flower": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "fortress": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "horns": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "leaves": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "orchids": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "room": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      },
+      "trex": {
+        "old_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "new_final_argv_sha256": "f400ecf9d6836915c6ab2230610e149bac698ab137aeb15f5656c19469491dec",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train.py --source_path <DATA> --model_path <MODEL> --images images_4 --resolution 1 --eval --n_views 3 --random_background --iterations 10000 --position_lr_max_steps 10000 --densify_until_iter 10000 --densify_grad_threshold 0.0005 --gaussiansN 2 --coprune --coprune_threshold 5 --coreg --sample_pseudo_interval 1 --start_sample_pseudo 500 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000"
+      }
+    },
+    "DNGaussian": {
+      "fern": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      },
+      "flower": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      },
+      "fortress": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      },
+      "horns": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      },
+      "leaves": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      },
+      "orchids": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      },
+      "room": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      },
+      "trex": {
+        "old_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "new_final_argv_sha256": "a0466d5fd4d830aac957688244aa320248e5a78e6b6fbe19c9f182107c924ed2",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --test_iterations 10000 --save_iterations 10000 --checkpoint_iterations 10000 --near 10"
+      }
+    },
+    "DropoutGS": {
+      "fern": {
+        "old_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "new_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.001 --size_threshold_rate 80 --checkpoint_iterations 10000"
+      },
+      "flower": {
+        "old_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "new_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.001 --size_threshold_rate 80 --checkpoint_iterations 10000"
+      },
+      "fortress": {
+        "old_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "new_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.001 --size_threshold_rate 80 --checkpoint_iterations 10000"
+      },
+      "horns": {
+        "old_final_argv_sha256": "a98b5ee271bb851d8f7bddd0fe8ccee0a751cd1ee124bfd041242397581cdc27",
+        "new_final_argv_sha256": "a98b5ee271bb851d8f7bddd0fe8ccee0a751cd1ee124bfd041242397581cdc27",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.0005 --size_threshold_rate 50 --checkpoint_iterations 10000"
+      },
+      "leaves": {
+        "old_final_argv_sha256": "a98b5ee271bb851d8f7bddd0fe8ccee0a751cd1ee124bfd041242397581cdc27",
+        "new_final_argv_sha256": "a98b5ee271bb851d8f7bddd0fe8ccee0a751cd1ee124bfd041242397581cdc27",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.0005 --size_threshold_rate 50 --checkpoint_iterations 10000"
+      },
+      "orchids": {
+        "old_final_argv_sha256": "641d8f41c9679ba6203d749de7ebd83829dacd43d7b79b7862d45fe6e4ad52ba",
+        "new_final_argv_sha256": "641d8f41c9679ba6203d749de7ebd83829dacd43d7b79b7862d45fe6e4ad52ba",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.001 --size_threshold_rate 50 --checkpoint_iterations 10000"
+      },
+      "room": {
+        "old_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "new_final_argv_sha256": "acadc7754e8ee7bdd760a9b438d97c30bc61d4845c07b3b58ed6c7d015693e6f",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.001 --size_threshold_rate 80 --checkpoint_iterations 10000"
+      },
+      "trex": {
+        "old_final_argv_sha256": "641d8f41c9679ba6203d749de7ebd83829dacd43d7b79b7862d45fe6e4ad52ba",
+        "new_final_argv_sha256": "641d8f41c9679ba6203d749de7ebd83829dacd43d7b79b7862d45fe6e4ad52ba",
+        "normalized_train_argv": "/data/lilinwei/.conda/envs/d23e/bin/python -u train_llff_mvs.py -s <DATA> --model_path <MODEL> --images images_4 --resolution 1 --dataset LLFF --eval --n_sparse 3 --mvs_pcd --iterations 10000 --lambda_dssim 0.25 --densify_grad_threshold 0.0008 --prune_threshold 0.01 --densify_until_iter 10000 --percent_dense 0.01 --position_lr_init 0.0005 --position_lr_final 0.000005 --position_lr_max_steps 9500 --position_lr_start 500 --split_opacity_thresh 0.1 --error_tolerance 0.01 --scaling_lr 0.005 --shape_pena 0.002 --opa_pena 0.001 --scale_pena 0 --near 10 --test_iterations 10000 --save_iterations 10000 --dropout --dropout_rate 0.4 --consistency_lambda 0.4 --edge_threshold 0.001 --size_threshold_rate 50 --checkpoint_iterations 10000"
+      }
+    },
+    "Difix3D_10k": {
+      "previous_actual_launch_config": {
+        "seed": 2024,
+        "max_steps": 10000,
+        "base_steps": 5000,
+        "eval_steps": [
+          5000,
+          10000
+        ],
+        "save_steps": [
+          5000,
+          10000
+        ],
+        "fix_steps": [
+          5000,
+          5200,
+          5400,
+          5600,
+          5800,
+          6000,
+          6200,
+          6400,
+          6600,
+          6800,
+          7000,
+          7200,
+          7400,
+          7600,
+          7800,
+          8000,
+          8200,
+          8400,
+          8600,
+          8800,
+          9000,
+          9200,
+          9400
+        ],
+        "depth_loss": false,
+        "normalize_world_space": true,
+        "strict_no_undistort": true,
+        "data_factor": 4,
+        "seed_policy": "native --seed 2024"
+      },
+      "current_config": {
+        "summary": "Difix3D+ 10k diagnostic recipe: 5k real-view base then target-pose pseudo-view repair through 10k, refresh every 200 steps; RGB-only loss.",
+        "argv": [
+          "<ADAPTER>",
+          "default",
+          "--data-dir",
+          "<DATA>",
+          "--result-dir",
+          "<SCRATCH>",
+          "--strict-split-json",
+          "<DATA_MAPPING>",
+          "--mvs-ply",
+          "<MVS_PLY>",
+          "--data-factor",
+          "4",
+          "--strict-no-undistort",
+          "--test-every",
+          "1",
+          "--seed",
+          "2024",
+          "--max-steps",
+          "10000",
+          "--eval-steps",
+          "5000",
+          "10000",
+          "--save-steps",
+          "5000",
+          "10000",
+          "--fix-steps",
+          "5000",
+          "5200",
+          "5400",
+          "5600",
+          "5800",
+          "6000",
+          "6200",
+          "6400",
+          "6600",
+          "6800",
+          "7000",
+          "7200",
+          "7400",
+          "7600",
+          "7800",
+          "8000",
+          "8200",
+          "8400",
+          "8600",
+          "8800",
+          "9000",
+          "9200",
+          "9400"
+        ]
+      },
+      "seed": 2024,
+      "total_steps": 10000,
+      "mvs_override": "--mvs-ply uses staged official MVS input; per-scene SHA-256 verified in actual_initialization_audit.json"
+    }
+  },
+  "conclusion": "For FSGS, CoR-GS, DNGaussian, and DropoutGS, final images_4 train commands match after normalizing source and model paths; the MVS input file is the changed run input. Seed is injected via BASELINE_SEED=2024 in the copied code and recorded in each task log."
+}

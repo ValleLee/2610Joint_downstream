@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "fern",
+  "evaluated_views": 3,
+  "PSNR": 20.975201924641926,
+  "SSIM": 0.6984453201293945,
+  "LPIPS": 0.2728315095106761,
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

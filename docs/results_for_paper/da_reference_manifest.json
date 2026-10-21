@@ -1,0 +1,60 @@
+{
+  "model": "Depth Anything V2 relative ViT-L",
+  "input_size": 518,
+  "checkpoint_sha256": "a7ea19fa0ed99244e67b624c72b8580b7e9553043245905be58796a608eb9345",
+  "note": "Predictions from the exact figure RGB GT; not measured depth; values are relative/inverse-like.",
+  "assets": [
+    {
+      "dataset": "llff",
+      "scene": "trex",
+      "view": "DJI_20200223_163604_605.png",
+      "rgb_gt": "assets/llff/trex/GT.png",
+      "rgb_sha256": "0b3c9fd79f152c7178672a6ecbc61dbcd0bed7b215fa15260b7c0c19ed0274fa",
+      "asset": "assets/llff/trex/GT_da_depth.tiff",
+      "sha256": "255176243f9a1d093491ded00e6006eef449cd3b3c45bf8d89edb64a01ca33bb",
+      "width": 1008,
+      "height": 756,
+      "min": 0.0,
+      "max": 295.19384765625
+    },
+    {
+      "dataset": "llff",
+      "scene": "room",
+      "view": "DJI_20200226_143912_008.png",
+      "rgb_gt": "assets/llff/room/GT.png",
+      "rgb_sha256": "303198f09b27074d4cb97fd2a2e515c5e2714c66169d089852e9e4e874f7c6a4",
+      "asset": "assets/llff/room/GT_da_depth.tiff",
+      "sha256": "33dddcd792bcf523c09aceac51758b8c8b08406bc96aa74c2d9c62b1d47f75b7",
+      "width": 1008,
+      "height": 756,
+      "min": 10.839242935180664,
+      "max": 659.99609375
+    },
+    {
+      "dataset": "dtu",
+      "scene": "scan30",
+      "view": "rect_010_3_r5000.png",
+      "rgb_gt": "assets/dtu/scan30/GT.png",
+      "rgb_sha256": "679c9446c7484a634645fc72567ce4502b5eb644e8545a444ff6084a9b20455a",
+      "asset": "assets/dtu/scan30/GT_da_depth.tiff",
+      "sha256": "404b624adcfdf6c21d809d787e3d869f463c654fe43d2a7bb2335f53becf70f2",
+      "width": 396,
+      "height": 297,
+      "min": 0.5535749197006226,
+      "max": 489.9383544921875
+    },
+    {
+      "dataset": "dtu",
+      "scene": "scan21",
+      "view": "rect_010_3_r5000.png",
+      "rgb_gt": "assets/dtu/scan21/GT.png",
+      "rgb_sha256": "fd536ceceaa226887e117b642f0aa621430d5aafc43dbd0c46b74ffad75b4021",
+      "asset": "assets/dtu/scan21/GT_da_depth.tiff",
+      "sha256": "ad64d67cec80bc5a4896c37137e000d9e442e8fe3b8a675a526f616e89af3a57",
+      "width": 396,
+      "height": 297,
+      "min": 1.445369005203247,
+      "max": 422.0849609375
+    }
+  ]
+}

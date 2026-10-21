@@ -1,0 +1,239 @@
+{
+  "method": "Difix3D_60k",
+  "seed": 2024,
+  "seed_policy": "BASELINE_SEED=2024 is read by set_random_seed in the adapter; PYTHONHASHSEED=2024 is exported.",
+  "total_steps": 60000,
+  "base_steps": 30000,
+  "dataset_images": "images_4",
+  "data_factor": 4,
+  "training_views": 3,
+  "normalize_world_space": false,
+  "strict_no_undistort": true,
+  "depth_loss": false,
+  "stage_a": {
+    "max_steps": 30000,
+    "eval_steps": [
+      30000
+    ],
+    "save_steps": [
+      30000
+    ],
+    "fix_steps": [
+      1000000
+    ],
+    "disable_difix": true,
+    "resume_checkpoint_name": "ckpt_29999_rank0.pt"
+  },
+  "stage_b": {
+    "resume_from": "stage_a/ckpts/ckpt_29999_rank0.pt",
+    "max_steps": 60000,
+    "eval_steps": [
+      60000
+    ],
+    "save_steps": [
+      60000
+    ],
+    "fix_steps": [
+      30000,
+      32000,
+      34000,
+      36000,
+      38000,
+      40000,
+      42000,
+      44000,
+      46000,
+      48000,
+      50000,
+      52000,
+      54000,
+      56000,
+      58000,
+      60000
+    ]
+  },
+  "data_root": "/tmp/lilinwei/1007baselines/data/llff/<scene>",
+  "actual_mvs_loader_path": "/tmp/lilinwei/1007baselines/data/<scene>/3_views/dense/fused.ply",
+  "initialization_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs",
+  "code_source": "/tmp/lilinwei/1007baselines/repos/Difix3D_60k_adapter/simple_trainer_difix3d.py",
+  "adapter_sha256": "773c03946e55cc8aeb94a2426a884949acedba91337cc7905994f7d369ac2fe1",
+  "weight_root": "/data/lilinwei/3D/baselines/Difix3D/weights/difix_ref",
+  "source_previous_60k_config": {
+    "seed": 2024,
+    "max_steps": 60000,
+    "base_steps": 30000,
+    "eval_steps": [
+      30000,
+      60000
+    ],
+    "save_steps": [
+      30000,
+      60000
+    ],
+    "fix_steps": [
+      30000,
+      32000,
+      34000,
+      36000,
+      38000,
+      40000,
+      42000,
+      44000,
+      46000,
+      48000,
+      50000,
+      52000,
+      54000,
+      56000,
+      58000,
+      60000
+    ],
+    "depth_loss": false,
+    "normalize_world_space": false,
+    "strict_no_undistort": true,
+    "data_factor": 4,
+    "seed_policy": "BASELINE_SEED=2024 read by set_random_seed in isolated adapter."
+  },
+  "change_from_previous_1007_mvs_60k": "Only replace the MVS initialization point cloud with the official three-view MVS PLYs; retain seed 2024, 30k base + 30k Difix fine-tuning, no-world-normalization, data factor, split, and all adapter/loss settings.",
+  "scenes": {
+    "fern": {
+      "training_names": [
+        "IMG_4027.JPG",
+        "IMG_4036.JPG",
+        "IMG_4045.JPG"
+      ],
+      "test_names": [
+        "IMG_4026.JPG",
+        "IMG_4034.JPG",
+        "IMG_4042.JPG"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/fern/initial_point_cloud.ply",
+      "sha256": "2c337dce6478940968bffc3ca7f1568512b75f5fb283ce02273ff3376e0899db",
+      "points": 17904
+    },
+    "flower": {
+      "training_names": [
+        "IMG_2963.JPG",
+        "IMG_2979.JPG",
+        "IMG_2995.JPG"
+      ],
+      "test_names": [
+        "IMG_2962.JPG",
+        "IMG_2970.JPG",
+        "IMG_2978.JPG",
+        "IMG_2986.JPG",
+        "IMG_2994.JPG"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/flower/initial_point_cloud.ply",
+      "sha256": "0fc1cb029dd09c836a7a33dede0cf0d1c491877d50509ccc585212ed1fd6f7d1",
+      "points": 3986
+    },
+    "fortress": {
+      "training_names": [
+        "IMG_1801.JPG",
+        "IMG_1821.JPG",
+        "IMG_1841.JPG"
+      ],
+      "test_names": [
+        "IMG_1800.JPG",
+        "IMG_1808.JPG",
+        "IMG_1816.JPG",
+        "IMG_1824.JPG",
+        "IMG_1832.JPG",
+        "IMG_1840.JPG"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/fortress/initial_point_cloud.ply",
+      "sha256": "8ed7a80c6e1a1610ca801547bb2c7451bf80683aaa3bf519c67c9608e877308f",
+      "points": 11206
+    },
+    "horns": {
+      "training_names": [
+        "DJI_20200223_163017_967.jpg",
+        "DJI_20200223_163053_863.jpg",
+        "DJI_20200223_163225_243.jpg"
+      ],
+      "test_names": [
+        "DJI_20200223_163016_842.jpg",
+        "DJI_20200223_163024_597.jpg",
+        "DJI_20200223_163033_432.jpg",
+        "DJI_20200223_163047_307.jpg",
+        "DJI_20200223_163055_437.jpg",
+        "DJI_20200223_163103_777.jpg",
+        "DJI_20200223_163201_633.jpg",
+        "DJI_20200223_163208_938.jpg"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/horns/initial_point_cloud.ply",
+      "sha256": "d46a8efb4cf8afedc0609ab8b3df9888eb7c2090317820ef3fca1319cf62e1af",
+      "points": 18161
+    },
+    "leaves": {
+      "training_names": [
+        "IMG_2998.JPG",
+        "IMG_3010.JPG",
+        "IMG_3023.JPG"
+      ],
+      "test_names": [
+        "IMG_2997.JPG",
+        "IMG_3006.JPG",
+        "IMG_3014.JPG",
+        "IMG_3022.JPG"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/leaves/initial_point_cloud.ply",
+      "sha256": "49b4a2e2000373bf0d0a528c97bfd925018a000fbcfd1df68e790190b27212bc",
+      "points": 12068
+    },
+    "orchids": {
+      "training_names": [
+        "IMG_4468.JPG",
+        "IMG_4479.JPG",
+        "IMG_4490.JPG"
+      ],
+      "test_names": [
+        "IMG_4467.JPG",
+        "IMG_4475.JPG",
+        "IMG_4483.JPG",
+        "IMG_4491.JPG"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/orchids/initial_point_cloud.ply",
+      "sha256": "0f50da0633ec38d2eda47850b0a2bdd7f5d1e36a09a8a68850c9181e4acaf522",
+      "points": 12849
+    },
+    "room": {
+      "training_names": [
+        "DJI_20200226_143851_396.JPG",
+        "DJI_20200226_143918_576.JPG",
+        "DJI_20200226_143946_704.JPG"
+      ],
+      "test_names": [
+        "DJI_20200226_143850_006.JPG",
+        "DJI_20200226_143901_419.JPG",
+        "DJI_20200226_143912_008.JPG",
+        "DJI_20200226_143926_241.JPG",
+        "DJI_20200226_143938_168.JPG",
+        "DJI_20200226_143948_113.JPG"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/room/initial_point_cloud.ply",
+      "sha256": "d96847e18d958f7f19e2d00bd2dd0deeec23cb1e6e0fe4ea4c694427317ea731",
+      "points": 19145
+    },
+    "trex": {
+      "training_names": [
+        "DJI_20200223_163551_210.jpg",
+        "DJI_20200223_163616_980.jpg",
+        "DJI_20200223_163654_571.jpg"
+      ],
+      "test_names": [
+        "DJI_20200223_163548_810.jpg",
+        "DJI_20200223_163557_660.jpg",
+        "DJI_20200223_163604_605.jpg",
+        "DJI_20200223_163611_160.jpg",
+        "DJI_20200223_163620_700.jpg",
+        "DJI_20200223_163639_916.jpg",
+        "DJI_20200223_163646_755.jpg"
+      ],
+      "mvs_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/trex/initial_point_cloud.ply",
+      "sha256": "21ac7afe19d18baecabbd16be3f6c3411ebab1a8a40d873a7c24f7b83f26dd48",
+      "points": 24987
+    }
+  }
+}

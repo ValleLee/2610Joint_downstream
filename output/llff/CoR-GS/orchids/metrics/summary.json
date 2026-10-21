@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "orchids",
+  "evaluated_views": 4,
+  "PSNR": 15.22010612487793,
+  "SSIM": 0.4564695432782173,
+  "LPIPS": 0.336062952876091,
+  "derived_from": "output/llff/CoR-GS/metrics/public_common_eval.json"
+}

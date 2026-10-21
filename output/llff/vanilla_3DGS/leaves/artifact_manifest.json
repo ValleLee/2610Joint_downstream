@@ -1,0 +1,65 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "leaves",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/renders/IMG_2997.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/leaves/renders/IMG_2997.png",
+      "bytes": 1504003,
+      "sha256": "5652854521ece6b16ca6c8b2bfd18ce9f0c098eea0ad427ea8d60ba0ce372471",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/renders/IMG_3006.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/leaves/renders/IMG_3006.png",
+      "bytes": 1540824,
+      "sha256": "efb172e26474f8f2114926c8062035000ac621ac8fb0e4275882d85d6754b509",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/renders/IMG_3014.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/leaves/renders/IMG_3014.png",
+      "bytes": 1481743,
+      "sha256": "161d084d2a1f0cfcc998781da5105b91fe75c05ddebfa78aadf9a92efc4d18a5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/renders/IMG_3022.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/leaves/renders/IMG_3022.png",
+      "bytes": 1438135,
+      "sha256": "e882b1e38a4a1dfe29b76df512b5db951b80535373a705cea11d6acbb148b312",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/run_manifest.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/leaves/run_manifest.json",
+      "bytes": 4119,
+      "sha256": "a6792bf3e7a834857fdad73eaef8b877fb82235d91bb296552615edd02828b99",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/leaves/cfg_args",
+      "bytes": 266,
+      "sha256": "ba34458f1760773569607d74b47a017073be86f9c6ae08fcd65bb8d155650963",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/point_cloud/final_point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/leaves/final_point_cloud.ply",
+      "bytes": 186594995,
+      "sha256": "98930af2f09f6788a7394492b90b7c5936acf4bb3d13cf28bcadb99747bc5910",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/leaves/metrics/summary.json",
+      "source": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json",
+      "bytes": 274,
+      "sha256": "b733e9ddb2f2c4f4efa5a519ea8219c5893538f2f3a5ff5fd0bb9e18e00d812d",
+      "publish_on_git": true
+    }
+  ]
+}

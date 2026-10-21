@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "fern",
+  "evaluated_views": 3,
+  "PSNR": 20.99982515970866,
+  "SSIM": 0.6828822692235311,
+  "LPIPS": 0.2763647735118866,
+  "derived_from": "output/llff/our_R4/fern/metrics/per_view.json"
+}

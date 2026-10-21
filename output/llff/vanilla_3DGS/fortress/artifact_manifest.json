@@ -1,0 +1,79 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "fortress",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/renders/IMG_1800.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/renders/IMG_1800.png",
+      "bytes": 1114049,
+      "sha256": "27df4064d10d5841a09a9088685863d6705e1351c126900688b936de9cac2423",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/renders/IMG_1808.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/renders/IMG_1808.png",
+      "bytes": 1119971,
+      "sha256": "7ef41a754e7ff88ee3b0daf210c3f8b95f7faf1e57adce38b696b7f04a28818b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/renders/IMG_1816.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/renders/IMG_1816.png",
+      "bytes": 1126246,
+      "sha256": "61e94ed2fd7125f43cab12d45385d5bba43dfe84ca3be3a343bea10e64fb82fb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/renders/IMG_1824.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/renders/IMG_1824.png",
+      "bytes": 1134093,
+      "sha256": "00039b78f355030bce847a87ff1dfb413723e381a6585da71b005415c5bf72f2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/renders/IMG_1832.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/renders/IMG_1832.png",
+      "bytes": 1127048,
+      "sha256": "172dd3b376e36751a1396de95ca2694a7bcc165624d01622837356ed776cde32",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/renders/IMG_1840.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/renders/IMG_1840.png",
+      "bytes": 1116213,
+      "sha256": "f423cd500c1d2d885255ffe4d9f3a17f9fc54836c2ba68df8b087769f9bb09d1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/run_manifest.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/run_manifest.json",
+      "bytes": 6089,
+      "sha256": "eb99999575d550869aba0ad0ac96563d5e308f8b9de6c5041095461a389e7449",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/cfg_args",
+      "bytes": 270,
+      "sha256": "9864b98c225078783e684ee5f95aa4c0fd3e1ccb02599756dcd33ec8c1bee3da",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/point_cloud/final_point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fortress/final_point_cloud.ply",
+      "bytes": 40810427,
+      "sha256": "20a467c9188efe13325a908af468a064538dafaceef9ce8e6ca7567a16bac89e",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fortress/metrics/summary.json",
+      "source": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json",
+      "bytes": 277,
+      "sha256": "9c1f41fd9aa2004160afe4f2807f1fd4e366c0d172bd7cddede5dcb049d08971",
+      "publish_on_git": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dataset": "dtu",
+  "method": "Difix3D_10k_mvs10k",
+  "scenes": [
+    "scan8",
+    "scan21",
+    "scan30",
+    "scan31",
+    "scan34",
+    "scan38",
+    "scan40",
+    "scan41",
+    "scan45",
+    "scan55",
+    "scan63",
+    "scan82",
+    "scan103",
+    "scan110",
+    "scan114"
+  ],
+  "macro": {
+    "PSNR": 16.07657777170489,
+    "SSIM": 0.8088997410138448,
+    "LPIPS": 0.16563079886635146
+  },
+  "scene_sample_std": {
+    "PSNR": 3.18555717564396,
+    "SSIM": 0.09041557644637627,
+    "LPIPS": 0.0626870817132142
+  },
+  "derived_from": "output/dtu/source_metrics/mvs10k/per_scene_corgs25_mask.csv"
+}

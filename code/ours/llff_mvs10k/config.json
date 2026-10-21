@@ -1,0 +1,51 @@
+{
+  "experiment": "Official FSGS three-view COLMAP initialization x Difix3D+ R4",
+  "date": "2026-10-07",
+  "source_root": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data",
+  "split_root": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data",
+  "temporary_root": "/tmp/lilinwei/1007fsgsmvs",
+  "output_root": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output",
+  "scenes": ["fern", "flower", "fortress", "horns", "leaves", "orchids", "room", "trex"],
+  "training_images_per_scene": 3,
+  "heldout_images_total": 43,
+  "initialization": {
+    "implementation": "copied FSGS/tools/colmap_llff.py; only CLI scene/root entry adapted",
+    "official_source": "/data/lilinwei/3D/D23E/Aref/FSGS/tools/colmap_llff.py",
+    "official_script_copy": "fsgs_colmap_llff.py",
+    "isolated_staged_dataset": "/tmp/lilinwei/1007fsgsmvs/fsgs_dataset",
+    "input_camera_model": "existing sparse/0 intrinsics and selected training poses",
+    "sparse_point_model_before_triangulation": "empty points3D.txt",
+    "triangulation_images": "only the selected 3 training images",
+    "feature_max_image_size": 4032,
+    "feature_max_num_features": 32768,
+    "matching": "COLMAP exhaustive matching with guided matching and max_num_matches=32768; CPU matching on retry after GPU VRAM failures",
+    "triangulator_input_point_count": 0,
+    "affine_shape": true,
+    "domain_size_pooling": true,
+    "dense_max_image_size": -1,
+    "dense_resolution_note": "FSGS script does not override COLMAP dense max_image_size; -1 is the installed COLMAP 3.12.6 default, so no maximum edge cap is applied",
+    "training_image_dimensions_local_raw": "4032x3024",
+    "training_image_dimensions_r4": "images_4, 1008x756",
+    "depth_maps": "save test-view rendered depth PNG and NPY"
+  },
+  "r4": {
+    "iterations": 10000,
+    "seed": 2024,
+    "start_sample_pseudo": 2000,
+    "end_sample_pseudo": 9500,
+    "pseudo_update_interval": 200,
+    "pseudo_rgb_weight": 0.35,
+    "pseudo_depth_weight": 0.01,
+    "depth_weight": 0.05,
+    "pseudo_pose_step": 0.5,
+    "pseudo_real_probability": 0.7,
+    "pseudo_history_mode": "accumulate",
+    "pseudo_target_source": "test camera poses",
+    "gpu_pool": [0, 1, 2, 3, 4, 5, 7],
+    "excluded_gpu": 6
+  },
+  "comparison_references": {
+    "old_sparse_filtered_r4": "/data/lilinwei/3D/1006difix/output/r4_all_scenes",
+    "previous_full_sparse_prior_mvs_r4": "/data/lilinwei/3D/1006difix/1007mvs/output"
+  }
+}

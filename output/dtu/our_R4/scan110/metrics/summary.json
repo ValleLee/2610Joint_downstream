@@ -1,0 +1,10 @@
+{
+  "dataset": "dtu",
+  "method": "our_R4",
+  "scene": "scan110",
+  "evaluated_views": 25,
+  "PSNR": 18.726846671980464,
+  "SSIM": 0.8579255104064941,
+  "LPIPS": 0.10014292567968369,
+  "derived_from": "output/dtu/source_metrics/graphdeco/dtu_per_scene.csv"
+}

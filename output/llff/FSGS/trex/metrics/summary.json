@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "trex",
+  "evaluated_views": 7,
+  "PSNR": 21.20489011492048,
+  "SSIM": 0.7909009626933506,
+  "LPIPS": 0.2170457307781492,
+  "derived_from": "output/llff/FSGS/metrics/public_common_eval.json"
+}

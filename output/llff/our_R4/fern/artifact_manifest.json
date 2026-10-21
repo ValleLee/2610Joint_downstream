@@ -1,0 +1,86 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "fern",
+  "main_table": true,
+  "rgb_render_count": 3,
+  "files": [
+    {
+      "path": "output/llff/our_R4/fern/renders/IMG_4026.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/test/ours_10000/renders/IMG_4026.png",
+      "bytes": 1105423,
+      "sha256": "f2def5de66e82f53a09c7d596cb4f113e540bc4e8fcee4aa33cfa923e2651dda",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/renders/IMG_4034.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/test/ours_10000/renders/IMG_4034.png",
+      "bytes": 1085297,
+      "sha256": "6f12b21c104c0bd8429ce10a8eceb6d54d005cff304272229c7b20814e28e929",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/renders/IMG_4042.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/test/ours_10000/renders/IMG_4042.png",
+      "bytes": 973030,
+      "sha256": "ea857f13b982dff0569f0083dc9b3c6df08eecf682a59698e32f61645cf41993",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/cfg_args",
+      "bytes": 237,
+      "sha256": "750f05bb065ecd2338d5f1032d2100c154e744cd8bcc684d45a5902a850827c0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/cameras.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/cameras.json",
+      "bytes": 2422,
+      "sha256": "0be6235be330e8e6b46bb0f1ca6f2bccb5d7316714dedcabcccc536e62ff0d89",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/metrics/joint_summary.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/joint_summary.json",
+      "bytes": 1030,
+      "sha256": "8a509d284787767271697e3c698323edb64469c91fa1d2e8f35039f422404dbd",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/metrics/per_view.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/per_view.json",
+      "bytes": 423,
+      "sha256": "982ef4ef93474234afeaa607b7cd36bd503a74889ed6d71000ffb1e8860ea56b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/metrics/results.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/results.json",
+      "bytes": 113,
+      "sha256": "db788d084eed2fa6e40721b8d5a3a8d03e6c4949d82a8bfcab0925c69fe11fee",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fern/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 28409683,
+      "sha256": "631dd7cce925300815970c64a202035d58a7fc7270d8a76470c10b9e55f44786",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/our_R4/fern/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 579,
+      "sha256": "5a4086e20d3198c329db18b3449e509fd32b4d2267e483cc24f51893b519a546",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fern/metrics/summary.json",
+      "source": "output/llff/our_R4/fern/metrics/per_view.json",
+      "bytes": 246,
+      "sha256": "080b583969a68a8d6b4ca053ba4a2b4c4687a3ea7a162d2b930b40eb9d844e8c",
+      "publish_on_git": true
+    }
+  ]
+}

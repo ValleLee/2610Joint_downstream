@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "orchids",
+  "evaluated_views": 4,
+  "PSNR": 16.23854112625122,
+  "SSIM": 0.4844708889722824,
+  "LPIPS": 0.31316500902175903,
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

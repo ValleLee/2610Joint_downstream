@@ -1,0 +1,67 @@
+{
+  "dataset": "DTU, CoR-GS processed three-view package",
+  "download_url": "https://drive.google.com/uc?export=download&id=1ibu2-Naueh-Vb0ILj0DCU-h4Pxi5EdYY",
+  "staging_path": "/tmp/lilinwei/1007fsgsmvs_dtu/downloads/dtu_corgs.zip",
+  "persistent_full_dataset_copy": false,
+  "requested_scans": [
+    "scan8",
+    "scan21",
+    "scan30",
+    "scan31",
+    "scan34",
+    "scan38",
+    "scan40",
+    "scan41",
+    "scan45",
+    "scan55",
+    "scan63",
+    "scan82",
+    "scan103",
+    "scan110",
+    "scan114"
+  ],
+  "status": "CoR-GS processed package and full RegNeRF DTU mask backup verified. Original 31-view unmasked evaluation retained; CoR-GS-source 25-view masked re-evaluation added separately.",
+  "notes": "Do not treat any bundled initialization cloud as the experiment initialization until its exact input views are verified. The experiment must generate one shared MVS cloud per scan from exactly split indices 25, 22, and 28.",
+  "archive_size_bytes": 1864747712,
+  "archive_sha256": "edb5c8619ef3a1192d3f89d53a1fcb5cfb24c914ccbefe90b09c6ca1c1c29079",
+  "package_coverage": {
+    "selected_scans": 15,
+    "images_per_scan": 49,
+    "camera_models_per_scan": 49,
+    "includes_existing_3view_clouds": true,
+    "includes_masks": false
+  },
+  "mask_source_candidate": {
+    "project": "Spann3R",
+    "folder_url": "https://drive.google.com/drive/folders/1bqtcVf8lK4VC8LgG-SIGRBECcrFqM7Wy",
+    "archive_name": "dtu_test_mvsnet.zip",
+    "file_id": "17qte59UNEW-kwza0FfVO8jD6hbWGVtwG",
+    "expected_size_bytes": 994000000,
+    "status": "verified ZIP is intact, but it contains only 22 standard DTU test scans; only scan34/110/114 overlap the 15-scene CoR-GS set; insufficient as common mask source and removed from tmp after verification"
+  },
+  "mask_source_fallback": {
+    "project": "IDR / RegNeRF full DTU mask package",
+    "source": "IDR public data folder linked from its README",
+    "url": "https://www.dropbox.com/scl/fo/70er7pjtbmsyhx86hbqno/ACb8LIKDlBbXslzHC7jBCgo?rlkey=nzlia6fhm2npt1ws8l84c32re",
+    "archive_name": "idr_dtu_data.zip",
+    "staging_path": "/tmp/lilinwei/1007fsgsmvs_dtu/downloads/idr_dtu_data.zip",
+    "expected_size_bytes": 2127803347,
+    "status": "outer and nested ZIP passed CRC validation; nested archive covers only scan40, scan55, scan63, scan110, scan114 among selected scenes; insufficient for common masked evaluation and removed from tmp after verification"
+  },
+  "mask_source_complete": {
+    "project": "DNGaussian official RegNeRF mask backup",
+    "folder_url": "https://drive.google.com/drive/folders/1OEmJcbP0XUVfG647mdYWxEy9yOw7L_Si?usp=drive_link",
+    "file_id": "1mDB2zorrA5GeI6onqqLKzkJwUdwq6bVU",
+    "archive_name": "submission_data.zip",
+    "staging_path": "/tmp/lilinwei/1007fsgsmvs_dtu/downloads/dngaussian_submission_data.zip",
+    "archive_size_bytes": 37918029,
+    "archive_sha256": "cd65d10cc0126e3f266a0f30e407c26fda3ecf61ce13318613261d9dfeef8b23",
+    "zip_crc": "passed",
+    "selected_scan_coverage": "15/15; at least the CoR-GS upstream 25 evaluation masks for every scan",
+    "view_mapping": "rect_NNN_3_r5000.png corresponds to mask index NNN-1; direct numerical mapping checked against GT for scan8, scan40, and scan110",
+    "persistent_selected_mask_archive": "data/eval_masks/corgs_25view_masks.zip",
+    "persistent_selected_mask_count": 375,
+    "persistent_selected_mask_archive_size_bytes": 8033531,
+    "persistent_selected_mask_archive_sha256": "988f1a1957083191b45f7d4ea55a0b74566fc4286f1c224be9d19aa2a143ffbd"
+  }
+}

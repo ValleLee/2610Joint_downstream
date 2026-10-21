@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "leaves",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/DropoutGS/leaves/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/eval/ours_10000/renders/00000.png",
+      "bytes": 1498369,
+      "sha256": "49fd82dd6277082a026d54a4f57e9c53a5025e208b59bd0760e47aad5d2b97f4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/eval/ours_10000/renders/00001.png",
+      "bytes": 1476803,
+      "sha256": "557e8aeb9166b95e154092d0f51342526233392a78e1993c8785cefd5174fb51",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/eval/ours_10000/renders/00002.png",
+      "bytes": 1465205,
+      "sha256": "5c9cc651dc1352b39ba695fb308c34bc130d7539a40699a4cc54af161e9c9b06",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/eval/ours_10000/renders/00003.png",
+      "bytes": 1463775,
+      "sha256": "787193d14ddbdcd2a4134b9fd205d78edacf15a1916061a6f20a554ad43656af",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/cfg_args",
+      "bytes": 319,
+      "sha256": "8505192e1451006faecc3744b80a144655acabcd95caf409b97a55437ea09d6b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/cameras.json",
+      "bytes": 12181,
+      "sha256": "1710a4ac7f7cb6860fe13b3e2d452ed09186c305ffe02edd5aed906db8308d3a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/data_split.json",
+      "bytes": 1304,
+      "sha256": "4e76e303c694129d3164df83c1b1db947e856bc7676f83d9621cc62f0b91237a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 26882310,
+      "sha256": "828f909eaedabc06739554848309bdc3050bfa49f25fe70e292d0bc35337b713",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/outputs/leaves/chkpnt10000.pth",
+      "bytes": 245018782,
+      "sha256": "3ca30ee96c947adeff0342875b864dcc1e2bea040c44661c7992285d188431f9",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 667,
+      "sha256": "80b57660bbf2459da6fbb95ad7c277bdcef09dd9d2edf4de4fd3f38476eacaf4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DropoutGS/leaves/metrics/summary.json",
+      "source": "output/llff/DropoutGS/metrics/public_common_eval.json",
+      "bytes": 260,
+      "sha256": "cc55105d1b3fb828054ec748c43d34ba75d2c6a5a74775a9032207066f7163fa",
+      "publish_on_git": true
+    }
+  ]
+}

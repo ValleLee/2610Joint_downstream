@@ -1,0 +1,187 @@
+{
+  "scene": "flower",
+  "training_names": [
+    "IMG_2963.JPG",
+    "IMG_2979.JPG",
+    "IMG_2995.JPG"
+  ],
+  "test_names": [
+    "IMG_2962.JPG",
+    "IMG_2970.JPG",
+    "IMG_2978.JPG",
+    "IMG_2986.JPG",
+    "IMG_2994.JPG"
+  ],
+  "mapping": [
+    {
+      "colmap_name": "IMG_2962.JPG",
+      "images_4_file": "image000.png",
+      "sha256": "e4c7acbd89c6b24b8bd472d98c9c73560972cd46110963dcc34d445168df8718"
+    },
+    {
+      "colmap_name": "IMG_2963.JPG",
+      "images_4_file": "image001.png",
+      "sha256": "6c1b9135b584e5f12c2bb10d41b99fe42d4e33e42e7a7b0becc786a8bb4f7477"
+    },
+    {
+      "colmap_name": "IMG_2964.JPG",
+      "images_4_file": "image002.png",
+      "sha256": "9902cb7c49fd695aa777d8fcca5841249f85abf2441d590b3215c4014aeec3f7"
+    },
+    {
+      "colmap_name": "IMG_2965.JPG",
+      "images_4_file": "image003.png",
+      "sha256": "789dd83c957bf67a47ff02a618cd9ddaf77bcc3bee3a56156e5039577f0a374a"
+    },
+    {
+      "colmap_name": "IMG_2966.JPG",
+      "images_4_file": "image004.png",
+      "sha256": "5ea09f2a31970a1d48053bb00c2f04bca4eb9a2c71b340c62abdcba05b7db9d6"
+    },
+    {
+      "colmap_name": "IMG_2967.JPG",
+      "images_4_file": "image005.png",
+      "sha256": "a9cc559e2271e3bcffa202265ff36093521024d085bdac04db159600744d8d12"
+    },
+    {
+      "colmap_name": "IMG_2968.JPG",
+      "images_4_file": "image006.png",
+      "sha256": "b51e79486798f77cd458301225fbffbf1cb9755518063f75cd3886b262cbef33"
+    },
+    {
+      "colmap_name": "IMG_2969.JPG",
+      "images_4_file": "image007.png",
+      "sha256": "66d5b1407e4cc2753b73b91d8eab61e6c9105a0e91769172eaed583231c95e02"
+    },
+    {
+      "colmap_name": "IMG_2970.JPG",
+      "images_4_file": "image008.png",
+      "sha256": "d1f096e7f6fef35880bbc4060e0b95ab8594f04c9ffa6f969aea1f6b20ccf5af"
+    },
+    {
+      "colmap_name": "IMG_2971.JPG",
+      "images_4_file": "image009.png",
+      "sha256": "c2b4213f65f24cbb4b9b0496165510d4abab5253a64ae10da6212f139be18129"
+    },
+    {
+      "colmap_name": "IMG_2972.JPG",
+      "images_4_file": "image010.png",
+      "sha256": "77cf285188ff9971f30b13bba5f2365054d82ccf47ac21ef6fd98c27f336dc6a"
+    },
+    {
+      "colmap_name": "IMG_2973.JPG",
+      "images_4_file": "image011.png",
+      "sha256": "9301cbf7832e2401009338ef4ac1d2c51c8b0eb66c65fe91cf63537bda8997c9"
+    },
+    {
+      "colmap_name": "IMG_2974.JPG",
+      "images_4_file": "image012.png",
+      "sha256": "b21dbb2598eb4ea29e28f8f507a56eb942500f0264a0d0ceb9c021aca736b879"
+    },
+    {
+      "colmap_name": "IMG_2975.JPG",
+      "images_4_file": "image013.png",
+      "sha256": "2b96f064b7a53d669d6afa21a0c98c5156b9306a56420df6278a5341b753ffb4"
+    },
+    {
+      "colmap_name": "IMG_2976.JPG",
+      "images_4_file": "image014.png",
+      "sha256": "289559f1fa6727dad2dfcc2f9d09658eea73b95f7b95d4df4fd04c6e5917dcd1"
+    },
+    {
+      "colmap_name": "IMG_2977.JPG",
+      "images_4_file": "image015.png",
+      "sha256": "1b2ec882ceb3f3b892826b549672690db396ac2aeefdda599b8b3813ecb07021"
+    },
+    {
+      "colmap_name": "IMG_2978.JPG",
+      "images_4_file": "image016.png",
+      "sha256": "6d28f27019156c8818865dc37c25f179bea1ab994aee447e7dd1598cc70f9886"
+    },
+    {
+      "colmap_name": "IMG_2979.JPG",
+      "images_4_file": "image017.png",
+      "sha256": "c4e0c391cd76f4ab66fb5de16d0878fc0fd721928076b148b31e21f31d4eceed"
+    },
+    {
+      "colmap_name": "IMG_2980.JPG",
+      "images_4_file": "image018.png",
+      "sha256": "3b0f64f9d2cd0c1045ca6be77add3780d0a83bc08bd5666500d559accbd52626"
+    },
+    {
+      "colmap_name": "IMG_2981.JPG",
+      "images_4_file": "image019.png",
+      "sha256": "3669ca95d082f872f7a60a1370aedd4d6e424f71168470ec430c94c3d1c3ad13"
+    },
+    {
+      "colmap_name": "IMG_2982.JPG",
+      "images_4_file": "image020.png",
+      "sha256": "06c90f1e87a7bd1c2f34fb95d09a690119f8addbc7385c63a4ccd93086d6a806"
+    },
+    {
+      "colmap_name": "IMG_2983.JPG",
+      "images_4_file": "image021.png",
+      "sha256": "3ed103004fc0fef803132c0186016375cd5b7b823f27ef6949a738cd5e65670c"
+    },
+    {
+      "colmap_name": "IMG_2984.JPG",
+      "images_4_file": "image022.png",
+      "sha256": "0588f21ecf7bf7bd3022d02ac1a1c88d77b7a81d560e4d45d352478888a40b88"
+    },
+    {
+      "colmap_name": "IMG_2985.JPG",
+      "images_4_file": "image023.png",
+      "sha256": "9d19fd39a3d7693730b19358d53a4e7494b3b9315046e776d071cab8c1046c38"
+    },
+    {
+      "colmap_name": "IMG_2986.JPG",
+      "images_4_file": "image024.png",
+      "sha256": "1daf37c09354dce5dd8589a054fa9169dcdd78cea2e2764c57c90a0d7cdc832b"
+    },
+    {
+      "colmap_name": "IMG_2987.JPG",
+      "images_4_file": "image025.png",
+      "sha256": "d112aafc04d78b80579035e3b17ae2bb627d12fe3e2dd057b1ae2c3fc0f0ad70"
+    },
+    {
+      "colmap_name": "IMG_2988.JPG",
+      "images_4_file": "image026.png",
+      "sha256": "1449e4f8450f73109ae1c7d6ac971bfcc501cab6acd537bc42e20d9e937a91dc"
+    },
+    {
+      "colmap_name": "IMG_2989.JPG",
+      "images_4_file": "image027.png",
+      "sha256": "d652582145dff8506ac1195746eb05211f388d00ee1280cb6f59eb622aa0ad29"
+    },
+    {
+      "colmap_name": "IMG_2990.JPG",
+      "images_4_file": "image028.png",
+      "sha256": "a9f09a30f9ab4fa8c4a1f4bc759d9cfc20773b6dbc6d40fa1668600e8b43a3d2"
+    },
+    {
+      "colmap_name": "IMG_2991.JPG",
+      "images_4_file": "image029.png",
+      "sha256": "7a4c344deac58ce6962e9ed668d08529469fa4233f19175cbfd27f1d3b1da523"
+    },
+    {
+      "colmap_name": "IMG_2992.JPG",
+      "images_4_file": "image030.png",
+      "sha256": "940a4e666b02e37febe87b958f754ea83988748541414422834ba8e5be95cdd3"
+    },
+    {
+      "colmap_name": "IMG_2993.JPG",
+      "images_4_file": "image031.png",
+      "sha256": "dbb83a2cd1543e3099ee28237da624c3952de88daf4096fd17d8fecfb1b0e11b"
+    },
+    {
+      "colmap_name": "IMG_2994.JPG",
+      "images_4_file": "image032.png",
+      "sha256": "36c0e2837bf5522de099db78031dcb36fe7843c17d9716bf1786924eceb8a78f"
+    },
+    {
+      "colmap_name": "IMG_2995.JPG",
+      "images_4_file": "image033.png",
+      "sha256": "89d07d15020345f702b98dfb5f5df05bad5cddd444949ae8307eaf879989c6e2"
+    }
+  ]
+}

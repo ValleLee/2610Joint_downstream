@@ -1,0 +1,266 @@
+{
+  "input_manifest": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/configs/input_manifest.json",
+  "canonical_gt_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/<scene>/test/ours_10000/gt",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "per_scene_average": "mean over all paired held-out views",
+  "macro_average": "unweighted mean over scenes",
+  "rgb_range": "[0,1] from 8-bit RGB PNG",
+  "metrics_implementation": "/data/lilinwei/3D/1006difix/metrics.py",
+  "PSNR": "utils.image_utils.psnr from 1006difix (20*log10(1/sqrt(MSE)))",
+  "SSIM": "utils.loss_utils.ssim from 1006difix (Graphdeco 11x11 Gaussian window)",
+  "LPIPS": "lpipsPyTorch VGG from 1006difix",
+  "device": "cpu",
+  "results": {
+    "fern": {
+      "n_views": 3,
+      "PSNR": 20.975201924641926,
+      "SSIM": 0.6984453201293945,
+      "LPIPS": 0.2728315095106761,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "IMG_4026.JPG"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "IMG_4034.JPG"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "IMG_4042.JPG"
+        }
+      ]
+    },
+    "flower": {
+      "n_views": 5,
+      "PSNR": 19.985758209228514,
+      "SSIM": 0.6526664733886719,
+      "LPIPS": 0.3323111832141876,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "IMG_2962.JPG"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "IMG_2970.JPG"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "IMG_2978.JPG"
+        },
+        {
+          "render": "00003.png",
+          "canonical_test_image": "IMG_2986.JPG"
+        },
+        {
+          "render": "00004.png",
+          "canonical_test_image": "IMG_2994.JPG"
+        }
+      ]
+    },
+    "fortress": {
+      "n_views": 6,
+      "PSNR": 23.192521413167317,
+      "SSIM": 0.7445943057537079,
+      "LPIPS": 0.24060307194789252,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "IMG_1800.JPG"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "IMG_1808.JPG"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "IMG_1816.JPG"
+        },
+        {
+          "render": "00003.png",
+          "canonical_test_image": "IMG_1824.JPG"
+        },
+        {
+          "render": "00004.png",
+          "canonical_test_image": "IMG_1832.JPG"
+        },
+        {
+          "render": "00005.png",
+          "canonical_test_image": "IMG_1840.JPG"
+        }
+      ]
+    },
+    "horns": {
+      "n_views": 8,
+      "PSNR": 19.420982599258423,
+      "SSIM": 0.6850113794207573,
+      "LPIPS": 0.306933019310236,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "DJI_20200223_163016_842.jpg"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "DJI_20200223_163024_597.jpg"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "DJI_20200223_163033_432.jpg"
+        },
+        {
+          "render": "00003.png",
+          "canonical_test_image": "DJI_20200223_163047_307.jpg"
+        },
+        {
+          "render": "00004.png",
+          "canonical_test_image": "DJI_20200223_163055_437.jpg"
+        },
+        {
+          "render": "00005.png",
+          "canonical_test_image": "DJI_20200223_163103_777.jpg"
+        },
+        {
+          "render": "00006.png",
+          "canonical_test_image": "DJI_20200223_163201_633.jpg"
+        },
+        {
+          "render": "00007.png",
+          "canonical_test_image": "DJI_20200223_163208_938.jpg"
+        }
+      ]
+    },
+    "leaves": {
+      "n_views": 4,
+      "PSNR": 16.18861222267151,
+      "SSIM": 0.5366598665714264,
+      "LPIPS": 0.27537941187620163,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "IMG_2997.JPG"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "IMG_3006.JPG"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "IMG_3014.JPG"
+        },
+        {
+          "render": "00003.png",
+          "canonical_test_image": "IMG_3022.JPG"
+        }
+      ]
+    },
+    "orchids": {
+      "n_views": 4,
+      "PSNR": 16.23854112625122,
+      "SSIM": 0.4844708889722824,
+      "LPIPS": 0.31316500902175903,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "IMG_4467.JPG"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "IMG_4475.JPG"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "IMG_4483.JPG"
+        },
+        {
+          "render": "00003.png",
+          "canonical_test_image": "IMG_4491.JPG"
+        }
+      ]
+    },
+    "room": {
+      "n_views": 6,
+      "PSNR": 21.575295130411785,
+      "SSIM": 0.8561605115731558,
+      "LPIPS": 0.1943773776292801,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "DJI_20200226_143850_006.JPG"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "DJI_20200226_143901_419.JPG"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "DJI_20200226_143912_008.JPG"
+        },
+        {
+          "render": "00003.png",
+          "canonical_test_image": "DJI_20200226_143926_241.JPG"
+        },
+        {
+          "render": "00004.png",
+          "canonical_test_image": "DJI_20200226_143938_168.JPG"
+        },
+        {
+          "render": "00005.png",
+          "canonical_test_image": "DJI_20200226_143948_113.JPG"
+        }
+      ]
+    },
+    "trex": {
+      "n_views": 7,
+      "PSNR": 20.854027339390345,
+      "SSIM": 0.7799319284302848,
+      "LPIPS": 0.23075867124966212,
+      "view_mapping": [
+        {
+          "render": "00000.png",
+          "canonical_test_image": "DJI_20200223_163548_810.jpg"
+        },
+        {
+          "render": "00001.png",
+          "canonical_test_image": "DJI_20200223_163557_660.jpg"
+        },
+        {
+          "render": "00002.png",
+          "canonical_test_image": "DJI_20200223_163604_605.jpg"
+        },
+        {
+          "render": "00003.png",
+          "canonical_test_image": "DJI_20200223_163611_160.jpg"
+        },
+        {
+          "render": "00004.png",
+          "canonical_test_image": "DJI_20200223_163620_700.jpg"
+        },
+        {
+          "render": "00005.png",
+          "canonical_test_image": "DJI_20200223_163639_916.jpg"
+        },
+        {
+          "render": "00006.png",
+          "canonical_test_image": "DJI_20200223_163646_755.jpg"
+        }
+      ]
+    }
+  },
+  "macro": {
+    "PSNR": 19.803867495627628,
+    "SSIM": 0.67974258427996,
+    "LPIPS": 0.27079490671998685
+  },
+  "method": "DropoutGS"
+}

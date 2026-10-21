@@ -1,0 +1,330 @@
+{
+  "scene": "horns",
+  "training_names": [
+    "DJI_20200223_163017_967.jpg",
+    "DJI_20200223_163053_863.jpg",
+    "DJI_20200223_163225_243.jpg"
+  ],
+  "test_names": [
+    "DJI_20200223_163016_842.jpg",
+    "DJI_20200223_163024_597.jpg",
+    "DJI_20200223_163033_432.jpg",
+    "DJI_20200223_163047_307.jpg",
+    "DJI_20200223_163055_437.jpg",
+    "DJI_20200223_163103_777.jpg",
+    "DJI_20200223_163201_633.jpg",
+    "DJI_20200223_163208_938.jpg"
+  ],
+  "mapping": [
+    {
+      "colmap_name": "DJI_20200223_163016_842.jpg",
+      "images_4_file": "DJI_20200223_163016_842.png",
+      "sha256": "c9bea868cd4389b853df104a1632f8642bec7e2371da96f8867d152d597aec40"
+    },
+    {
+      "colmap_name": "DJI_20200223_163017_967.jpg",
+      "images_4_file": "DJI_20200223_163017_967.png",
+      "sha256": "db3d1eae555ceedc6521dd3771566008be3c88f0bce381d450aeb570cadd97f4"
+    },
+    {
+      "colmap_name": "DJI_20200223_163018_942.jpg",
+      "images_4_file": "DJI_20200223_163018_942.png",
+      "sha256": "2ce65a8be5b1f4278f2602c73de9b07c8fd23d711208a33ec0a49d7f3b787805"
+    },
+    {
+      "colmap_name": "DJI_20200223_163019_752.jpg",
+      "images_4_file": "DJI_20200223_163019_752.png",
+      "sha256": "8acfa6b7759ddf84e93be94c4701d3df04fca7ee42611a7ce6983ee2a5d6ac4c"
+    },
+    {
+      "colmap_name": "DJI_20200223_163020_712.jpg",
+      "images_4_file": "DJI_20200223_163020_712.png",
+      "sha256": "3d588e91ebe9aea4f8e8831e30e499e7457ae8af325495aeda60c8b6db86f2cd"
+    },
+    {
+      "colmap_name": "DJI_20200223_163021_627.jpg",
+      "images_4_file": "DJI_20200223_163021_627.png",
+      "sha256": "749fa3a7f62d4a82cc1b297544f894f911be977e2a821bce6cb6934ffc47dfca"
+    },
+    {
+      "colmap_name": "DJI_20200223_163022_557.jpg",
+      "images_4_file": "DJI_20200223_163022_557.png",
+      "sha256": "65feab9125b4897485a3b14043916b73dd255a86bd577f5c5bdca9321e188712"
+    },
+    {
+      "colmap_name": "DJI_20200223_163023_427.jpg",
+      "images_4_file": "DJI_20200223_163023_427.png",
+      "sha256": "d2f8ead1f63a06e3b1d3e264cf5c7da5a455588e4166e90884d4e57fd6f6fd05"
+    },
+    {
+      "colmap_name": "DJI_20200223_163024_597.jpg",
+      "images_4_file": "DJI_20200223_163024_597.png",
+      "sha256": "3c6c6bd82cee75ddbeb33abc181c7fd2269629abcb05bd5ed20142fdf98c5997"
+    },
+    {
+      "colmap_name": "DJI_20200223_163025_977.jpg",
+      "images_4_file": "DJI_20200223_163025_977.png",
+      "sha256": "f5e633f22f7b2d688943b3e157fb049d4c3dce809d03e704b5d4b24320461367"
+    },
+    {
+      "colmap_name": "DJI_20200223_163028_017.jpg",
+      "images_4_file": "DJI_20200223_163028_017.png",
+      "sha256": "9f43da76f936be3aa58ed06e68868b38ea7576b78e2a0e228585565410940ca3"
+    },
+    {
+      "colmap_name": "DJI_20200223_163029_038.jpg",
+      "images_4_file": "DJI_20200223_163029_038.png",
+      "sha256": "fd1bc6d26d109bba024593bacd55339d1b82513e60d3fa5817d280e5ac79fad5"
+    },
+    {
+      "colmap_name": "DJI_20200223_163029_877.jpg",
+      "images_4_file": "DJI_20200223_163029_877.png",
+      "sha256": "db4202ba5cdf06bad14ebe6130e000ae195c7bd185eeb49be661aacef2cbff2b"
+    },
+    {
+      "colmap_name": "DJI_20200223_163030_687.jpg",
+      "images_4_file": "DJI_20200223_163030_687.png",
+      "sha256": "786506c25787103d801bcedfc5ca3f0d4c6fd2db9ea518f90cef401fd34e833e"
+    },
+    {
+      "colmap_name": "DJI_20200223_163031_602.jpg",
+      "images_4_file": "DJI_20200223_163031_602.png",
+      "sha256": "307607f2c9b83bf75b6cc71b9ece3f0349044a207e2a52424720478fbe4a62a5"
+    },
+    {
+      "colmap_name": "DJI_20200223_163032_532.jpg",
+      "images_4_file": "DJI_20200223_163032_532.png",
+      "sha256": "2766a85fc8fb6bf2c9ee16350a6d967633c8474415a90e246027a613031b5c1a"
+    },
+    {
+      "colmap_name": "DJI_20200223_163033_432.jpg",
+      "images_4_file": "DJI_20200223_163033_432.png",
+      "sha256": "689ef5d59e4d8335fb93940d6ef9d454a98fd5466f49e89c58f90c9e27187520"
+    },
+    {
+      "colmap_name": "DJI_20200223_163034_287.jpg",
+      "images_4_file": "DJI_20200223_163034_287.png",
+      "sha256": "0056b048123b2473d639d742ba3b6a6860f1fe7672aaf2cd094dd89f00bd9647"
+    },
+    {
+      "colmap_name": "DJI_20200223_163035_787.jpg",
+      "images_4_file": "DJI_20200223_163035_787.png",
+      "sha256": "6e5ac3353c48e2f17e20e0b17b1e448ce68a401af7b206bef0dfbbda12247d54"
+    },
+    {
+      "colmap_name": "DJI_20200223_163036_792.jpg",
+      "images_4_file": "DJI_20200223_163036_792.png",
+      "sha256": "cc7fc35e94ef0afde91b6d912500f307c572778fb696e90f5bc2f8c59ea40f42"
+    },
+    {
+      "colmap_name": "DJI_20200223_163042_402.jpg",
+      "images_4_file": "DJI_20200223_163042_402.png",
+      "sha256": "d06d74941665fb054acb8082b793e2089e450b35d31d7c28bf79d19d4d047fa8"
+    },
+    {
+      "colmap_name": "DJI_20200223_163043_257.jpg",
+      "images_4_file": "DJI_20200223_163043_257.png",
+      "sha256": "9c6e9299bee2f2dfbb035652479e2d2c23f5a82143bdac81825b7f242cf4237a"
+    },
+    {
+      "colmap_name": "DJI_20200223_163045_537.jpg",
+      "images_4_file": "DJI_20200223_163045_537.png",
+      "sha256": "653779ce71d6f069123d5545238263d3d14e7f647200b7118e5f2939c7718dda"
+    },
+    {
+      "colmap_name": "DJI_20200223_163046_438.jpg",
+      "images_4_file": "DJI_20200223_163046_438.png",
+      "sha256": "23a3d19954319431dbf7cdaa441650872514390e1eb84d4f7def49521abafcc9"
+    },
+    {
+      "colmap_name": "DJI_20200223_163047_307.jpg",
+      "images_4_file": "DJI_20200223_163047_307.png",
+      "sha256": "b868109e6295f0f96f187548a9368bace1f0a1a36cc07087733a6a6089c5833e"
+    },
+    {
+      "colmap_name": "DJI_20200223_163048_057.jpg",
+      "images_4_file": "DJI_20200223_163048_057.png",
+      "sha256": "da1fb9e6e9e7721e791cfe5ac1b7367790a8d8aedcde1e5bd126ac0cca20e70f"
+    },
+    {
+      "colmap_name": "DJI_20200223_163049_048.jpg",
+      "images_4_file": "DJI_20200223_163049_048.png",
+      "sha256": "561f75be30e85b49c44ebeb757bd1ce655ff8c46aa9610e92e366b1c58f2b081"
+    },
+    {
+      "colmap_name": "DJI_20200223_163050_292.jpg",
+      "images_4_file": "DJI_20200223_163050_292.png",
+      "sha256": "7312f353ebf385903d8ae3ea22ab9ffdc159299f43c62dc698db7c7b24f41b65"
+    },
+    {
+      "colmap_name": "DJI_20200223_163052_122.jpg",
+      "images_4_file": "DJI_20200223_163052_122.png",
+      "sha256": "038ad6794110cb42051dd8eec84c6da00a421cc94bc12948ae64132801010f9d"
+    },
+    {
+      "colmap_name": "DJI_20200223_163053_007.jpg",
+      "images_4_file": "DJI_20200223_163053_007.png",
+      "sha256": "b7df7f93af5ddb3a0f84d4819d59e753693177f3f893dec98b9398b8b2acd768"
+    },
+    {
+      "colmap_name": "DJI_20200223_163053_863.jpg",
+      "images_4_file": "DJI_20200223_163053_863.png",
+      "sha256": "03991cdb7ff29ecd8904daefed4dc572c7f8d64d4817eb17a79aaefd7597da56"
+    },
+    {
+      "colmap_name": "DJI_20200223_163054_672.jpg",
+      "images_4_file": "DJI_20200223_163054_672.png",
+      "sha256": "645152e2ae8e6216cdf9dab23492bbc7e2c40e87a8180fea705c53cfb23d4f4b"
+    },
+    {
+      "colmap_name": "DJI_20200223_163055_437.jpg",
+      "images_4_file": "DJI_20200223_163055_437.png",
+      "sha256": "d29aa994aeb75e6e73a5e20cd245a06b6c34128d861c902fd095b442dcbed71a"
+    },
+    {
+      "colmap_name": "DJI_20200223_163056_232.jpg",
+      "images_4_file": "DJI_20200223_163056_232.png",
+      "sha256": "844c814bce2e7193d7c9f7093bcd68b3cc64e1eaf3216693e987f30a784c8caf"
+    },
+    {
+      "colmap_name": "DJI_20200223_163056_982.jpg",
+      "images_4_file": "DJI_20200223_163056_982.png",
+      "sha256": "32298274bbc1ce6a9d7c02a6fdc47b23497ea86f7f72b69d7ff558f9ba62ee3f"
+    },
+    {
+      "colmap_name": "DJI_20200223_163057_732.jpg",
+      "images_4_file": "DJI_20200223_163057_732.png",
+      "sha256": "c766883058c46be5d93995174cb536643e772963cf8b4dd639af03b567c52cda"
+    },
+    {
+      "colmap_name": "DJI_20200223_163058_602.jpg",
+      "images_4_file": "DJI_20200223_163058_602.png",
+      "sha256": "44a28b3bd2202e3932f926faa1a34d46c5975b418956a4c61bbb59f1f9220bc3"
+    },
+    {
+      "colmap_name": "DJI_20200223_163101_047.jpg",
+      "images_4_file": "DJI_20200223_163101_047.png",
+      "sha256": "c88a8e85aed5d93e27bd67ae6b1abe5881b3707d056551ab637939dd9515053c"
+    },
+    {
+      "colmap_name": "DJI_20200223_163101_947.jpg",
+      "images_4_file": "DJI_20200223_163101_947.png",
+      "sha256": "fff80e7235d73f00d7aa84c374b1ccccfbea15a35925cfd902517910d2cd7961"
+    },
+    {
+      "colmap_name": "DJI_20200223_163102_892.jpg",
+      "images_4_file": "DJI_20200223_163102_892.png",
+      "sha256": "128e943ab98c158cb3bbce59cd78c0bf8adeb977a66b1fd86af50776bd590717"
+    },
+    {
+      "colmap_name": "DJI_20200223_163103_777.jpg",
+      "images_4_file": "DJI_20200223_163103_777.png",
+      "sha256": "d5f4d4e2f0b37816e6552ec2c830d777284fcbba405dc2542ac83408657ba9df"
+    },
+    {
+      "colmap_name": "DJI_20200223_163104_557.jpg",
+      "images_4_file": "DJI_20200223_163104_557.png",
+      "sha256": "d76770c596016d2ca637da999bf6ccb6ec1ac0cd630c92b213d1933a35b42732"
+    },
+    {
+      "colmap_name": "DJI_20200223_163105_427.jpg",
+      "images_4_file": "DJI_20200223_163105_427.png",
+      "sha256": "5c5ff56f261532e985d1555a94cfb5fc257b92cfd152b1d183cf6d393c421ec4"
+    },
+    {
+      "colmap_name": "DJI_20200223_163106_343.jpg",
+      "images_4_file": "DJI_20200223_163106_343.png",
+      "sha256": "2d978f61cd3d4ac84033330ad97a1fafc61d273976e4c90ea611ae344653a47e"
+    },
+    {
+      "colmap_name": "DJI_20200223_163156_668.jpg",
+      "images_4_file": "DJI_20200223_163156_668.png",
+      "sha256": "2d9c4e31ba7143ef4279e81e58e8960be1bfec372bb6906373a80269974b4418"
+    },
+    {
+      "colmap_name": "DJI_20200223_163157_823.jpg",
+      "images_4_file": "DJI_20200223_163157_823.png",
+      "sha256": "f30d65935158f6c2982827f32c53537772ce653a610e80967be73993d42e06c6"
+    },
+    {
+      "colmap_name": "DJI_20200223_163159_803.jpg",
+      "images_4_file": "DJI_20200223_163159_803.png",
+      "sha256": "4be2c744f40d34f18cc89bfa5d6b6513b6052164dc9191e2a691b864cb6e4557"
+    },
+    {
+      "colmap_name": "DJI_20200223_163200_643.jpg",
+      "images_4_file": "DJI_20200223_163200_643.png",
+      "sha256": "b91903d809455a40f009e4943f4c1fbe65eada80fdd25ccded6b72dfe4408854"
+    },
+    {
+      "colmap_name": "DJI_20200223_163201_633.jpg",
+      "images_4_file": "DJI_20200223_163201_633.png",
+      "sha256": "f4339b44df8e18ac42ca4c4c3d1709e087ae8297900d78c5098f30f2d69c870b"
+    },
+    {
+      "colmap_name": "DJI_20200223_163202_443.jpg",
+      "images_4_file": "DJI_20200223_163202_443.png",
+      "sha256": "1966b05a184a43501c386329c3f199bc10663743859b1c90e674a85c8f453b83"
+    },
+    {
+      "colmap_name": "DJI_20200223_163203_267.jpg",
+      "images_4_file": "DJI_20200223_163203_267.png",
+      "sha256": "b5b92dd81d2eea8ecc0e7094e1d81d766dce4b0d0b7d80d30fea93820581276e"
+    },
+    {
+      "colmap_name": "DJI_20200223_163204_077.jpg",
+      "images_4_file": "DJI_20200223_163204_077.png",
+      "sha256": "983ac03f6fbb718ade888dff37b6be0dd448fdf0bc38e532b8ade1486a66e6b9"
+    },
+    {
+      "colmap_name": "DJI_20200223_163204_859.jpg",
+      "images_4_file": "DJI_20200223_163204_859.png",
+      "sha256": "124dc68c3e70989b4d911bfd70ca2659633e0c6e908d6e58e22f183d5ba50046"
+    },
+    {
+      "colmap_name": "DJI_20200223_163205_713.jpg",
+      "images_4_file": "DJI_20200223_163205_713.png",
+      "sha256": "63213e35d886e97afcc93936a7959a80234e4c24532416fe607992b141fa846d"
+    },
+    {
+      "colmap_name": "DJI_20200223_163206_598.jpg",
+      "images_4_file": "DJI_20200223_163206_598.png",
+      "sha256": "0c6a6f2fbf0fbc4ec929ed2b280c4d8bc06dca97e9635834bfef40e1cfa4ad59"
+    },
+    {
+      "colmap_name": "DJI_20200223_163208_008.jpg",
+      "images_4_file": "DJI_20200223_163208_008.png",
+      "sha256": "ba57ba84f209f50931a28baca346fb4fbcef45eac67f4886712e4e3305438f61"
+    },
+    {
+      "colmap_name": "DJI_20200223_163208_938.jpg",
+      "images_4_file": "DJI_20200223_163208_938.png",
+      "sha256": "c4930a6b3d3887c7662d312d1dbf7a4767db8e566653a024390a658a5d9ccd0d"
+    },
+    {
+      "colmap_name": "DJI_20200223_163209_763.jpg",
+      "images_4_file": "DJI_20200223_163209_763.png",
+      "sha256": "4e21412e11e1b24b75ba208bd5eb6e701b377b6f8fd7fbd3bf5a40f4edef4453"
+    },
+    {
+      "colmap_name": "DJI_20200223_163210_513.jpg",
+      "images_4_file": "DJI_20200223_163210_513.png",
+      "sha256": "487149e1402202f61645f38874e35d2bc764d49ff1399c3bc2cdcd802585828f"
+    },
+    {
+      "colmap_name": "DJI_20200223_163222_378.jpg",
+      "images_4_file": "DJI_20200223_163222_378.png",
+      "sha256": "21ad8ae5494c62f64c6746ed965570f76e4d46e191de4835a8c4d6195287653a"
+    },
+    {
+      "colmap_name": "DJI_20200223_163224_103.jpg",
+      "images_4_file": "DJI_20200223_163224_103.png",
+      "sha256": "ad958e2989cfa5265f777567b9ed5902982d9dc71e900ade43396605bd6cee1d"
+    },
+    {
+      "colmap_name": "DJI_20200223_163225_243.jpg",
+      "images_4_file": "DJI_20200223_163225_243.png",
+      "sha256": "a6895522864cc840b51d3b2dcfe105a2a0a53536ed15c84406e54d5514e8e97e"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "orchids",
+  "main_table": true,
+  "rgb_render_count": 4,
+  "files": [
+    {
+      "path": "output/llff/our_R4/orchids/renders/IMG_4467.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/test/ours_10000/renders/IMG_4467.png",
+      "bytes": 1295304,
+      "sha256": "9b34a2469cee015832c89c748afbaff0123daa8c8ba4c67f4ce10ba5756a915c",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/renders/IMG_4475.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/test/ours_10000/renders/IMG_4475.png",
+      "bytes": 1322346,
+      "sha256": "38822b7f651e58560bbe45d1e98637f014dd89cb2deb9e82e41f3a1d8fb25afb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/renders/IMG_4483.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/test/ours_10000/renders/IMG_4483.png",
+      "bytes": 1111930,
+      "sha256": "dd33b3c625c92a860eee7f17ba7a66e54dd484dbb52cb0269407e67ff4e1512d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/renders/IMG_4491.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/test/ours_10000/renders/IMG_4491.png",
+      "bytes": 1234889,
+      "sha256": "3d3258017c3cb290d42d83cabd06b7914e165a8f54500fdc9afe17fc0e588456",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/cfg_args",
+      "bytes": 243,
+      "sha256": "712d5fa78781bbbab651f0a7a946267a572d13f015955a9669c4080f40a7ebaa",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/cameras.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/cameras.json",
+      "bytes": 2811,
+      "sha256": "63e3b79aa40ee1bbb383882eb63e6139357fef7b3b5c76048da9be909b8def80",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/metrics/joint_summary.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/joint_summary.json",
+      "bytes": 1051,
+      "sha256": "2948df34b01643384a39eecfe49198d6e61119b240ea72a06924bb067025ad19",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/metrics/per_view.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/per_view.json",
+      "bytes": 544,
+      "sha256": "d1561e5fcb4e02835c40ba216a784b62db9236943d01b147d5634dfb02126892",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/metrics/results.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/results.json",
+      "bytes": 114,
+      "sha256": "f00539f12d66d89b2758b6fa4168bd042aec6324e64e002f0899f4667599dbee",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/orchids/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 23143898,
+      "sha256": "c8fca395acb84a49d971368f40fc1d780c26fda3313d43a7ed1a7800b60b5dcd",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/our_R4/orchids/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 605,
+      "sha256": "61553aa3aa152c3b9d95ea2e50dd86f58f1e3e639664f4b3a05917499ae1176a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/orchids/metrics/summary.json",
+      "source": "output/llff/our_R4/orchids/metrics/per_view.json",
+      "bytes": 254,
+      "sha256": "7a988c3173f13d0d6ece2f77e61d442afb2d3f6ba423c4a33d598392f2d24598",
+      "publish_on_git": true
+    }
+  ]
+}

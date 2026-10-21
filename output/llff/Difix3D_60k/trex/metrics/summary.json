@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "trex",
+  "evaluated_views": 7,
+  "PSNR": 19.910972050258092,
+  "SSIM": 0.7477507846696037,
+  "LPIPS": 0.23072511383465358,
+  "derived_from": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json"
+}

@@ -1,0 +1,121 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "horns",
+  "main_table": true,
+  "rgb_render_count": 8,
+  "files": [
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163016_842.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163016_842.png",
+      "bytes": 925961,
+      "sha256": "23d0e5f7e0694ba10248a0878c1089e2c8a88354cb5d7a9dcc276adee20c0907",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163024_597.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163024_597.png",
+      "bytes": 1002398,
+      "sha256": "bbde66ece43addb28b7aaa9a2ff9520a64beac685ac69affcc5f8e6789ffc64f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163033_432.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163033_432.png",
+      "bytes": 935852,
+      "sha256": "84057b3d1217ea996a339a4c6320710a15de4eb177f7263070041c121bbdb9d7",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163047_307.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163047_307.png",
+      "bytes": 987613,
+      "sha256": "eeaa5202039f13658ac3a965d79c3d37fcf64328d6cc27e8c477297a3d753d39",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163055_437.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163055_437.png",
+      "bytes": 1004399,
+      "sha256": "660b8e532bbc61a2bb4849bf8c6e206d20dca4c221e5f94df1d399c42e88890f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163103_777.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163103_777.png",
+      "bytes": 974300,
+      "sha256": "f47e98a1b098a508af537b24348b30ad600b5502e96e4118ad751685a5eb80bd",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163201_633.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163201_633.png",
+      "bytes": 1016646,
+      "sha256": "59bfb9a1445046d5312abb8460c45b84e1b154a4354c08af0a42333a0c514144",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/renders/DJI_20200223_163208_938.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/eval/ours_10000/renders/DJI_20200223_163208_938.png",
+      "bytes": 931602,
+      "sha256": "55a8117578d89843316f0bd7bd2e8b3031971b08f96ebc165f96711893c79328",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/cfg_args",
+      "bytes": 299,
+      "sha256": "d076edf86ee6c06ae2e5eb0c8c15d82f25e696a384d29f1d7fa837b2e69570d7",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/cameras.json",
+      "bytes": 4591,
+      "sha256": "991cc0631befced48c95c02030a316f149ed512c9504d1ee38b944b9bbdaafe6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/data_split.json",
+      "bytes": 1544,
+      "sha256": "95fe3b32adf3ebf65d26d0f4e6aaed9bfa3c9e6cdeabe602d3bd2c6c0004a393",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 21668794,
+      "sha256": "80d2a29e22304bf1acf99207a7bc1d684acd6de6002e096890f5bea5b2baa007",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/point_cloud/point_cloud_gs2.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/point_cloud_gs2/iteration_10000/point_cloud.ply",
+      "bytes": 21776178,
+      "sha256": "fb47c2f5a7eedabf86b60a94363c89293ded4e63b137d446ed6ebcc750eb247e",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/CoR-GS/outputs/horns/chkpnt10000.pth",
+      "bytes": 62913160,
+      "sha256": "61af26dbb5f46b5b57728812455607f09dbdbbb032d71e4be1ed6554e96698d2",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 901,
+      "sha256": "9b2215c294c02cc0c6e87bda84a454b7fd98fcbf2bf715ee6f2cc339b8d2b1e4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/CoR-GS/horns/metrics/summary.json",
+      "source": "output/llff/CoR-GS/metrics/public_common_eval.json",
+      "bytes": 254,
+      "sha256": "d900de16decd85310626cf76e28df94d4c35eb9841f7fdcc0f08c7944f851177",
+      "publish_on_git": true
+    }
+  ]
+}

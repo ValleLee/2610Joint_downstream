@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "room",
+  "evaluated_views": 6,
+  "PSNR": 21.03724193572998,
+  "SSIM": 0.8443118234475454,
+  "LPIPS": 0.21100411067406336,
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

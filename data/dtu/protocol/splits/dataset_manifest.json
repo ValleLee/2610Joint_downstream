@@ -1,0 +1,128 @@
+{
+  "dataset": "DTU",
+  "source_package": "CoR-GS DTU 3/6/9-view bundle",
+  "source_root": "/tmp/lilinwei/1007fsgsmvs_dtu/data_cache/dtu_corgs",
+  "scans": [
+    {
+      "scan": "scan8",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan8.json"
+    },
+    {
+      "scan": "scan21",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan21.json"
+    },
+    {
+      "scan": "scan30",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan30.json"
+    },
+    {
+      "scan": "scan31",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan31.json"
+    },
+    {
+      "scan": "scan34",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan34.json"
+    },
+    {
+      "scan": "scan38",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan38.json"
+    },
+    {
+      "scan": "scan40",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan40.json"
+    },
+    {
+      "scan": "scan41",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan41.json"
+    },
+    {
+      "scan": "scan45",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan45.json"
+    },
+    {
+      "scan": "scan55",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan55.json"
+    },
+    {
+      "scan": "scan63",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan63.json"
+    },
+    {
+      "scan": "scan82",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan82.json"
+    },
+    {
+      "scan": "scan103",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan103.json"
+    },
+    {
+      "scan": "scan110",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan110.json"
+    },
+    {
+      "scan": "scan114",
+      "camera_count": 49,
+      "train_count": 3,
+      "excluded_count": 15,
+      "test_count": 31,
+      "split": "/data/lilinwei/3D/1006difix/1007fsgsmvs/dtu/data/splits/cor_gs_3view/scan114.json"
+    }
+  ],
+  "split_protocol": "3 training indices [25,22,28], 15 excluded, remaining 31 test"
+}

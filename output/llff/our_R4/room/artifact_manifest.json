@@ -1,0 +1,107 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "room",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/our_R4/room/renders/DJI_20200226_143850_006.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/test/ours_10000/renders/DJI_20200226_143850_006.png",
+      "bytes": 592237,
+      "sha256": "e18f88fd8cf0dc5d975fe3ae02a7acdb38fd0502acf4912a9b4f0c758333531b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/renders/DJI_20200226_143901_419.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/test/ours_10000/renders/DJI_20200226_143901_419.png",
+      "bytes": 603961,
+      "sha256": "e6780b1b567d2eb21ffea2a6321c8af2861762b31cb3d4c183348641cc75ab2d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/renders/DJI_20200226_143912_008.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/test/ours_10000/renders/DJI_20200226_143912_008.png",
+      "bytes": 627402,
+      "sha256": "5fa70d15c6674992eda185de5e6adeb34a3c03ec01a13c4301e8ddc8e92fed86",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/renders/DJI_20200226_143926_241.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/test/ours_10000/renders/DJI_20200226_143926_241.png",
+      "bytes": 573002,
+      "sha256": "3c7ef6e19019a5097dcf78f61419a09e59fc4af8ea6516c5df54e8b6cb55cc93",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/renders/DJI_20200226_143938_168.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/test/ours_10000/renders/DJI_20200226_143938_168.png",
+      "bytes": 588430,
+      "sha256": "54aa80c9f42ff9f5be38168f187feccca7369538b734c3e97ec6d167d8a7bf1b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/renders/DJI_20200226_143948_113.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/test/ours_10000/renders/DJI_20200226_143948_113.png",
+      "bytes": 585466,
+      "sha256": "56381a866e459d9dbc5138e1d2ebcf7bfad82f847087c6604554b82e8a3d41c8",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/cfg_args",
+      "bytes": 237,
+      "sha256": "31c440ed50d845ba4da6f1c69d73f0b3b6c2f8886fcb644999cfe6b3ba805327",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/cameras.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/cameras.json",
+      "bytes": 3775,
+      "sha256": "fd4a688e7d2f64e7645e7b7639244c43ab286c13f66af13fc77fef28c3d5739e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/metrics/joint_summary.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/joint_summary.json",
+      "bytes": 1189,
+      "sha256": "5a9284704a4b9e79494c469addccda80b71e723295cdf3f9fdd7be03eae96117",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/metrics/per_view.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/per_view.json",
+      "bytes": 1047,
+      "sha256": "742639b3eedf0ea6e99e0c37973fc01c8efa22ff0688a0ca2f0a2b0720d835a4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/metrics/results.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/results.json",
+      "bytes": 112,
+      "sha256": "50e66e7238c07dc9551bbc0c40bf52a33cd718ad298f70bc4de485c7b0226bb3",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/room/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 12450138,
+      "sha256": "e834c3d9f2a45501e77501a5a2e81a13b15c7cf20d5a493d41e76dfd526a409d",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/our_R4/room/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 774,
+      "sha256": "d289bf20d23ff98f241caede1f3f19454d90e356087ca1c98c27caeb15453437",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/room/metrics/summary.json",
+      "source": "output/llff/our_R4/room/metrics/per_view.json",
+      "bytes": 248,
+      "sha256": "e86ff14eea7a2a939e5fb9b4aa215133a2a5a7ddf446de637fe971ec80172392",
+      "publish_on_git": true
+    }
+  ]
+}

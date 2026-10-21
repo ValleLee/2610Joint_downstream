@@ -1,0 +1,37 @@
+{
+  "protocol": "CoR-GS source-code DTU split: 25 test views per scan",
+  "metric_code": "CoR-GS metrics_dtu.py: foreground PSNR; white-background 3DGS SSIM and VGG LPIPS",
+  "mask_archive_sha256": "988f1a1957083191b45f7d4ea55a0b74566fc4286f1c224be9d19aa2a143ffbd",
+  "scene_count": 15,
+  "views_per_scene": 25,
+  "summary": {
+    "DNGaussian": {
+      "PSNR": {
+        "mean": 18.660303993793026,
+        "scene_sample_std": 2.5170025694937777
+      },
+      "SSIM": {
+        "mean": 0.7713485509554545,
+        "scene_sample_std": 0.13875850941216492
+      },
+      "LPIPS": {
+        "mean": 0.18178329067428906,
+        "scene_sample_std": 0.09898806224665313
+      }
+    },
+    "DropoutGS": {
+      "PSNR": {
+        "mean": 20.321931632682382,
+        "scene_sample_std": 2.33823249266833
+      },
+      "SSIM": {
+        "mean": 0.8326210643450419,
+        "scene_sample_std": 0.10073766391094345
+      },
+      "LPIPS": {
+        "mean": 0.15909022915860016,
+        "scene_sample_std": 0.08216430289202208
+      }
+    }
+  }
+}

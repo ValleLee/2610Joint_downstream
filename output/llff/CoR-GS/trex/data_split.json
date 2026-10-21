@@ -1,0 +1,34 @@
+{
+  "scene": "trex",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/trex",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/trex",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "DJI_20200223_163551_210.jpg",
+    "DJI_20200223_163616_980.jpg",
+    "DJI_20200223_163654_571.jpg"
+  ],
+  "fsgs_test_names": [
+    "DJI_20200223_163548_810.jpg",
+    "DJI_20200223_163557_660.jpg",
+    "DJI_20200223_163604_605.jpg",
+    "DJI_20200223_163611_160.jpg",
+    "DJI_20200223_163620_700.jpg",
+    "DJI_20200223_163639_916.jpg",
+    "DJI_20200223_163646_755.jpg"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/trex/3_views/dense/fused.ply",
+  "points_written": 10947,
+  "points_total": 33567,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/trex/poses_bounds.npy",
+  "runtime_initialization_audit": {
+    "canonical_source_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/trex/initial_point_cloud.ply",
+    "actual_training_loader_ply": "/tmp/lilinwei/1007baselines/data/trex/3_views/dense/fused.ply",
+    "sha256": "21ac7afe19d18baecabbd16be3f6c3411ebab1a8a40d873a7c24f7b83f26dd48",
+    "point_count": 24987,
+    "note": "This is a legacy dataset-preparation reference and does not identify the point cloud loaded by the completed training run. The actual MVS loader input and verified SHA-256 are recorded in configs/actual_initialization_audit.json."
+  }
+}

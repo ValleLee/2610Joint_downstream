@@ -1,0 +1,79 @@
+{
+  "dataset": "llff",
+  "method": "FSGS",
+  "scene": "fern",
+  "main_table": true,
+  "rgb_render_count": 3,
+  "files": [
+    {
+      "path": "output/llff/FSGS/fern/renders/IMG_4026.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/eval/ours_10000/renders/IMG_4026.png",
+      "bytes": 1114389,
+      "sha256": "f3cd47391bb68b8570a57206f1ab846a5ab1bcd13a8a247c6ef7c30089d0bdad",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fern/renders/IMG_4034.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/eval/ours_10000/renders/IMG_4034.png",
+      "bytes": 1081374,
+      "sha256": "030ec8da809c152c8588f8ee9a2da27c8ab43361ced2d7eb47e3dc29df674f72",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fern/renders/IMG_4042.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/eval/ours_10000/renders/IMG_4042.png",
+      "bytes": 1107467,
+      "sha256": "d3d8c34eac1d0406270dfb257611ec18a5750eb9c080853df11ae0be208a8f6c",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fern/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/cfg_args",
+      "bytes": 261,
+      "sha256": "a6d57a9addd2234384532e758cc683c248d126e3922c953e36867d7e54257148",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fern/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/cameras.json",
+      "bytes": 2422,
+      "sha256": "0be6235be330e8e6b46bb0f1ca6f2bccb5d7316714dedcabcccc536e62ff0d89",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fern/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/data_split.json",
+      "bytes": 1271,
+      "sha256": "d918971e74a7a143b94b30912ef951d7fe5470bc92cb9da72a489e39441ca703",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fern/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 36257395,
+      "sha256": "115742132a8eeae9ae1866f25266cc005dcbbe4e8059202f515b6076c8cfdc2e",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/fern/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/FSGS/outputs/fern/chkpnt10000.pth",
+      "bytes": 105267905,
+      "sha256": "0add9de175b4ed44ec58a327dad39273807ebbe46c2f2728121431a9b0e2b6b6",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/FSGS/fern/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 628,
+      "sha256": "1febee538c9f1d212c3ec93c1f9012ed6e79ab1af49ee069a38effd96d1501a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/FSGS/fern/metrics/summary.json",
+      "source": "output/llff/FSGS/metrics/public_common_eval.json",
+      "bytes": 247,
+      "sha256": "a77097b8ab771584645ae1ad8bea18edc7c516588cdb2235d2613888c020d5fe",
+      "publish_on_git": true
+    }
+  ]
+}

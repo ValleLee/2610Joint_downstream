@@ -1,0 +1,22 @@
+% Preamble requirement: \usepackage[table]{xcolor}
+\definecolor{rankbest}{HTML}{F5C6C6}
+\definecolor{ranksecond}{HTML}{FCE0CC}
+\definecolor{rankthird}{HTML}{FFF9C4}
+\begin{table}[t]
+\centering
+\caption{LLFF three-view comparison. Per metric, the best, second-best, and third-best results are shaded red, orange, and yellow. All methods use the same three-view MVS initialization and evaluation; all use 10k steps except Difix3D+ (30k base + 30k refinement). Training details and camera-pose information are described in the experiment protocol.}
+\label{tab:llff_main}
+\begin{tabular}{lrrr}
+\toprule
+Method & PSNR $\uparrow$ & SSIM $\uparrow$ & LPIPS $\downarrow$ \\
+\midrule
+3DGS & 14.4799 & 0.4818 & 0.4155 \\
+FSGS & \cellcolor{rankthird}19.7404 & \cellcolor{rankthird}0.6640 & \cellcolor{rankbest}0.2700 \\
+CoR-GS & 19.5491 & \cellcolor{ranksecond}0.6730 & \cellcolor{rankthird}0.2732 \\
+DNGaussian & 19.3770 & 0.6595 & 0.2831 \\
+DropoutGS & \cellcolor{rankbest}19.8039 & \cellcolor{rankbest}0.6797 & \cellcolor{ranksecond}0.2708 \\
+Difix3D+ & 18.4940 & 0.6017 & 0.2842 \\
+Ours & \cellcolor{ranksecond}19.7992 & 0.6587 & 0.2856 \\
+\bottomrule
+\end{tabular}
+\end{table}

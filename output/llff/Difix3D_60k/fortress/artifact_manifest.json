@@ -1,0 +1,86 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "fortress",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/Difix3D_60k/fortress/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/eval/ours_60000/renders/00000.png",
+      "bytes": 1219399,
+      "sha256": "bf3fffe5585f3d964b2fdd0950a0918a6f02e8c93ec5e52076e61fbbf6da27ba",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/eval/ours_60000/renders/00001.png",
+      "bytes": 1187492,
+      "sha256": "3195282e8b43b6d837950c8e25859f7337246ce4572b095b0cbb6c4474db8014",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/eval/ours_60000/renders/00002.png",
+      "bytes": 1183735,
+      "sha256": "6cf1ed3a1eafa736f38a335d946dee028037d1ab2f093ab6357e5a7726e7f0f0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/eval/ours_60000/renders/00003.png",
+      "bytes": 1174702,
+      "sha256": "552057648c71d2736c684f83cc88639066dd74eaec1d57106d9d30632c89f1d9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/eval/ours_60000/renders/00004.png",
+      "bytes": 1195257,
+      "sha256": "47ec13d12a24bfa4898abfa80c7c7d8818277b39e78f2ac2e7e24e48e84dfd29",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/renders/00005.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/eval/ours_60000/renders/00005.png",
+      "bytes": 1201385,
+      "sha256": "796be62342cc04317c7ec5262af27e6a5910b60119348327e1cd7eaf96e9925e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/config/cfg.yml",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/cfg.yml",
+      "bytes": 1995,
+      "sha256": "e24ef8b1c6ed5235d523724ae9f346a411de048092ef4f2fca31e9fb7b71e569",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/point_cloud/iteration_60000/point_cloud.ply",
+      "bytes": 130574771,
+      "sha256": "71eadc8f9e7d1a6c97884a9841d9ce75dfaddded74e6d284e92a5854296f81c6",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/checkpoints/ckpt_60000_rank0.pt",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/fortress/ckpt_60000_rank0.pt",
+      "bytes": 124257634,
+      "sha256": "6d4e20e031cc7657fd8f1cf6fa5549b81e2796a832f36176241290ed74ce5ac9",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 718,
+      "sha256": "6222c960ba16cd9727477d7e23692e7c492e8862c7fd05cf0a1766f559ee0d63",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/fortress/metrics/summary.json",
+      "source": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json",
+      "bytes": 272,
+      "sha256": "95052ffa017aa6a7933bc5157720ecb3fd5fde801eb2e4debdb877b7b2476f2b",
+      "publish_on_git": true
+    }
+  ]
+}

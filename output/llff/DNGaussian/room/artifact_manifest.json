@@ -1,0 +1,107 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "room",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/DNGaussian/room/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/eval/ours_10000/renders/00000.png",
+      "bytes": 651489,
+      "sha256": "11d4c4cf1776f6794f6ae33972cd46661ba227e2b9a957e4c5ba1a9b5e0b756f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/eval/ours_10000/renders/00001.png",
+      "bytes": 672970,
+      "sha256": "6ffc0aaa0949989829ace8993e374566c5d799e13b90708484d442c5a3e6ac50",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/eval/ours_10000/renders/00002.png",
+      "bytes": 706200,
+      "sha256": "a7930675a79b4f565587beeba55072e79b2cf28fc6917434424624677d153635",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/eval/ours_10000/renders/00003.png",
+      "bytes": 627319,
+      "sha256": "b33daf1a81bd0f2e06fe69875e63901b9d8d1507638d9b909b00eb7f761ac667",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/eval/ours_10000/renders/00004.png",
+      "bytes": 658246,
+      "sha256": "2603175c3db5527f9cc09bc1b90dd6c7ae6e0525c0f2ff6c3734c1f28c9aa3e0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/renders/00005.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/eval/ours_10000/renders/00005.png",
+      "bytes": 655706,
+      "sha256": "cb5fb4ee22dd115ebd91edc13cc1570f88725052adcaa508059c64758af737c9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/config/cfg_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/cfg_args",
+      "bytes": 316,
+      "sha256": "7e5cfcc58718367a2b3dcaedb2064d2f919acc81c58eddada6689c089052cc0e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/cameras.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/cameras.json",
+      "bytes": 19713,
+      "sha256": "e8e9e78ef23cd746e19fe803d3cc01a0f20367e1bcedc076283c573fffb9eacf",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/data_split.json",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/data_split.json",
+      "bytes": 1465,
+      "sha256": "4f974a1ce9d04c70340d05069e2a838f47fcea9046eb512e3ff115f77092625a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/config/opt_args",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/opt_args",
+      "bytes": 634,
+      "sha256": "e531cd12ae20c7b975ef22ee1d61d2555ac45ee07503bdb78970549e952eb0a6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 2763893,
+      "sha256": "a49ce558e16c1c6d65573d5c9111f88df4133022ce3bdc4a8fe82174cc10599c",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/room/checkpoints/chkpnt10000.pth",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DNGaussian/outputs/room/chkpnt10000.pth",
+      "bytes": 169368540,
+      "sha256": "76ac320153d5a411226d18b20664888b750a41947dc68ddadbb0423ffcdb7033",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/DNGaussian/room/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 841,
+      "sha256": "70c9516800080fa3e662f3cb1899549b66e058ee65d36f7c3aeb7ad2116ff8d4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/DNGaussian/room/metrics/summary.json",
+      "source": "output/llff/DNGaussian/metrics/public_common_eval.json",
+      "bytes": 260,
+      "sha256": "f44f58dbc6e8aed05badd217076c08a30d7615ef07150dc462a35b08579a40c1",
+      "publish_on_git": true
+    }
+  ]
+}

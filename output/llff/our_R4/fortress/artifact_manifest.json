@@ -1,0 +1,107 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "fortress",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/our_R4/fortress/renders/IMG_1800.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/test/ours_10000/renders/IMG_1800.png",
+      "bytes": 935441,
+      "sha256": "27e526a43bfebf6dada92b2a24fa6757f8645990b8b92024b418cc48d5427f36",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/renders/IMG_1808.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/test/ours_10000/renders/IMG_1808.png",
+      "bytes": 921518,
+      "sha256": "fae1d476035ee46f1975614c36c4b03bdb8e3e943f338e7a1ec6cfa70d6a3e6f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/renders/IMG_1816.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/test/ours_10000/renders/IMG_1816.png",
+      "bytes": 925746,
+      "sha256": "6bed9ccd25e00167ca6009218cadce153679b42ffa3b6c690c0c49de88260046",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/renders/IMG_1824.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/test/ours_10000/renders/IMG_1824.png",
+      "bytes": 746255,
+      "sha256": "1acf78c23740f9fc1a84559fd4f6134fb357b14f0e88dadcbe23ea7866ac9d35",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/renders/IMG_1832.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/test/ours_10000/renders/IMG_1832.png",
+      "bytes": 751749,
+      "sha256": "a24c048a2ddd3ec8be870c45f14b4a054d6711d7ebe4aefc74dd847d154a67fc",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/renders/IMG_1840.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/test/ours_10000/renders/IMG_1840.png",
+      "bytes": 762230,
+      "sha256": "4d45e3855064a7daaf52840c278713c4a572f25a9517c65162d279e5d14ddcf6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/cfg_args",
+      "bytes": 245,
+      "sha256": "30e9825405ecb14f2cbc072eda69c438d54707303697f50a41bfd314875934d1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/cameras.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/cameras.json",
+      "bytes": 3647,
+      "sha256": "dc73f8f1693ee05896ea823a746b0ee65871fcd60eca56ae351fa1309fb60b00",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/metrics/joint_summary.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/joint_summary.json",
+      "bytes": 1099,
+      "sha256": "214138deca15234dd087ef8ad0529e5d8f3b59da0f5aea779d814c1f113f41fb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/metrics/per_view.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/per_view.json",
+      "bytes": 772,
+      "sha256": "c0c71038104689b315a2bf1caf7283268612cc951f39e087e0045e2ea9a4070e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/metrics/results.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/results.json",
+      "bytes": 112,
+      "sha256": "6d730242aa5da0653f16ca30995900c49b39cd2eb9cca497ae6279bcf3fe235f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/fortress/point_cloud/iteration_10000/point_cloud.ply",
+      "bytes": 16306290,
+      "sha256": "9693cb6c23b46ce3ce75a37e43a75e4b23958e12202bcaa453a3ff8e54a2d43a",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/our_R4/fortress/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 647,
+      "sha256": "a9fc5b05006b1657aa281d80b96fd56b9e527bcad1f114fa5a344bb1e6d2d40b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/our_R4/fortress/metrics/summary.json",
+      "source": "output/llff/our_R4/fortress/metrics/per_view.json",
+      "bytes": 254,
+      "sha256": "98244a1563a281de6bd29861824c34bace3205012320c7a2b31aa4cd3accba7e",
+      "publish_on_git": true
+    }
+  ]
+}

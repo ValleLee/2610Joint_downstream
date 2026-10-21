@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "trex",
+  "main_table": true,
+  "rgb_render_count": 7,
+  "files": [
+    {
+      "path": "output/llff/Difix3D_60k/trex/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/eval/ours_60000/renders/00000.png",
+      "bytes": 1018670,
+      "sha256": "7905cb9bc3569e2bc3b77f9bd428b09a8d6cf1093e7144d2c48b8e84857d8f74",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/eval/ours_60000/renders/00001.png",
+      "bytes": 1158409,
+      "sha256": "f28baf22f2d7288a22db4b77a3a0b2c2dfa564cf177312f82fd1aee8a757d6c1",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/eval/ours_60000/renders/00002.png",
+      "bytes": 1118577,
+      "sha256": "671714bfa7920a94bd2ed1fd912534992fdde707c679a73585107b77397c8fc7",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/eval/ours_60000/renders/00003.png",
+      "bytes": 1225658,
+      "sha256": "c4dfb94f7577ae270eb8a64dd16c2167670e6449ff7e0e353cdc1690d819e845",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/eval/ours_60000/renders/00004.png",
+      "bytes": 1163378,
+      "sha256": "513fa77a3a789a600a9b01d0d01fe7927d99db81dd86688a1370255b657290fd",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/renders/00005.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/eval/ours_60000/renders/00005.png",
+      "bytes": 1077937,
+      "sha256": "5b83fbdd0eb56c53e2d37894f9bc33ab3e23e01554364e3de9e0ab6812167eff",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/renders/00006.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/eval/ours_60000/renders/00006.png",
+      "bytes": 1147338,
+      "sha256": "327d593127f8210a2e379b43db4abe19efe2fe3318ac9eaed8d4ee6c5da6557f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/config/cfg.yml",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/cfg.yml",
+      "bytes": 1975,
+      "sha256": "1ccefc541bda79e320bbd1034203c74e1a5449ad55b566d39ab650b164ad52cf",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/point_cloud/iteration_60000/point_cloud.ply",
+      "bytes": 159399811,
+      "sha256": "5e02f7cbccbe05f48d658c57dd7483716997adc0cce4fd2cffd6c918b5e083b6",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/checkpoints/ckpt_60000_rank0.pt",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/trex/ckpt_60000_rank0.pt",
+      "bytes": 151687906,
+      "sha256": "fac52177611f2230c40f0eba2d74d15a9e77f6be547a151317963c3cd8050d71",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 880,
+      "sha256": "704d7f6bab0c5f7d68e068fff50e29e9600fad16143655186bc4878ba94a4d10",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/trex/metrics/summary.json",
+      "source": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json",
+      "bytes": 269,
+      "sha256": "796d231e934ca467f71056f8746505266e8a456742d71ad1faee4104fcf797d9",
+      "publish_on_git": true
+    }
+  ]
+}

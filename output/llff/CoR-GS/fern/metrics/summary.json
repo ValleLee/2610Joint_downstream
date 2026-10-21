@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "fern",
+  "evaluated_views": 3,
+  "PSNR": 20.75103505452474,
+  "SSIM": 0.6906982858975729,
+  "LPIPS": 0.26676394542058307,
+  "derived_from": "output/llff/CoR-GS/metrics/public_common_eval.json"
+}

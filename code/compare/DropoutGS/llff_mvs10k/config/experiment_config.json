@@ -1,0 +1,216 @@
+{
+  "method": "DropoutGS",
+  "seed": 2024,
+  "total_training_steps": 10000,
+  "dataset_images": "images_4",
+  "dataset_resolution": 1,
+  "change_vs_previous_baseline_run": "Only the initialization point cloud was replaced with the FSGS-official three-view COLMAP MVS cloud. Training code, method hyperparameters, schedule, selected images, seed=2024, and evaluation protocol are retained from the previous run.",
+  "input_initialization_source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs",
+  "training": {
+    "repo_src": "DropoutGS",
+    "python": "/data/lilinwei/.conda/envs/d23e/bin/python",
+    "runner": "run_gs_scene.sh",
+    "argv": [
+      "train_llff_mvs.py",
+      "-s",
+      "<DATA>",
+      "--model_path",
+      "<SCRATCH>",
+      "--images",
+      "images_4",
+      "--resolution",
+      "1",
+      "--dataset",
+      "LLFF",
+      "--eval",
+      "--n_sparse",
+      "3",
+      "--mvs_pcd",
+      "--iterations",
+      "10000",
+      "--lambda_dssim",
+      "0.25",
+      "--densify_grad_threshold",
+      "0.0008",
+      "--prune_threshold",
+      "0.01",
+      "--densify_until_iter",
+      "10000",
+      "--percent_dense",
+      "0.01",
+      "--position_lr_init",
+      "0.0005",
+      "--position_lr_final",
+      "0.000005",
+      "--position_lr_max_steps",
+      "9500",
+      "--position_lr_start",
+      "500",
+      "--split_opacity_thresh",
+      "0.1",
+      "--error_tolerance",
+      "0.01",
+      "--scaling_lr",
+      "0.005",
+      "--shape_pena",
+      "0.002",
+      "--opa_pena",
+      "0.001",
+      "--scale_pena",
+      "0",
+      "--near",
+      "10",
+      "--test_iterations",
+      "10000",
+      "--save_iterations",
+      "10000",
+      "--dropout",
+      "--dropout_rate",
+      "0.4",
+      "--consistency_lambda",
+      "0.4",
+      "--edge_threshold",
+      "<SCENE_EDGE_THRESHOLD>",
+      "--size_threshold_rate",
+      "<SCENE_SIZE_THRESHOLD>",
+      "--checkpoint_iterations",
+      "10000"
+    ],
+    "render_argv": [
+      "render.py",
+      "-s",
+      "<DATA>",
+      "--model_path",
+      "<SCRATCH>",
+      "--images",
+      "images_4",
+      "--resolution",
+      "1",
+      "--iteration",
+      "10000",
+      "--near",
+      "10",
+      "--skip_train",
+      "--skip_test"
+    ],
+    "scene_thresholds": {
+      "leaves": [
+        0.0005,
+        50
+      ],
+      "horns": [
+        0.0005,
+        50
+      ],
+      "fortress": [
+        0.001,
+        80
+      ],
+      "flower": [
+        0.001,
+        80
+      ],
+      "fern": [
+        0.001,
+        80
+      ],
+      "room": [
+        0.001,
+        80
+      ],
+      "trex": [
+        0.001,
+        50
+      ],
+      "orchids": [
+        0.001,
+        50
+      ]
+    },
+    "summary": "DNGaussian-based MVS training plus dropout rate 0.4 and consistency weight 0.4; keep scene-specific thresholds."
+  },
+  "input_manifests": {
+    "fern": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/fern/initial_point_cloud.ply",
+      "sha256": "2c337dce6478940968bffc3ca7f1568512b75f5fb283ce02273ff3376e0899db",
+      "mvs_point_count": 17904,
+      "training_images": [
+        "IMG_4027.JPG",
+        "IMG_4036.JPG",
+        "IMG_4045.JPG"
+      ]
+    },
+    "flower": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/flower/initial_point_cloud.ply",
+      "sha256": "0fc1cb029dd09c836a7a33dede0cf0d1c491877d50509ccc585212ed1fd6f7d1",
+      "mvs_point_count": 3986,
+      "training_images": [
+        "IMG_2963.JPG",
+        "IMG_2979.JPG",
+        "IMG_2995.JPG"
+      ]
+    },
+    "fortress": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/fortress/initial_point_cloud.ply",
+      "sha256": "8ed7a80c6e1a1610ca801547bb2c7451bf80683aaa3bf519c67c9608e877308f",
+      "mvs_point_count": 11206,
+      "training_images": [
+        "IMG_1801.JPG",
+        "IMG_1821.JPG",
+        "IMG_1841.JPG"
+      ]
+    },
+    "horns": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/horns/initial_point_cloud.ply",
+      "sha256": "d46a8efb4cf8afedc0609ab8b3df9888eb7c2090317820ef3fca1319cf62e1af",
+      "mvs_point_count": 18161,
+      "training_images": [
+        "DJI_20200223_163017_967.jpg",
+        "DJI_20200223_163053_863.jpg",
+        "DJI_20200223_163225_243.jpg"
+      ]
+    },
+    "leaves": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/leaves/initial_point_cloud.ply",
+      "sha256": "49b4a2e2000373bf0d0a528c97bfd925018a000fbcfd1df68e790190b27212bc",
+      "mvs_point_count": 12068,
+      "training_images": [
+        "IMG_2998.JPG",
+        "IMG_3010.JPG",
+        "IMG_3023.JPG"
+      ]
+    },
+    "orchids": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/orchids/initial_point_cloud.ply",
+      "sha256": "0f50da0633ec38d2eda47850b0a2bdd7f5d1e36a09a8a68850c9181e4acaf522",
+      "mvs_point_count": 12849,
+      "training_images": [
+        "IMG_4468.JPG",
+        "IMG_4479.JPG",
+        "IMG_4490.JPG"
+      ]
+    },
+    "room": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/room/initial_point_cloud.ply",
+      "sha256": "d96847e18d958f7f19e2d00bd2dd0deeec23cb1e6e0fe4ea4c694427317ea731",
+      "mvs_point_count": 19145,
+      "training_images": [
+        "DJI_20200226_143851_396.JPG",
+        "DJI_20200226_143918_576.JPG",
+        "DJI_20200226_143946_704.JPG"
+      ]
+    },
+    "trex": {
+      "mvs_ply": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/DropoutGS/inputs/trex/initial_point_cloud.ply",
+      "sha256": "21ac7afe19d18baecabbd16be3f6c3411ebab1a8a40d873a7c24f7b83f26dd48",
+      "mvs_point_count": 24987,
+      "training_images": [
+        "DJI_20200223_163551_210.jpg",
+        "DJI_20200223_163616_980.jpg",
+        "DJI_20200223_163654_571.jpg"
+      ]
+    }
+  },
+  "evaluation_mapping_source": "/data/lilinwei/3D/baselines/output/1007_mvs_baselines/configs/canonical_data_mapping",
+  "runner_template": "/tmp/lilinwei/1007baselines/run_gs_scene.sh"
+}

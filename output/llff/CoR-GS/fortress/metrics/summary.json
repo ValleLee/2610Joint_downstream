@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "CoR-GS",
+  "scene": "fortress",
+  "evaluated_views": 6,
+  "PSNR": 22.9130859375,
+  "SSIM": 0.7263600925604502,
+  "LPIPS": 0.24636106193065643,
+  "derived_from": "output/llff/CoR-GS/metrics/public_common_eval.json"
+}

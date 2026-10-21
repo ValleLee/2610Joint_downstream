@@ -1,0 +1,10 @@
+{
+  "dataset": "dtu",
+  "method": "DropoutGS_mvs10k",
+  "scene": "scan21",
+  "evaluated_views": 25,
+  "PSNR": 11.370853392128097,
+  "SSIM": 0.4858575665950775,
+  "LPIPS": 0.3919289302825928,
+  "derived_from": "output/dtu/source_metrics/mvs10k/per_scene_corgs25_mask.csv"
+}

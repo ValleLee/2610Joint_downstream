@@ -1,0 +1,100 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "horns",
+  "main_table": true,
+  "rgb_render_count": 8,
+  "files": [
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00000.png",
+      "bytes": 1328442,
+      "sha256": "78df3d09b9e95983d2a762fd19dd709ed3c953f7ae92cd50b004382bd63857da",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00001.png",
+      "bytes": 1387987,
+      "sha256": "f4918d557d0685f8ab168804ec98cbdb7732348efd7905b7b9eb94f38ec9efb9",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00002.png",
+      "bytes": 1343308,
+      "sha256": "2f45ca2364c5d12d71b12c0f9bf3fdb534ca1cc1030251e7b9384a5f3782157a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00003.png",
+      "bytes": 1379978,
+      "sha256": "f2db58f563d6098decefe435e65a95cb47900cf6e390dda6c467f731d6707780",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00004.png",
+      "bytes": 1375359,
+      "sha256": "2dba3c9b408e3fc4c129f0cccfdbb835145f647d2a2feacd912e629af4c4aa5f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00005.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00005.png",
+      "bytes": 1337346,
+      "sha256": "649bb9fc5975876efbab3c1499f6407d508b8f5d94570c299b51a678d40eec80",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00006.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00006.png",
+      "bytes": 1368537,
+      "sha256": "1a004164805584099a333f28b138fa5e648cd6e001b0e8a68d113d52d1cc6b0f",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/renders/00007.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/eval/ours_60000/renders/00007.png",
+      "bytes": 1253821,
+      "sha256": "0ed3404aa7dcd6978db0cc544b580ddcb39793e0e0b6c440862730a8317cc8e0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/config/cfg.yml",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/cfg.yml",
+      "bytes": 1980,
+      "sha256": "357fa327f6863a2408bfcc10906e29b20506f3ee6dc8b00bb0aeff1672458115",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/point_cloud/iteration_60000/point_cloud.ply",
+      "bytes": 184047043,
+      "sha256": "fa46fe3d854fd8da92674abe31bf41cf643e7e72e3e63de374999c331e7e2dd8",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/checkpoints/ckpt_60000_rank0.pt",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/horns/ckpt_60000_rank0.pt",
+      "bytes": 175142562,
+      "sha256": "e1228472a9e48578ee9f897b97c8b46134dfd16c96874a13c9cd306a302f5f17",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 917,
+      "sha256": "0d420afa35e75c416933811a01322470e3de952486f71f686faf8484ef534ce3",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/horns/metrics/summary.json",
+      "source": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json",
+      "bytes": 270,
+      "sha256": "9482da6b3a83d207b05d8703cb1479f90b6422086781c38f4a2d5a186fbe1ad1",
+      "publish_on_git": true
+    }
+  ]
+}

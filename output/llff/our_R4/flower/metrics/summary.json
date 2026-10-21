@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "flower",
+  "evaluated_views": 5,
+  "PSNR": 19.486921882629396,
+  "SSIM": 0.6226384997367859,
+  "LPIPS": 0.3370018690824509,
+  "derived_from": "output/llff/our_R4/flower/metrics/per_view.json"
+}

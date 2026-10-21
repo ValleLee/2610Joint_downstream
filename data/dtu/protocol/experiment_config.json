@@ -1,0 +1,177 @@
+{
+  "name": "DTU CoR-GS 3-view comparison",
+  "dataset": "DTU Rectified (selected 15 scans only)",
+  "scans": [
+    "scan8",
+    "scan21",
+    "scan30",
+    "scan31",
+    "scan34",
+    "scan38",
+    "scan40",
+    "scan41",
+    "scan45",
+    "scan55",
+    "scan63",
+    "scan82",
+    "scan103",
+    "scan110",
+    "scan114"
+  ],
+  "camera_count": 49,
+  "camera_order": "lexically sorted COLMAP image names",
+  "train_indices": [
+    25,
+    22,
+    28
+  ],
+  "excluded_indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    36,
+    37,
+    38,
+    39
+  ],
+  "evaluation_count": 25,
+  "stored_holdout_render_count": 31,
+  "evaluation": "CoR-GS official DTU 25-view test split; canonical GT; object-mask foreground PSNR and white-background 3DGS SSIM/VGG LPIPS; equal scene weighting; output/metrics/summary_corgs25_mask.json",
+  "historical_evaluation": "Initial 31-view unmasked full-frame result remains in output/metrics/per_scene.csv and the historical report; the pre-correction 25-view masked summary is output/metrics/legacy_llff_mvs_summary_corgs25_mask.json.",
+  "seed": 2024,
+  "iterations": 10000,
+  "initialization": {
+    "method": "one shared FSGS-style COLMAP PatchMatch MVS cloud per scan",
+    "input_view_indices": [
+      25,
+      22,
+      28
+    ],
+    "one_cloud_per_scan": true,
+    "all_methods_share_sha256": true
+  },
+  "methods": {
+    "FSGS": {
+      "iterations": 10000,
+      "seed": 2024,
+      "source": "copied FSGS repo",
+      "dataset_adapter": "DTU frozen split",
+      "method_args": {
+        "sample_pseudo_interval": 1,
+        "resolution": 4
+      }
+    },
+    "CoR-GS": {
+      "iterations": 10000,
+      "seed": 2024,
+      "source": "copied CoR-GS repo",
+      "dataset_adapter": "CoR-GS official DTU 3-view/25-eval split; 31 holdout renders stored",
+      "method_args": {
+        "random_background": true,
+        "position_lr_max_steps": 10000,
+        "densify_until_iter": 10000,
+        "densify_grad_threshold": 0.0005,
+        "gaussiansN": 2,
+        "coprune": true,
+        "coprune_threshold": 10,
+        "coreg": true,
+        "sample_pseudo_interval": 1,
+        "start_sample_pseudo": 2000,
+        "resolution": 4
+      }
+    },
+    "DropoutGS": {
+      "iterations": 10000,
+      "seed": 2024,
+      "source": "copied DropoutGS repo",
+      "dataset_adapter": "DTU frozen split",
+      "config_profile": "dtu_native_10k_mvs",
+      "method_args": {
+        "dropout": true,
+        "mvs_pcd": true,
+        "n_sparse": 3,
+        "lambda_dssim": 0.6,
+        "position_lr_init": 0.0016,
+        "percent_dense": 0.1,
+        "densify_until_iter": 10000,
+        "dropout_rate": 0.3,
+        "consistency_lambda": 0.5,
+        "edge_threshold": 0.001,
+        "size_threshold_rate": 1,
+        "resolution": 4
+      }
+    },
+    "DNGaussian": {
+      "iterations": 10000,
+      "seed": 2024,
+      "source": "copied DNGaussian repo",
+      "dataset_adapter": "DTU frozen split",
+      "config_profile": "dtu_native_10k_mvs",
+      "method_args": {
+        "mvs_pcd": true,
+        "n_sparse": 3,
+        "lambda_dssim": 0.6,
+        "position_lr_init": 0.0016,
+        "percent_dense": 0.1,
+        "densify_until_iter": 10000,
+        "resolution": 4
+      }
+    },
+    "Difix3D_10k": {
+      "iterations": 10000,
+      "seed": 2024,
+      "source": "copied Difix3D repo + 1009 10k adapter",
+      "dataset_adapter": "DTU frozen split",
+      "config_profile": "difix_prefix_10k_mvs",
+      "method_args": {
+        "max_steps": 10000,
+        "fix_steps": [3000, 6000, 8000, 10000],
+        "data_factor": 4
+      }
+    },
+    "our_method": {
+      "iterations": 10000,
+      "seed": 2024,
+      "source": "copied local R4 runner",
+      "dataset_adapter": "DTU frozen split",
+      "pseudo_targets_per_scene": 8,
+      "pseudo_targets": "pose only, sampled from 31 held-out poses; no test RGB",
+      "pseudo_pose_manifest": "data/pseudo_pose_targets/<scan>.json; eight evenly spaced pose records selected by round(linspace(0,30,8))",
+      "method_args": {
+        "resolution": 4
+      }
+    }
+  },
+  "gpu_policy": {
+    "excluded": [
+      6
+    ],
+    "wait_for_other_experiment_to_finish": true,
+    "scheduler": "screen; parallel scenes only after GPU clearance"
+  },
+  "storage_policy": {
+    "raw_data_and_checkpoints": "/tmp/lilinwei/1007fsgsmvs_dtu",
+    "persistent_results": "./output"
+  },
+  "image_resolution_factor": 4,
+  "python_environments": {
+    "FSGS": "/data/lilinwei/.conda/envs/do3/bin/python",
+    "CoR-GS": "/data/lilinwei/.conda/envs/d23e/bin/python",
+    "DropoutGS": "/data/lilinwei/.conda/envs/d23e/bin/python",
+    "DNGaussian": "/data/lilinwei/.conda/envs/d23e/bin/python",
+    "Difix3D_10k": "/tmp/lilinwei/Difix3D_Recheck_20261007/env/bin/python",
+    "our_method": "/data/lilinwei/3D/1006difix/1007mast3r/envs/mast3r/bin/python"
+  },
+  "training_views": 3,
+  "excluded_view_count": 15,
+  "mvs_requires_recompute": true,
+  "mvs_failure_policy": "mark scan failed; no random or bundled-cloud fallback"
+}

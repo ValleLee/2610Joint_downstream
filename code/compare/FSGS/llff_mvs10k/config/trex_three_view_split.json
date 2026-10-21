@@ -1,0 +1,27 @@
+{
+  "scene": "trex",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/trex",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/trex",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "DJI_20200223_163551_210.jpg",
+    "DJI_20200223_163616_980.jpg",
+    "DJI_20200223_163654_571.jpg"
+  ],
+  "fsgs_test_names": [
+    "DJI_20200223_163548_810.jpg",
+    "DJI_20200223_163557_660.jpg",
+    "DJI_20200223_163604_605.jpg",
+    "DJI_20200223_163611_160.jpg",
+    "DJI_20200223_163620_700.jpg",
+    "DJI_20200223_163639_916.jpg",
+    "DJI_20200223_163646_755.jpg"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/trex/3_views/dense/fused.ply",
+  "points_written": 10947,
+  "points_total": 33567,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/trex/poses_bounds.npy"
+}

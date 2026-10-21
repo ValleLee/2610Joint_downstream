@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "horns",
+  "evaluated_views": 8,
+  "PSNR": 17.613947987556458,
+  "SSIM": 0.5650561712682247,
+  "LPIPS": 0.33495398238301277,
+  "derived_from": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json"
+}

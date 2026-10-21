@@ -1,0 +1,41 @@
+{
+  "llff": {
+    "scenes": ["fern", "flower", "fortress", "horns", "leaves", "orchids", "room", "trex"],
+    "training_rgb_per_scene": 3,
+    "held_out_rgb_total": 43,
+    "resolution": "images_4",
+    "initialization": "same FSGS three-training-view MVS PLY per scene for every method",
+    "iterations": 10000,
+    "seed": 2024,
+    "metrics": "RGB PSNR, Graphdeco SSIM, VGG LPIPS; mean over held-out views within each scene, then equal-weight mean over 8 scenes",
+    "methods": {
+      "vanilla_3DGS": "Graphdeco base; SSIM from common cross-reevaluation",
+      "FSGS": "own pseudo-view and densification training",
+      "CoR-GS": "own two-Gaussian co-regularization training",
+      "DNGaussian": "local LLFF/MVS depth and shape-regularized adaptation",
+      "DropoutGS": "local LLFF/MVS adaptation with dropout 0.4 and consistency weight 0.4",
+      "Difix3D_10k": "local 5k base + 5k repair adaptation; test camera poses visible",
+      "our_R4": "RGB-D teacher and pseudo-view training; test camera poses visible"
+    },
+    "split_and_mvs_hashes": "configs/llff/input_manifest.json",
+    "method_argv": "configs/llff/methods/<method>/experiment_config.json",
+    "results": "results/llff/COMPARISON_WITH_1007FSGSMVS.csv and results/llff/crosscheck/vanilla_ours_common_4.json"
+  },
+  "dtu": {
+    "scans": [8, 21, 30, 31, 34, 38, 40, 41, 45, 55, 63, 82, 103, 110, 114],
+    "training_rgb_per_scan": 3,
+    "evaluation_rgb_per_scan": 25,
+    "resolution_factor": 4,
+    "metrics": "CoR-GS 25-view object-mask foreground PSNR; white-background Graphdeco SSIM and VGG LPIPS; equal-weight mean over 15 scans; sample standard deviation across scans",
+    "methods": {
+      "vanilla_3DGS": {"initialization": "three-training-view MVS", "iterations": 10000, "seed": 2024},
+      "CoR-GS": {"initialization": "three-training-view MVS", "iterations": 10000, "seed": 2024},
+      "DNGaussian": {"initialization": "author rand_pcd ~1000 points; bounds from 49-camera COLMAP sparse model", "iterations": 6000, "seed": 0, "depth_input": "DPT 16-bit maps quantized to 8-bit for local loader"},
+      "DropoutGS": {"initialization": "author rand_pcd ~1000 points; bounds from 49-camera COLMAP sparse model", "iterations": 6000, "seed": 0, "depth_input": "DPT 16-bit maps quantized to 8-bit for local loader"},
+      "our_R4": {"initialization": "three-training-view MVS", "iterations": 10000, "seed": 2024, "extra_input": "RGB-D teacher and 8 held-out pseudo-target poses; 5 of those are evaluation camera poses, no evaluation RGB"}
+    },
+    "split": "configs/dtu/splits/cor_gs_3view/<scan>.json",
+    "method_runs": "configs/dtu/runs/<method>/<scan>.json",
+    "results": "results/dtu/graphdeco/, results/dtu/mvs10k/ (CoR-GS row), results/dtu/official_random_6k/"
+  }
+}

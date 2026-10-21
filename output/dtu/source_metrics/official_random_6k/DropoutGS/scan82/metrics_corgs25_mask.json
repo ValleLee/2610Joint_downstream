@@ -1,0 +1,186 @@
+{
+  "protocol": "CoR-GS upstream DTU 25-view + object mask",
+  "mask_archive_sha256": "988f1a1957083191b45f7d4ea55a0b74566fc4286f1c224be9d19aa2a143ffbd",
+  "mean": {
+    "PSNR": 20.82129954910473,
+    "SSIM": 0.9340283513069153,
+    "LPIPS": 0.0635751573741436
+  },
+  "per_view": [
+    {
+      "view": "rect_002_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/001.png",
+      "PSNR": 17.14785412960342,
+      "SSIM": 0.9016415476799011,
+      "LPIPS": 0.08015771210193634
+    },
+    {
+      "view": "rect_003_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/002.png",
+      "PSNR": 16.932284052920558,
+      "SSIM": 0.9046341776847839,
+      "LPIPS": 0.08257763832807541
+    },
+    {
+      "view": "rect_010_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/009.png",
+      "PSNR": 20.245515952041593,
+      "SSIM": 0.9345346093177795,
+      "LPIPS": 0.06014712527394295
+    },
+    {
+      "view": "rect_011_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/010.png",
+      "PSNR": 19.17662318247716,
+      "SSIM": 0.9137499332427979,
+      "LPIPS": 0.07515032589435577
+    },
+    {
+      "view": "rect_012_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/011.png",
+      "PSNR": 19.735879630882437,
+      "SSIM": 0.9006981253623962,
+      "LPIPS": 0.08944356441497803
+    },
+    {
+      "view": "rect_013_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/012.png",
+      "PSNR": 21.180680764718687,
+      "SSIM": 0.9272221326828003,
+      "LPIPS": 0.06837716698646545
+    },
+    {
+      "view": "rect_015_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/014.png",
+      "PSNR": 24.326778458456275,
+      "SSIM": 0.9601079821586609,
+      "LPIPS": 0.04555407911539078
+    },
+    {
+      "view": "rect_016_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/015.png",
+      "PSNR": 24.39142976060336,
+      "SSIM": 0.9594648480415344,
+      "LPIPS": 0.04679720103740692
+    },
+    {
+      "view": "rect_024_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/023.png",
+      "PSNR": 27.487276898436637,
+      "SSIM": 0.9691668748855591,
+      "LPIPS": 0.0387372225522995
+    },
+    {
+      "view": "rect_025_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/024.png",
+      "PSNR": 28.225216063245124,
+      "SSIM": 0.9702568054199219,
+      "LPIPS": 0.03930718079209328
+    },
+    {
+      "view": "rect_027_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/026.png",
+      "PSNR": 24.132202164046852,
+      "SSIM": 0.951551616191864,
+      "LPIPS": 0.051949601620435715
+    },
+    {
+      "view": "rect_028_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/027.png",
+      "PSNR": 21.6696068966828,
+      "SSIM": 0.9326359629631042,
+      "LPIPS": 0.06763064861297607
+    },
+    {
+      "view": "rect_030_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/029.png",
+      "PSNR": 20.631490675165743,
+      "SSIM": 0.946157693862915,
+      "LPIPS": 0.05964085832238197
+    },
+    {
+      "view": "rect_031_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/030.png",
+      "PSNR": 22.18052698117073,
+      "SSIM": 0.9443501234054565,
+      "LPIPS": 0.06011451408267021
+    },
+    {
+      "view": "rect_032_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/031.png",
+      "PSNR": 23.931247406192146,
+      "SSIM": 0.9546268582344055,
+      "LPIPS": 0.05028032138943672
+    },
+    {
+      "view": "rect_033_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/032.png",
+      "PSNR": 22.47371996406162,
+      "SSIM": 0.9527793526649475,
+      "LPIPS": 0.05181609466671944
+    },
+    {
+      "view": "rect_034_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/033.png",
+      "PSNR": 21.75524018728572,
+      "SSIM": 0.9455386996269226,
+      "LPIPS": 0.056120533496141434
+    },
+    {
+      "view": "rect_035_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/034.png",
+      "PSNR": 21.834951622228335,
+      "SSIM": 0.9441173672676086,
+      "LPIPS": 0.056663628667593
+    },
+    {
+      "view": "rect_036_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/035.png",
+      "PSNR": 20.761918051431735,
+      "SSIM": 0.9307053685188293,
+      "LPIPS": 0.06935957074165344
+    },
+    {
+      "view": "rect_042_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/041.png",
+      "PSNR": 15.107304004221936,
+      "SSIM": 0.893679678440094,
+      "LPIPS": 0.08735209703445435
+    },
+    {
+      "view": "rect_043_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/042.png",
+      "PSNR": 16.627831650761863,
+      "SSIM": 0.9091553688049316,
+      "LPIPS": 0.07327760756015778
+    },
+    {
+      "view": "rect_044_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/043.png",
+      "PSNR": 16.718029745184285,
+      "SSIM": 0.9160966873168945,
+      "LPIPS": 0.07120582461357117
+    },
+    {
+      "view": "rect_046_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/045.png",
+      "PSNR": 17.838966781284118,
+      "SSIM": 0.9264523983001709,
+      "LPIPS": 0.06966613233089447
+    },
+    {
+      "view": "rect_047_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/046.png",
+      "PSNR": 17.83250408579584,
+      "SSIM": 0.9284085631370544,
+      "LPIPS": 0.06962420791387558
+    },
+    {
+      "view": "rect_048_3_r5000.png",
+      "mask_member": "submission_data/idrmasks/scan82/047.png",
+      "PSNR": 18.1874096187193,
+      "SSIM": 0.9329760074615479,
+      "LPIPS": 0.06842807680368423
+    }
+  ]
+}

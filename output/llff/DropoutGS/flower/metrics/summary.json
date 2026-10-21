@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DropoutGS",
+  "scene": "flower",
+  "evaluated_views": 5,
+  "PSNR": 19.985758209228514,
+  "SSIM": 0.6526664733886719,
+  "LPIPS": 0.3323111832141876,
+  "derived_from": "output/llff/DropoutGS/metrics/public_common_eval.json"
+}

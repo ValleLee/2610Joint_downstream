@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "fern",
+  "evaluated_views": 3,
+  "PSNR": 19.94304084777832,
+  "SSIM": 0.6383200089136759,
+  "LPIPS": 0.2509152293205261,
+  "derived_from": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json"
+}

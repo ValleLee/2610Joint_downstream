@@ -1,0 +1,58 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "fern",
+  "main_table": true,
+  "rgb_render_count": 3,
+  "files": [
+    {
+      "path": "output/llff/vanilla_3DGS/fern/renders/IMG_4026.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fern/renders/IMG_4026.png",
+      "bytes": 1184138,
+      "sha256": "42cdd419c98b9bc1588725b81d661377cd669d3ef5eb34c6d8f5ab25d99eaac2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fern/renders/IMG_4034.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fern/renders/IMG_4034.png",
+      "bytes": 1142790,
+      "sha256": "32ea12f7793100e96c4ffc1b01516b9715e7f45593be7f3e884a9605c1c73bb5",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fern/renders/IMG_4042.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fern/renders/IMG_4042.png",
+      "bytes": 1166248,
+      "sha256": "6f4de3309b544c6f11bbde167833a79f539f95b50ab6785019c3291d4bd0a8cf",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fern/run_manifest.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fern/run_manifest.json",
+      "bytes": 3363,
+      "sha256": "0b34c15987d1e5d45513516da89be470d079d4b4c74426dfdcf160ddd79bed51",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fern/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fern/cfg_args",
+      "bytes": 262,
+      "sha256": "a6e0731eda21b424a2d14ead935c44c4d9c64a349e6d528725d8b58470eca915",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fern/point_cloud/final_point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/fern/final_point_cloud.ply",
+      "bytes": 102879867,
+      "sha256": "81c5d4192a2fd7c25269f2e08bc03758a75a96cffcf5d3eb332e1e814e5587dd",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/fern/metrics/summary.json",
+      "source": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json",
+      "bytes": 272,
+      "sha256": "da8a6d117f29d7d5df44fbecb9d0ca093258b5d2cda1d04854229bcf7a7a4c27",
+      "publish_on_git": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scene": "trex",
+  "evaluated_views": 7,
+  "PSNR": 21.293278012956893,
+  "SSIM": 0.7884149125644139,
+  "LPIPS": 0.22196562588214874,
+  "derived_from": "output/llff/our_R4/trex/metrics/per_view.json"
+}

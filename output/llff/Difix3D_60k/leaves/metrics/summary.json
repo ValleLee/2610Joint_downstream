@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "leaves",
+  "evaluated_views": 4,
+  "PSNR": 15.246599674224854,
+  "SSIM": 0.46976180374622345,
+  "LPIPS": 0.3127620443701744,
+  "derived_from": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json"
+}

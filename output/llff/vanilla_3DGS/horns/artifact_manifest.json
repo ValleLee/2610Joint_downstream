@@ -1,0 +1,93 @@
+{
+  "dataset": "llff",
+  "method": "vanilla_3DGS",
+  "scene": "horns",
+  "main_table": true,
+  "rgb_render_count": 8,
+  "files": [
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163016_842.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163016_842.png",
+      "bytes": 1230641,
+      "sha256": "8592bb587f8f93fd630218fbf7ccc08d29ec2fb62d991c862ad2128116bc9b97",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163024_597.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163024_597.png",
+      "bytes": 1293437,
+      "sha256": "4f01806af5614d74ad08e2cd5e43f16812353cd6feba9f5e56aad82619f11c9a",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163033_432.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163033_432.png",
+      "bytes": 1261560,
+      "sha256": "7853bcc9359df2dae6904d241e66cf2374110c2127b54c05548eb8510910d2f6",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163047_307.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163047_307.png",
+      "bytes": 1285464,
+      "sha256": "3d924e72eca42a39cdaa06982f96d182e53fe68b55d7cccc02651e17deb7f3b4",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163055_437.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163055_437.png",
+      "bytes": 1281044,
+      "sha256": "e6a5c4d3c0164f36271902b076ab53d4d046facbe58d98abe9b8925e01b0a903",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163103_777.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163103_777.png",
+      "bytes": 1291245,
+      "sha256": "ed027d60f36cd6de8d90af56a846af212e477d103727a6f4993c3eaf2da93a9b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163201_633.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163201_633.png",
+      "bytes": 1263540,
+      "sha256": "63f3befc9a858d87b38ff1d9fae92b7e70bd9911c4f41f5e821422d304a9ef75",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/renders/DJI_20200223_163208_938.png",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/renders/DJI_20200223_163208_938.png",
+      "bytes": 1258659,
+      "sha256": "c5a5f3f792deb51b25dafc669fb41359be4095748df9a6e4e071cda0049ddf90",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/run_manifest.json",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/run_manifest.json",
+      "bytes": 11228,
+      "sha256": "002034dfcd241f083731d2da20394cc24048b363a5e6e358c6736d0f37a21078",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/config/cfg_args",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/cfg_args",
+      "bytes": 264,
+      "sha256": "347e95f58e1cb7c4f2c8355dfe1ba011e2c306ab1806e93b6dd0ee33c9afebdb",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/point_cloud/final_point_cloud.ply",
+      "source": "/data/lilinwei/3D/1006difix/1007fsgsmvs/3dGS/output/LLFF/horns/final_point_cloud.ply",
+      "bytes": 74559011,
+      "sha256": "335fb81e7125f4ee1acc24fa40773b706acc7171296eec4698d9fcae4ad1b2a5",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/vanilla_3DGS/horns/metrics/summary.json",
+      "source": "output/llff/source_metrics/crosscheck/vanilla_ours_common_4.json",
+      "bytes": 274,
+      "sha256": "1bdf4b5ead020a0cafbf38ce67911746e906040260e271824cfbf7de1a0f44b2",
+      "publish_on_git": true
+    }
+  ]
+}

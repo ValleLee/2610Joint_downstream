@@ -1,0 +1,10 @@
+{
+  "dataset": "llff",
+  "method": "DNGaussian",
+  "scene": "fern",
+  "evaluated_views": 3,
+  "PSNR": 20.35508410135905,
+  "SSIM": 0.6712092359860738,
+  "LPIPS": 0.28737837076187134,
+  "derived_from": "output/llff/DNGaussian/metrics/public_common_eval.json"
+}

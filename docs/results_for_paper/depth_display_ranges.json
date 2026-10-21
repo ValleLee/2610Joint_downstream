@@ -1,0 +1,50 @@
+{
+  "llff/trex/DJI_20200223_163604_605.png": {
+    "gs_camera_depth_units": [
+      15.63111120223999,
+      87.18616485595703
+    ],
+    "gs_scale_region": "full frame",
+    "da_v2_relative_values": [
+      0.0,
+      271.5234600830079
+    ],
+    "polarity": "near=warm, far=cool; DA-V2 independently normalized"
+  },
+  "llff/room/DJI_20200226_143912_008.png": {
+    "gs_camera_depth_units": [
+      14.403713607788086,
+      48.81439971923828
+    ],
+    "gs_scale_region": "full frame",
+    "da_v2_relative_values": [
+      12.283934125900268,
+      624.6855950927735
+    ],
+    "polarity": "near=warm, far=cool; DA-V2 independently normalized"
+  },
+  "dtu/scan30/rect_010_3_r5000.png": {
+    "gs_camera_depth_units": [
+      6.734791564941406,
+      7.81835454940796
+    ],
+    "gs_scale_region": "shared ROI",
+    "da_v2_relative_values": [
+      4.129565687179566,
+      462.44954467773425
+    ],
+    "polarity": "near=warm, far=cool; DA-V2 independently normalized"
+  },
+  "dtu/scan21/rect_010_3_r5000.png": {
+    "gs_camera_depth_units": [
+      5.830882549285889,
+      8.404027557373045
+    ],
+    "gs_scale_region": "shared ROI",
+    "da_v2_relative_values": [
+      11.729435243606568,
+      400.43020233154294
+    ],
+    "polarity": "near=warm, far=cool; DA-V2 independently normalized"
+  }
+}

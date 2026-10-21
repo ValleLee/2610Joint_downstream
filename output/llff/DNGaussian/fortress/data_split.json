@@ -1,0 +1,33 @@
+{
+  "scene": "fortress",
+  "source": "/data/lilinwei/3D/D23E/DO3/Scenedata/nerf_llff_data/fortress",
+  "output": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fortress",
+  "n_views": 3,
+  "eval": true,
+  "llffhold": 8,
+  "fsgs_train_names": [
+    "IMG_1801.JPG",
+    "IMG_1821.JPG",
+    "IMG_1841.JPG"
+  ],
+  "fsgs_test_names": [
+    "IMG_1800.JPG",
+    "IMG_1808.JPG",
+    "IMG_1816.JPG",
+    "IMG_1824.JPG",
+    "IMG_1832.JPG",
+    "IMG_1840.JPG"
+  ],
+  "do3_split_train_names": [],
+  "fused_ply": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fortress/3_views/dense/fused.ply",
+  "points_written": 16926,
+  "points_total": 41575,
+  "poses_bounds": "/data/lilinwei/3D/D23E/Aref/FSGS_LLFF_data/fortress/poses_bounds.npy",
+  "runtime_initialization_audit": {
+    "canonical_source_ply": "/data/lilinwei/3D/1006difix/1007fsgsmvs/output/initialization/fsgs_official_mvs/fortress/initial_point_cloud.ply",
+    "actual_training_loader_ply": "/tmp/lilinwei/1007baselines/data/fortress/3_views/dense/fused.ply",
+    "sha256": "8ed7a80c6e1a1610ca801547bb2c7451bf80683aaa3bf519c67c9608e877308f",
+    "point_count": 11206,
+    "note": "This is a legacy dataset-preparation reference and does not identify the point cloud loaded by the completed training run. The actual MVS loader input and verified SHA-256 are recorded in configs/actual_initialization_audit.json."
+  }
+}

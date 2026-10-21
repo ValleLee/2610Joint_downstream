@@ -1,0 +1,86 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scene": "room",
+  "main_table": true,
+  "rgb_render_count": 6,
+  "files": [
+    {
+      "path": "output/llff/Difix3D_60k/room/renders/00000.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/eval/ours_60000/renders/00000.png",
+      "bytes": 790083,
+      "sha256": "686491d3b1bfc9bfbfd12309187837425e7c1a59800965ea442309365a963302",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/renders/00001.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/eval/ours_60000/renders/00001.png",
+      "bytes": 800388,
+      "sha256": "b0bd84ddea33bee0aad10e672656729799a9e70bf98f8c4f9209125a428125d0",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/renders/00002.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/eval/ours_60000/renders/00002.png",
+      "bytes": 793199,
+      "sha256": "dcae864869cae4e22bd7c1ef865e42cf32702b9c4ba68e152b0a36cd3bf6e768",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/renders/00003.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/eval/ours_60000/renders/00003.png",
+      "bytes": 735233,
+      "sha256": "f1653f339acfb52984253099743752d7494224db4ea936a24af57e360b27fb96",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/renders/00004.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/eval/ours_60000/renders/00004.png",
+      "bytes": 787725,
+      "sha256": "cb8753363c296506ec827b9a82c5ee0783581b618d7ebdabeb16597fa385bf5b",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/renders/00005.png",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/eval/ours_60000/renders/00005.png",
+      "bytes": 762159,
+      "sha256": "24c1a0210aaad598651bca3c0ad5246bb696b7c84165406d30a567ad00a8a84e",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/config/cfg.yml",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/cfg.yml",
+      "bytes": 1975,
+      "sha256": "0a804a7d1a5dfeb68ae3e08c4fe3ddbd3654943b635d860853dd16e060a1a93d",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/point_cloud/point_cloud.ply",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/point_cloud/iteration_60000/point_cloud.ply",
+      "bytes": 77567995,
+      "sha256": "66d376501661b8935efee51e0527df5faab149c4ea7322916eb370f3069ac53c",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/checkpoints/ckpt_60000_rank0.pt",
+      "source": "/data/lilinwei/3D/baselines/output/1007_fsgs_mvs_baselines/Difix3D_60k/outputs/room/ckpt_60000_rank0.pt",
+      "bytes": 73815906,
+      "sha256": "6bc3516fca36b60a16f2240b4646008cbf9c5f5a4773453cd8421203bff23814",
+      "publish_on_git": false
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/run_manifest.json",
+      "source": "derived from data/llff/protocol/input_manifest.json and method config",
+      "bytes": 845,
+      "sha256": "444498c223c3316558dffc9bb8f0e565779bd19ba2f7cca50f4b73c50f9797a2",
+      "publish_on_git": true
+    },
+    {
+      "path": "output/llff/Difix3D_60k/room/metrics/summary.json",
+      "source": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json",
+      "bytes": 269,
+      "sha256": "af10ef5d5f4a7b62a7207fbda404be89eb1810a87a9c39245fe9a72ffce615ec",
+      "publish_on_git": true
+    }
+  ]
+}

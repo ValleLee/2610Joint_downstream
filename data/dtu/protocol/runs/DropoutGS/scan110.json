@@ -1,0 +1,29 @@
+{
+  "method": "DropoutGS",
+  "scan": "scan110",
+  "gpu": 7,
+  "official_seed": 0,
+  "training_rgb_views": [
+    "rect_023_3_r5000.png",
+    "rect_026_3_r5000.png",
+    "rect_029_3_r5000.png"
+  ],
+  "test_view_count": 25,
+  "iterations": 6000,
+  "initialization": "official rand_pcd (1000 points)",
+  "random_pointcloud_bound": "sparse/0/points3D.bin from 49-camera COLMAP model (additional geometry prior)",
+  "data_path": "/tmp/lilinwei/1007fsgsmvs_dtu/official_random_6k/source/DropoutGS/scan110",
+  "depth_maps": "DNGaussian official DPT per-image normalized maps, converted from 16-bit PNG to loader-compatible 8-bit; only three train cameras enter depth loss",
+  "repo_commit": "5ff8d1ae469970f924de4eca8d3498333d6f3214",
+  "source_sha256": {
+    "scripts/train_dtu.sh": "304baea4a4961b5d43401b9d3d7e360d1f501e1f2d34d17bd28aff99dc3e23dd",
+    "train_dtu.py": "634201f27a365c38772c12801d1cd16c5846f5f20bd09e9c454bde4aa37d4faf",
+    "scene/dataset_readers.py": "3d6afcebaff87a5f34bf682e670ed607fd2c4d7aafa58b95967cce4ce139f91b",
+    "render.py": "3c3bc9dc473adbc59359ca8c4c17a07479a20867f2f988fba533af622b741ad7",
+    "utils/general_utils.py": "73ccd55d35778e9ca516f88ab0bb641e49c5becff53390d0e89cda45d3667970"
+  },
+  "checkpoint_gzip_sha256": "ae5c0c227e23bd201217b11457c349ab7ba4c63de70bd7744508cc5c0a32203d",
+  "point_cloud_sha256": "08329791f5a9148745499f2d408963dac8cae582f094ad3a299025f0761f8c1b",
+  "init_cloud_sha256": "00c3838384e7a124662d7ba2c15c0fa2a8247b32cabf2d7513dcbf337e00166d",
+  "render_count": 25
+}

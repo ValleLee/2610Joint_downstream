@@ -1,0 +1,20 @@
+{
+  "dataset": "llff",
+  "method": "Difix3D_60k",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "macro": {
+    "PSNR": 18.493982830075993,
+    "SSIM": 0.6016544166908023,
+    "LPIPS": 0.2841622493584596
+  },
+  "derived_from": "output/llff/Difix3D_60k/metrics/public_common_eval_60000.json"
+}

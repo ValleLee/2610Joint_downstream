@@ -1,0 +1,20 @@
+{
+  "dataset": "llff",
+  "method": "our_R4",
+  "scenes": [
+    "fern",
+    "flower",
+    "fortress",
+    "horns",
+    "leaves",
+    "orchids",
+    "room",
+    "trex"
+  ],
+  "macro": {
+    "PSNR": 19.799209700311934,
+    "SSIM": 0.6586946051124306,
+    "LPIPS": 0.28555897331486146
+  },
+  "derived_from": "output/llff/our_R4/<scene>/metrics/per_view.json"
+}
